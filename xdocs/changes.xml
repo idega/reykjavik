@@ -1,0 +1,598 @@
+<document>
+	<properties>
+		<title>Reykjavik Changes</title>
+		<author email="tryggvi@idega.com">Tryggvi Larusson</author>
+	</properties>
+	<body>
+		<release version="3.1.81" date="2007-12-05">
+			<action dev="palli" type="update">
+				Updated is.idega.idegaweb.egov.afterschoolcare module to 1.0.56, to get in fixes for Agresso.
+			</action>
+		</release>
+
+		<release version="3.1.80" date="2007-12-01">
+			<action dev="palli" type="update">
+				Updated is.idega.idegaweb.egov.accounting module to 1.0.23, to get in changes for DGK.
+				Updated is.idega.idegaweb.egov.afterschoolcare module to 1.0.55, to get in changes for DGK.
+				Updated is.idega.idegaweb.egov module to 1.0.13, to get in changes for DGK.
+			</action>
+		</release>
+
+		<release version="3.1.79" date="2007-11-13">
+			<action dev="palli" type="update">
+				Updated is.idega.idegaweb.egov.childcare module to 1.0.20, to get in changes for DGK.
+				Updated is.idega.idegaweb.egov.afterschoolcare module to 1.0.54, to get in changes for DGK.
+				Updated is.idega.idegaweb.egov.afterschoolcare.rvk module to 1.0.2, to get in changes for DGK.
+			</action>
+		</release>
+		<release version="3.1.78" date="2007-11-01">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.afterschoolcare module to 1.0.53, to get in changes for DGK.
+				Updated is.idega.idegaweb.egov.afterschoolcare.rvk module to 1.0.1, to get in changes for DGK.
+			</action>
+		</release>
+		<release version="3.1.77" date="2007-10-24">
+			<action dev="palli" type="update">
+				Updated is.idega.idegaweb.egov.fsk module to 1.0.7, to get in changes made by laddi at the request of rvk.
+				Updated is.idega.idegaweb.egov.message module to 1.0.2, to get in new signature and message for rvk.
+			</action>
+		</release>
+		<release version="3.1.76" date="2007-10-18">
+			<action dev="palli" type="update">
+				Updated is.idega.idegaweb.egov.citizen module to 1.0.22, to get in changes to the way the version of the rb style sheet is handled.
+			</action>
+		</release>
+		<release version="3.1.75" date="2007-10-10">
+			<action dev="laddi" type="update">
+				Updated version of fsk module -> 1.0.6
+			</action>
+		</release>
+		<release version="3.1.74" date="2007-09-17">
+			<action dev="laddi" type="update">
+				Updated version of fsk module -> 1.0.5
+				Updated version of after school care module -> 1.0.52
+			</action>
+		</release>
+		<release version="3.1.73" date="2007-08-22">
+			<action dev="laddi" type="update">
+				Updated version of school module -> 1.0.19
+				Updated version of after school care module -> 1.0.50
+			</action>
+		</release>
+		<release version="3.1.72" date="2007-08-17">
+			<action dev="civilis" type="update">
+				Updated version of citizen module -> 1.0.20
+			</action>
+		</release>
+		<release version="3.1.71" date="2007-08-16">
+			<action dev="laddi" type="update">
+				Updated version of fsk module -> 1.0.4
+			</action>
+		</release>
+		<release version="3.1.70" date="2007-08-14">
+			<action dev="civilis" type="update">
+				Updated version of citizen module -> 1.0.19
+			</action>
+		</release>
+		<release version="3.1.69" date="2007-08-14">
+			<action dev="laddi" type="update">
+				Updating with updated versions of afterschoolcare and fsk bundles.
+			</action>
+		</release>
+		
+		<release version="3.1.68" date="2007-08-07">
+			<action dev="laddi" type="update">
+				Updating with updated versions of core, builder, user and fsk bundles.
+			</action>
+		</release>
+		
+		<release version="3.1.67" date="2007-08-02">
+			<action dev="laddi" type="update">
+				Updating with updated versions of course and fsk bundles.
+			</action>
+		</release>
+		
+		<release version="3.1.66" date="2007-07-27">
+			<action dev="alexis" type="update">
+				[To avoid the caching problem].
+			</action>
+		</release>
+		
+		<release version="3.1.65" date="2007-07-27">
+			<action dev="alexis" type="update">
+				[is.idega.idegaweb.egov.afterschoolcare 1.0.48] Updated version.
+			</action>
+			<action dev="alexis" type="update">
+				[is.idega.idegaweb.egov.childcare 1.0.18] Updated version.
+			</action>
+			<action dev="alexis" type="update">
+				[is.idega.idegaweb.egov.musicschool 1.0.24] Updated version.
+			</action>
+			<action dev="alexis" type="update">
+				[is.idega.block.family 1.0.5] Updated version.
+			</action>
+			<action dev="alexis" type="update">
+				[com.idega.block.school 3.1.15] Updated version.
+			</action>
+		</release>
+	
+		<release version="3.1.64" date="2007-07-23">
+			<action dev="laddi" type="update">
+				Creating new release for update to live server for FSK.
+			</action>
+		</release>
+
+		<release version="3.1.63" date="2007-07-12">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov 1.0.11] Updated version.
+				[is.idega.idegaweb.egov.citizen 1.0.18] Updated version.
+			</action>
+			<action dev="palli" type="update">
+				course and platform updated to fix dwr problems
+			</action>
+		</release>
+
+		<release version="3.1.62" date="2007-06-22">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.application 1.0.13] Updated version.
+				[is.idega.idegaweb.egov.musicschool 1.0.23] Updated version.
+			</action>
+		</release>
+
+		<release version="3.1.61" date="2007-06-21">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov 1.0.10] Updated version.
+				[is.idega.idegaweb.egov.course 1.0.4] Updated version.
+			</action>
+		</release>
+
+		<release version="3.1.60" date="2007-06-12">
+			<action dev="laddi" type="update">
+				[com.idega.core 3.1.49] Updated version.
+				[com.idega.company 3.1.0] New bundle.
+				[is.idega.idegaweb.egov.fsk 1.0.1] New bundle.
+			</action>
+		</release>
+
+		<release version="3.1.59" date="2007-06-04">
+			<action dev="civilis" type="update">
+				[com.idega.builder 3.1.7] Updated version.
+			</action>
+		</release>
+
+		<release version="3.1.58" date="2007-06-01">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.afterschoolcare 1.0.45] Updated version.
+			</action>
+		</release>
+
+		<release version="3.1.57" date="2007-05-10">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.course 1.0.3] Added reservation feature so it's not possible to register for the same spot more than once.
+			</action>
+		</release>
+
+		<release version="3.1.56" date="2007-05-06">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.accounting 1.0.22] Added daemon for course payment entries for RVK Agresso.
+				[is.idega.idegaweb.egov.course 1.0.2] Implemented accounting features.
+			</action>
+		</release>
+
+		<release version="3.1.55" date="2007-05-04">
+			<action dev="laddi" type="update">
+				[com.idega.block.school 3.1.14] Added accounting key to school areas.
+			</action>
+		</release>
+
+		<release version="3.1.54" date="2007-05-01">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.accounting 1.0.21] Added new block to create school accounting keys based on school type.
+			</action>
+		</release>
+
+		<release version="3.1.53" date="2007-04-30">
+			<action dev="laddi" type="update">
+				Added bundle and changes associated with course bundle.
+			</action>
+		</release>
+
+		<release version="3.1.52" date="2007-04-10">
+			<action dev="laddi" type="update">
+				Added email to message displayed for user when requesting a new password.
+			</action>
+		</release>
+
+		<release version="3.1.51" date="2007-03-27">
+			<action dev="laddi" type="update">
+				Refactoring/Elimination of se bundles.
+			</action>
+			<action dev="laddi" type="update">
+				Updates for new school category for after school care.
+			</action>
+		</release>
+
+		<release version="3.1.50" date="2007-03-09">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.school 1.0.13] Changed so that school change always allows access to current season.
+			</action>
+		</release>
+
+		<release version="3.1.49" date="2007-03-06">
+			<action dev="tryggvil" type="update">
+				[is.idega.block.pki 1.0.0] Implemented and released support for authentication with Icelandic PKI Certificates.
+				[is.idega.idegaweb.egov.citizen 1.0.13] Update because of PKI modifications.
+				[se.idega.idegaweb.commune 1.0.8] Update because of PKI modifications.
+			</action>
+		</release>
+
+		<release version="3.1.48" date="2006-03-01">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.citizen 1.0.12] Added displaying of current email when changing user email.
+				[is.idega.idegaweb.egov.citizen 1.0.12] Added displaying of current email in citizen finder result table.
+			</action>
+		</release>
+	
+		<release version="3.1.47" date="2007-02-23">
+	      <action dev="tryggvil" type="update">
+				Update to is.mentor.vefthjonusta module [1.1.3]. <br/>
+				Better error handling and implemented sending comments in schoolChoiceApplication to be sent to Mentor
+	      </action>
+	    </release>	
+
+		<release version="3.1.46" date="2007-02-22">
+	      <action dev="laddi" type="update">
+				Update to is.idega.idegaweb.egov.afterschoolcare module [1.0.38]. Changed so that it is possible to select season when applying for placement.
+	      </action>
+	      <action dev="tryggvil" type="update">
+				Update to is.idega.idegaweb.egov.application module [1.0.10]. Changed so it hidden applications always return false when called on in canApplyForApplication.
+	      </action>
+	    </release>	
+
+		<release version="3.1.45" date="2007-02-21">
+	      <action dev="tryggvil" type="fix">
+				Fixed version of citizen module is.idega.idegaweb.egov.citizen [1.0.10] because of upgrade of se.idega.idegaweb.commune [1.0.7]
+	      </action>
+	      <action dev="tryggvil" type="update">
+				Update to is.idega.idegaweb.egov.application module [1.0.9]. Implemented property for disabling updating "number of times clicked".
+	      </action>
+	    </release>	
+	
+		<release version="3.1.44" date="2007-02-21">
+	      <action dev="tryggvil" type="fix">
+				Fixed performance in ApplicationUrlRedirector, is.idega.idegaweb.egov.application [1.0.8]
+	      </action>
+	    </release>	
+
+		<release version="3.1.43" date="2007-02-19">
+	      <action dev="laddi" type="update">
+				Fixed dependency problem to se.idega.idegaweb.commune [1.0.7]
+	      </action>
+	    </release>	
+	
+		<release version="3.1.42" date="2007-02-09">
+	      <action dev="laddi" type="update">
+				[com.idega.block.school 3.1.9] Added new HAS_REVIEW column to School bean.
+				[is.idega.idegaweb.egov.musicschool 3.1.18] Finished implementing review feature for schools.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.41" date="2007-02-07">
+	      <action dev="laddi" type="update">
+				[com.idega.block.school 3.1.8] Changes to school user methods.
+				[is.idega.idegaweb.egov.musicschool 3.1.17] Changes to school user methods.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.40" date="2007-01-22">
+	      <action dev="tryggvil" type="update">
+	      	Delivering update to external case system integration as required by VUF.
+			Updated eplatform version and modules com.idega.block.process, com.idega.block.process.webservice and com.idega.block.sso
+	      </action>
+	    </release>	
+	
+		<release version="3.1.39" date="2007-01-09">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.accounting] Fixed manual update of Agresso.
+	      	[is.idega.idegaweb.egov.accounting] Added view for accounting in workspace.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.38" date="2006-12-20">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov] Added new get/set for name to AccountingEntry.
+	      	[is.idega.idegaweb.egov.accounting] Added new block to fetch statistics for a given period.
+	      	[is.idega.idegaweb.egov.afterschoolcare] Updated according to changes in AccountingEntry.
+	      	[is.idega.idegaweb.egov.childcare] Updated according to changes in AccountingEntry.
+	      	[is.idega.idegaweb.egov.musicschool] Updated according to changes in AccountingEntry.
+	      	[is.idega.idegaweb.egov.schoolmeal] Updated according to changes in AccountingEntry.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.37" date="2006-12-18">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.accounting] Added method to enable manual update of agresso table.
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added new search method that allows searching by student, parent and/or payer.  Also allows search by credit card numbers.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.36" date="2006-12-12">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added possibility to set valid from dates on care days and refreshments.
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added displaying of queue dates in all views.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.35" date="2006-11-29">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Fixed incorrect fetching of contracts when a group was stored in session.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.34" date="2006-11-28">
+	      <action dev="thomas" type="update">
+	      	[is.idega.idegaweb.egov.musicschool] Added more checks to handle corrupt data (student points to deleted user).
+	      </action>
+	    </release>	
+	
+		<release version="3.1.33" date="2006-11-28">
+	      <action dev="thomas" type="update">
+	      	[is.idega.idegaweb.egov.musicschool] Added checks to handle corrupt data (student points to deleted user).
+	      	[com.idega.block.school] Added checks to handle corrupt data (student points to deleted user).
+	      </action>
+	    </release>		
+	
+		<release version="3.1.32" date="2006-11-22">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added missing application status to accounting entry fetcher to also fetch contracts that parents have applied for termination on.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.31" date="2006-11-17">
+	      <action dev="thomas" type="update">
+	      	[com.idega.block.school] Improved version of SchoolClassMemberComparator.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.30" date="2006-11-16">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.musicschool] Changed so that it is only possible to select one instrument in application.
+	      	[is.idega.idegaweb.egov.musicschool] Added season dropdown to application.
+	      	[is.idega.idegaweb.egov.musicschool] Changed so that students with choices for next season can't be moved between years in MusicSchoolAcceptedApplications.
+	      </action>
+	    </release>	
+
+		<release version="3.1.29" date="2006-11-16">
+	      <action dev="thomas" type="update">
+	      	[is.idega.idegaweb.egov.musicschool] Added option to show a list of all students of all schools.
+	      </action>
+	    </release>	
+	
+		<release version="3.1.28" date="2006-11-15">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added season dropdown to application that uses date control to determine which seasons to display.
+	      	[is.idega.idegaweb.egov.school] Added season dropdown to application that uses date control to determine which seasons to display.
+	      </action>
+	    </release>
+
+		<release version="3.1.27" date="2006-11-09">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Changed so that sheet names in generated Excel files are never longer than 30 characters.
+	      	[is.idega.idegaweb.egov.childcare] Changed so that sheet names in generated Excel files are never longer than 30 characters.
+	      	[is.idega.idegaweb.egov.musicschool] Changed so that sheet names in generated Excel files are never longer than 30 characters.
+	      	[is.idega.idegaweb.egov.school] Changed so that sheet names in generated Excel files are never longer than 30 characters.
+	      </action>
+	    </release>
+
+		<release version="3.1.26" date="2006-11-07">
+	      <action dev="thomas" type="update">
+	      	[is.idega.idegaweb.egov.musicschool] Added possibility to filter applications by commune.
+	      </action>
+	    </release>
+
+		<release version="3.1.25" date="2006-11-02">
+	      <action dev="thomas" type="update">
+	      	[is.idega.idegaweb.egov.musicschool] Changed localized key.
+	      </action>
+	    </release>
+	
+		<release version="3.1.24" date="2006-11-02">
+	      <action dev="thomas" type="update">
+	      	[is.idega.idegaweb.egov.musicschool] Solved problems with MusicStudentsBySchool block (shows a list of students per school). 
+	      	An empty excel file was shown.
+	      </action>
+	    </release>
+	
+	  	<release version="3.1.23" date="2006-11-02">
+	      <action dev="thomas" type="update">
+	      	[is.idega.idegaweb.egov.musicschool] Added MusicStudentsBySchool block (shows a list of students per school).
+	      	[com.idega.block.school] School implements now Comparable. Minor refactoring in other classes.
+	      </action>
+	    </release>
+
+	  	<release version="3.1.22" date="2006-10-25">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.school] Added possibility to have agreement information and checkbox in application.
+	      </action>
+	    </release>
+    
+	  	<release version="3.1.21" date="2006-10-23">
+	      <action dev="laddi" type="update">
+	      	[com.idega.block.process] Changed method in CaseBusiness to get localized case status description so that it also gets the Case itself as a parameter.
+	      	[is.idega.idegaweb.egov.musicschool] Added marking of terminated students in accepted applications list.
+	      	[is.idega.idegaweb.egov.musicschool] Changed to accomodate changes in com.idega.block.process.
+	      </action>
+	    </release>
+    
+	  	<release version="3.1.20" date="2006-10-11">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.musicschool] Added elementary school name as well as information about both custodians to Excel lists.
+	      </action>
+	    </release>
+    
+	  	<release version="3.1.19" date="2006-09-27">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added possibility to fetch all entries when getting Navision list instead of showing only changes.
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added possibility to move students between groups.
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added possibility to move applications between providers.
+	      </action>
+	    </release>
+    
+	  	<release version="3.1.18" date="2006-09-22">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Fixed so that it is not possible to place studens in groups not in the same season as the application.
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added new excel list to contracts view.
+	      	[is.idega.idegaweb.egov.application] Changing localization strings.
+	      </action>
+	    </release>
+    
+	  	<release version="3.1.17" date="2006-09-18">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Fixed functionality of back button in AfterSchoolCareStudentOverview.
+	      </action>
+	    </release>
+    
+	  	<release version="3.1.16" date="2006-09-18">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Layout fixes.
+	      </action>
+	    </release>
+    
+	  	<release version="3.1.15" date="2006-09-18">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added possibility to change all information in an application.
+	      </action>
+	    </release>
+    
+	  	<release version="3.1.14" date="2006-09-14">
+	      <action dev="laddi" type="update">
+	      	[is.idega.idegaweb.egov] Added new getter/setter for extra information (Object) to AccountingEntry.
+	      	[is.idega.idegaweb.egov.accounting] Added usage of extra information field in AccountingEntry.
+	      	[is.idega.idegaweb.egov.afterschoolcare] Fixed so that the refreshment column isn't added to the excel file if the provider doesn't offer refreshments.
+	      	[is.idega.idegaweb.egov.afterschoolcare] Fixed so that it is not possible to create/modify an application after having sent in one for the same season.
+	      	[is.idega.idegaweb.egov.afterschoolcare] Added possibility for the provider to remove invalid applications from their queue.
+	      </action>
+	    </release>
+    
+	  	<release version="3.1.13" date="2006-09-07">
+	      <action dev="laddi" type="update">
+	      	Translation updates.
+	      </action>
+	    </release>
+    
+		<release version="3.1.12" date="2006-09-07">
+			<action dev="laddi" type="update">
+				[is.idega.idegaweb.egov.accounting] Fixed layout of AccountingEntryFetcher.
+				[is.idega.idegaweb.egov.accounting] Added storage of created accounting files for Navision.
+				[is.idega.idegaweb.egov.afterschoolcare] Added name of child's current elementary school to all admin modules and lists.
+				[is.mentor.vefthjonusta] Fixed so that a student is never added more than once into each school.
+			</action>
+		</release>
+
+		<release version="3.1.11" date="2006-09-04">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov, added new getter/setter for AccountingEntry.
+				Updated is.idega.idegaweb.egov.accounting, finished implementing AccountingEntryFetcher.
+				Updated is.idega.idegaweb.egov.afterschoolcare, fixed validation of payer information and accounting info.
+			</action>
+		</release>
+
+		<release version="3.1.10" date="2006-08-24">
+			<action dev="tryggvil" type="update">
+				Update for delivering Agression integration for ITR
+			</action>
+			<action dev="tryggvil" type="update">
+				Updating is.idega.idegaweb.egov,
+				is.idega.idegaweb.egov.afterschool,
+				is.idega.idegaweb.egov.accounting and
+				se.idega.idegaweb.commune.care modules.
+			</action>
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.afterschool module to add
+				new features in the application.
+			</action>
+		</release>
+
+		<release version="3.1.9" date="2006-08-18">
+			<action dev="laddi" type="update">
+				Updated com.idega.block.school module to 3.1.1
+			</action>
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.afterschoolcare module to
+				1.0.8
+			</action>
+		</release>
+
+		<release version="3.1.8" date="2006-08-15">
+			<action dev="tryggvil" type="fix">
+				Changed icelandic child_care.placing subject from
+				vistun->plass in is.idega.idegaweb.egov.afterschoolcare
+				bundle (updated to version 1.0.7)
+			</action>
+		</release>
+
+		<release version="3.1.7" date="2006-08-15">
+			<action dev="palli" type="update">
+				Updated is.idega.idegaweb.egov.application bundle
+				version.
+			</action>
+		</release>
+
+		<release version="3.1.6" date="2006-08-15">
+			<action dev="palli" type="update">
+				Updated is.idega.idegaweb.egov.afterschoolcare bundle
+				version.
+			</action>
+			<action dev="palli" type="update">
+				Updated is.idega.idegaweb.egov.school bundle version.
+			</action>
+		</release>
+
+		<release version="3.1.5" date="2006-08-15">
+			<action dev="laddi" type="update">
+				Updated is.idega.idegaweb.egov.afterschoolcare bundle
+				version.
+			</action>
+		</release>
+
+		<release version="3.1.4" date="2006-08-07">
+			<action dev="laddi" type="update">
+				Updated several bundle versions to accomodate for eGov
+				accounting support.
+			</action>
+		</release>
+
+		<release version="3.1.3" date="2006-07-24">
+			<action dev="tryggvil" type="fix">
+				Update to eplatform 3.1.11. Fixing xml parse error on
+				faces-config.xml in article module that produced a
+				startup error on Oracle Application Server.
+			</action>
+		</release>
+
+		<release version="3.1.2" date="2006-07-24">
+			<action dev="tryggvil" type="fix">
+				Changed error handling for response from Mentor, updated
+				is.mentor.vefthjonusta module from 1.0.1 to 1.0.2. Now
+				all responses from the mentor web service other than
+				'Skraning tokst' or 'Skráning tókst' are regarded
+				errors. This was requested from Mentor for Reykjavik
+				eGov implementation.
+			</action>
+		</release>
+
+		<release version="3.1.1" date="2006-07-24">
+			<action dev="laddi" type="update">
+				Built new version with updated bundle versions.
+			</action>
+		</release>
+
+		<release version="3.1.0" date="2006-06-26">
+			<action dev="tryggvil" type="fix">
+				Built new version on ePlatform 3.1 release for demo
+				purposes.
+			</action>
+		</release>
+
+	</body>
+</document>

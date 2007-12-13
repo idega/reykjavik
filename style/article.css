@@ -1,0 +1,86 @@
+/* Article override */
+
+div#announcementsFront .article_item, div#announcementsRight .article_item {
+	margin: 0;
+	width: auto;
+}
+
+div#announcementsFront .content_item_toolbarcontainer, div#announcementsRight .content_item_toolbarcontainer {
+	display: none;
+}
+
+div#announcementsFront .article_headline, div#announcementsRight .article_headline {
+	margin-bottom: 2px;
+	margin-top: 0;
+	line-height: 12px;
+	background: url(/style/images/bullets/bullet_arrows.gif) no-repeat top left;
+	padding-left: 11px;
+	width: auto;
+}
+
+html>body div#announcementsFront .article_headline, html>body div#announcementsRight .article_headline {
+	margin-bottom: 3px;
+}
+
+div#announcementsFront .article_headline a, div#announcementsRight .article_headline a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #191919;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+div#announcementsFront .article_headline a:hover, div#announcementsRight .article_headline a:hover {
+	text-decoration: underline;
+}
+
+div#announcementsFront .article_author, div#announcementsRight .article_author {
+	display: none;
+}
+
+div#announcementsFront .article_creation_date, div#announcementsRight .article_creation_date {
+	display: none;
+}
+
+div#announcementsFront .article_body, div#announcementsRight .article_body {
+	display: none;
+}
+
+div#announcementsFront .article_teaser, div#announcementsRight .article_teaser {
+	display: none;
+}
+
+div#announcementsFront .item_details_command, div#announcementsRight .item_details_command {
+	display: none;
+}
+
+div#announcementsDetails .article_item {
+	margin: 13px 15px;
+	width: auto;
+}
+
+div#announcementsDetails .article_author {
+	display: none;
+}
+
+div#announcementsDetails .article_teaser {
+	display: none;
+}
+
+div#announcementsDetails .article_creation_date {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0;
+	padding: 0;
+	margin-bottom: 3px;
+}
+
+div#announcementsDetails .article_headline {
+	width: auto;
+	margin-bottom: 12px;
+}
+
+div#announcementsDetails .article_body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: auto;
+	margin-bottom: 16px;
+}

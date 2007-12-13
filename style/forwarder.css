@@ -1,0 +1,90 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #E5E5E5;
+}
+
+#outer {
+	height: 100%;
+	width: 100%;
+	overflow: visible;
+	position: relative;
+}
+
+html>body #outer {
+	display: table;
+	position: static;
+}
+
+#middle {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+
+html>body #middle {
+	display: table-cell;
+	vertical-align: middle;
+	position: static;
+	text-align: center;
+}
+
+#inner {
+	position: relative;
+	top: -50%;
+}
+
+html>body #inner {
+	position: static;
+}
+
+#inner ul.userRolePageForwarder {
+	border: 2px #C5C5C5 solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: 5px 5px 10px #000;
+	-webkit-border-radius: 5px;
+	margin: 0 auto;
+	width: 300px;
+	height: 140px;
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+	background-color: #fff;
+	text-align: center;
+}
+
+#inner ul.userRolePageForwarder li {
+	display: inline;
+}
+
+#inner ul.userRolePageForwarder li a {
+	width: 100px;
+	padding: 10px;
+	padding-top: 110px;
+	margin: 0 14px;
+	display: block;	
+	float: left;
+	text-decoration: none;
+	color: #1f1f1f;
+	font-weight: bold;
+	font-size: 11px;
+	border: 1px #fff solid;	
+}
+
+#inner ul.userRolePageForwarder li a:hover {
+	border: 1px #efefef solid;	
+}
+
+#inner ul.userRolePageForwarder li.userapplication, #inner ul.userRolePageForwarder li.fskCompanyAdmin {
+	display: none;	
+}
+
+#inner ul.userRolePageForwarder li.egovCitizen a {
+	background: url('/style/images/roleicons/citizen.gif') center 10px no-repeat;
+}
+
+#inner ul.userRolePageForwarder li.fskCompany a {
+	background: url('/style/images/roleicons/company.gif') center 10px no-repeat;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pxml>
+  <map>
+    <key>
+      <name>com.idega.core.editorwindow_styleSheet_path</name>
+      <type>java.lang.String</type>
+      <value>/idegaweb/bundles/com.idega.core.bundle/resources/editorwindow/</value>
+    </key>
+    <key>
+      <name>school_properties</name>
+      <value>
+        <map>
+		    <key>
+		      <name>choice_start_date</name>
+		      <type>java.lang.String</type>
+		      <value>01.01.2000</value>
+		    </key>
+		    <key>
+		      <name>choice_end_date</name>
+		      <type>java.lang.String</type>
+		      <value>01.01.2000</value>
+		    </key>
+		    <key>
+		      <name>choice_critical_date</name>
+		      <type>java.lang.String</type>
+		      <value>01.01.2000</value>
+		    </key>
+        </map>
+      </value>
+      <type>map</type>
+    </key>
+  </map>
+</pxml>
+

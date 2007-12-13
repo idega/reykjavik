@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+}
+
+div#outcome {
+	width: 330px;
+	height: 400px;
+	background: #fff;
+}
+
+div#outcome div#top {
+	margin-bottom: 4px;
+	border-bottom: 1px #C5C5C5 solid;
+}
+
+div#outcome div#top div#logo {
+	background: url(/style/images/outcome/rvk_logo.gif) no-repeat;
+	margin-left: 19px;
+	margin-top: 18px;
+	margin-bottom: 11px;
+	height: 46px;
+	width: 159px;
+}
+
+div#outcome div#outcomeText {
+	padding: 20px 28px;
+	height: 214px;
+	margin-bottom: 1px;
+	background: url(/style/images/outcome/outcome_background.gif);
+}
+
+div#outcome div#outcomeText h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin: 0;
+	color: #fff;
+	margin-bottom: 16px;
+}
+
+div#outcome div#outcomeText p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	color: #fff;
+}
+
+div#outcome div#outcomeBottom a.yes {
+	background: url(/style/images/outcome/yes.gif);
+	width: 138px;
+}
+
+div#outcome div#outcomeBottom a.no {
+	background: url(/style/images/outcome/no.gif);
+	width: 104px;
+	margin-right: 12px;
+}

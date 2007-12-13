@@ -1,0 +1,731 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #E5E5E5;
+}
+
+body, a, a:hover, li, td, p, span, div {
+	font-size: 11px;
+	color: #101010;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+	color: #000;
+}
+
+img {
+	behavior: url("/style/pngbehavior.htc");
+	border: 0;
+}
+
+h1 {
+	font-weight: bold;
+	line-height: 1em;
+}
+
+div#wrapper {
+	margin: 0 auto;
+	width: 981px;
+	padding: 0 8px;
+	background: url(/style/images/backgrounds/wrapper_background.gif) repeat-y top left;
+}
+
+div#bottomWrapper {
+	margin: 0 auto;
+	width: 997px;
+	height: 11px;
+	background: url(/style/images/backgrounds/bottom_background.gif) no-repeat top left;
+}
+
+div#topWrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 997px;
+	height: 105px;
+	background: url(/style/images/header.jpg) repeat-y top left;
+}
+
+div#topWrapper a {
+	position: absolute;
+	top: 26px;
+	left: 26px;
+	display: block;
+	width: 206px;
+	height: 60px;
+}
+
+div#top {
+	position: relative;
+	height: 92px;
+	background: url(/style/images/backgrounds/top_background.jpg) no-repeat top left;
+}
+
+div#headImage {
+	position: absolute;
+	top: -18px;
+	right: 0px;
+}
+
+/** Headings **/
+
+div#heading {
+	float: left;
+	width: 230px;
+	padding-left: 16px;
+	padding-top: 40px;
+	}
+
+div#heading h1, div#heading h1 span {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 24px;
+}
+
+div#heading h2 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 12px;
+}
+
+/** End Headings **/
+
+/** Tabs **/
+
+div#tabs {
+	float: left;
+	margin-top: 58px;
+}
+
+div#tabs ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+div#tabs li {
+  float:left;
+  background: url(/style/images/tabs/left.png) no-repeat left top;
+  margin-top: 0;
+  margin-left: 4px;
+  padding-left: 5px;
+}
+
+div#tabs a {
+  float: left;
+  display: block;
+  background: url(/style/images/tabs/right.png) no-repeat right top;
+  padding: 10px 14px 0 9px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: #000 2px 2px 1px;
+  height: 24px;
+}
+
+div#tabs a span {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-shadow: #000 2px 2px 1px;
+}
+
+div#tabs li.selected {
+  background-image: url(/style/images/tabs/left_selected.png);
+}
+
+div#tabs li.selected a {
+  background-image: url(/style/images/tabs/right_selected.png);
+  color: #000;
+  text-shadow: #fff 2px 2px 1px;
+  height: 24px;
+}
+
+div#tabs li.selected a span {
+  color: #000;
+  text-shadow: #fff 2px 2px 1px;
+}
+
+div#tabs li.firstChild {
+	margin-left: 0;
+}
+
+/** End Tabs **/
+
+/** Login Tab **/
+
+div.logout {
+	float: left;
+	margin-top: 58px;
+	margin-left: 4px;
+}
+
+div.logout div.submit a.logoutButton {
+	height: 24px;
+	width: 64px;
+	text-align: center;
+	background: url(/style/images/tabs/logout_tab.png) no-repeat top left;
+	display: block;
+	padding-top: 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #fff;
+	text-shadow: #000 2px 2px 1px;
+}
+
+div.logout div.submit a.logoutButton span {
+	font-size: 12px;
+	color: #fff;
+}
+
+/** End Login Tab **/
+
+/** Titlebar **/
+
+div#titlebar {
+	height: 17px;
+	border-bottom: 1px #C5C5C5 solid;
+	padding: 5px 10px;
+	padding-bottom: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+
+div#breadCrumbs {
+	float: left;
+}
+
+div#breadCrumbs a {
+	text-decoration: none;
+	color: #333333;
+}
+
+div#breadCrumbs a:hover {
+	text-decoration: underline;
+}
+
+div#breadCrumbs ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+div#breadCrumbs ul li {
+	display: inline;
+	background: url(/style/images/bullets/simple_arrow.gif) left no-repeat;
+	padding-left: 12px;
+}
+
+div#breadCrumbs ul li.firstPage {
+	background: none;
+	padding-left: 0px;
+}
+
+div#date {
+	float: right;
+}
+
+/** End Titlebar **/
+
+/** Middle **/
+
+div#left {
+	float: left;
+	width: 784px;
+	border-right: 1px #C5C5C5 solid;
+	height: 500px;
+}
+
+html>body div#left {
+	height: auto;
+	min-height: 500px;
+}
+
+div#right {
+	float: right;
+	width: 196px;
+}
+
+/** End Middle **/
+
+/** Bottom **/
+
+div#bottom {
+	clear: both;
+	padding-top: 16px;
+	height: 44px;
+	border-top: 1px #C5C5C5 solid;
+	color: #191919;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+div#bottom p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 3px;
+}
+
+/** End Bottom **/
+
+/** Box styles **/
+
+div.boxBorder {
+	border-top: 1px #C5C5C5 solid;
+}
+
+div.box div.boxHeader {
+	border-top: 1px #fff solid;
+	background: url(/style/images/backgrounds/header_background.gif) repeat-x;
+	height: 14px;
+	padding: 7px 7px;
+}
+
+div.box div.boxHeaderBig {
+	border-bottom: 1px #C5C5C5 solid;
+}
+
+div.box div.boxHeader h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	color: #002243;
+	text-transform: uppercase;
+	background: url(/style/images/bullets/header_bullet.gif) no-repeat left;
+	padding-left: 11px;
+}
+
+div.box div.boxContent {
+	background: url(/style/images/backgrounds/box_background.gif) no-repeat top left;
+	padding: 10px 8px;
+}
+
+div.box div.boxContent ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.box div.boxContent ul li {
+	margin-bottom: 3px;
+	line-height: 12px;
+	background: url(/style/images/bullets/bullet_arrows.gif) no-repeat top left;
+	padding-left: 11px;
+}
+
+div.box div.boxContent ul.userMessagesList li {
+	background: url(/style/images/bullets/bullet_dot.gif) no-repeat top left;
+}
+
+div.box div.boxContent ul li a {
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #191919;
+	font-size: 10px;
+}
+
+div.box div.boxContent ul li a:hover {
+	text-decoration: underline;
+}
+
+div.box div.boxContent ul.userMessagesList li.newMessage {
+	background: url(/style/images/bullets/bullet_dot_selected.gif) no-repeat top left;
+	font-weight: bold;
+}
+
+div.box div.boxContentGrey {
+	height: 115px;
+	background: #E3E3E3 url(/style/images/backgrounds/grey_box_background.gif) no-repeat top left;
+}
+
+/** End Box styles **/
+
+div#messagesBox div.boxContent {
+	height: 95px;
+	border-bottom: 1px #c5c5c5 solid;
+}
+
+html>body div#messagesBox div.boxContent {
+	height: auto;
+	min-height: 95px;
+}
+
+div#helpBox div.boxContent {
+	height: 95px;
+	border-bottom: 1px #c5c5c5 solid;
+}
+
+html>body div#helpBox div.boxContent {
+	height: auto;
+	min-height: 95px;
+}
+
+div#loginBox div.boxContentGrey {
+	border-bottom: 1px #c5c5c5 solid;
+}
+
+div#registerBox div.boxContentGrey {
+	border-bottom: 1px #c5c5c5 solid;
+}
+
+div#announcementsFront {
+	float:left;
+	width: 196px;
+	border-right: 1px #c5c5c5 solid;
+	border-bottom: 1px #c5c5c5 solid;
+}
+
+div#announcementsRight {
+	border-bottom: 1px #c5c5c5 solid;
+	height: 144px;
+}
+
+html>body div#announcementsRight {
+	height: auto;
+	min-height: 144px;
+}
+
+div#announcementsFront div.boxContent {
+	height: 95px;
+}
+
+div#applicationBanner {
+	float: left;
+	border-bottom: 1px #c5c5c5 solid;
+	height: 132px;
+	width: 398px;
+	padding-top: 12px;
+	padding-right: 9px;
+	padding-left: 180px;
+	position: relative;
+}
+
+div#applicationBanner h1 {
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 4px;
+}
+
+div#applicationBanner h2 {
+	font-size: 11px;
+	font-style: italic;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 8px;
+}
+
+div#applicationBanner p {
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	line-height: 14px;
+}
+
+div#applicationBanner div.applicationImage {
+	position: absolute;
+	top: -17px;
+	left: 9px;
+}
+
+div#applications {
+	clear: both;
+	width: 784px;
+	overflow: hidden;
+}
+
+div.formItem span.required {
+	float: none;
+}
+
+div#userSettings {
+	float: left;
+	width: 373px;
+	height: 120px;
+	border-right: 1px #C5C5C5 solid;
+	padding: 12px 10px;
+}
+
+div#favoriteApplications {
+	float: left;
+	width: 195px;
+}
+
+div#favoriteApplications div.boxContent {
+	background-image: url(/style/images/backgrounds/box_background_left.gif);
+}
+
+div#userApplications {
+	float: left;
+	width: 195px;
+}
+
+div#userApplications div.boxContent {
+	background-image: url(/style/images/backgrounds/box_background_right.gif);
+	position: relative;
+}
+
+div#userApplications a.allApplications {
+	text-decoration: none;
+	height: 33px;
+	width: 135px;
+	background: url(/style/images/all_applications.gif) no-repeat;
+	display: block;
+	position: absolute;
+	top: 70px;
+	left: 11px;
+}
+
+div#userCaseList, div#casesList {
+	clear:both;
+	margin-bottom: 38px;
+	border-top: 1px #C5C5C5 solid;
+}
+
+div#userCaseList div.caseHeader, div#casesList div.caseHeader {
+	display: none;
+}
+
+div#userSettings div.citizenImage {
+	float: left;
+	margin-right: 13px;
+}
+
+div#userSettings div.greeting, div#userSettings div.userName {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div#userSettings div.lastLogin {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #4E4E4E;
+}
+
+div#userSettings div.greeting {
+	float: left;
+	margin-right: 5px;
+}
+
+div#userSettings ul {
+	padding: 0;
+	margin: 0;
+	margin-top: 8px;
+	list-style: none;
+}
+
+div#userSettings ul li {
+	height: 14px;
+	margin-bottom: 6px;
+}
+
+div#userSettings ul li a {
+	padding-left: 24px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+div#userSettings ul li.preferences a {
+	background: url(/style/images/bullets/preferences_icon.gif) no-repeat top left;
+}
+
+div#userSettings ul li.password a {
+	background: url(/style/images/bullets/lock_icon.gif) no-repeat top left;
+}
+
+div#userSettings ul li a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+div#loginPage {
+	padding: 13px 15px;
+	border-bottom: 1px #c5c5c5 solid;
+}
+
+div#loginPage p {
+	font-size: 12px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+div#loginPage p span.boldText{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+div.adminHeader {
+	height: 48px;
+	border: 0;
+	background: url(/style/images/backgrounds/case_background.gif) repeat-x;
+	border-bottom: 1px #c5c5c5 solid;
+}
+
+div.adminHeader h2 {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 18px;
+	left: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #303030;
+	text-shadow: #FFFFFF 2px 2px 1px;
+}
+
+ul.adminList {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.adminList li {
+	font-weight: normal;
+	padding: 5px 14px;
+	border-bottom: 1px #c5c5c5 solid;
+}
+
+ul.adminList li:hover {
+	background-color: #E8F1FC;
+}
+
+ul.adminList li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+ul.adminList li a:hover {
+	text-decoration: underline;
+}
+
+div#casesList {
+	clear: both;
+	border-top: 1px #c5c5c5 solid;
+}
+
+div#welcome {
+	width: 390px;
+	float: left;
+}
+
+div#welcome .boxContent {
+	background-image: url(/style/images/backgrounds/box_background_big.gif);
+}
+
+div#welcome p {
+	margin: 0;
+	line-height: 15px;
+}
+
+div#agressoXMLCreator {
+	margin: 13px 15px;
+}
+
+form.mentorForm {
+	border-top: 1px #fff solid;
+	border-bottom: 1px #C5C5C5 solid;
+	background-color: #EAEAEA;
+}
+
+form.mentorForm input.mentorButton {
+	width: 196px;
+	padding: 10px 0;
+}
+
+div#moreCasesLayer {
+	height: 33px;
+}
+
+div#moreCasesLayer a {
+	background: url(/style/images/backgrounds/button_background.gif) repeat-x;
+	line-height: 31px;
+	display: block;
+	font-size: 13px;
+	color: #fff;
+	padding: 0 9px;
+	text-decoration: none;
+	font-weight: normal;
+	float: right;
+	border: 1px #042243 solid;
+	margin-right: 49px;
+}
+
+div.userRolePageForwarder {
+	padding: 60px;
+}
+
+div.userRolePageForwarder ul {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+div.userRolePageForwarder ul li {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+div.userRolePageForwarder ul li.fskCompanyAdmin {
+	display: none;
+}
+
+div.userRolePageForwarder a {
+	text-decoration: none;
+	line-height: 33px;
+	float: left;
+	background: url(/style/images/buttons/left.png) top left no-repeat;
+}
+
+div.userRolePageForwarder a span {
+	margin-left: 7px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #21262D;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 9px;
+	padding-right: 16px;
+	background: url(/style/images/buttons/right_big.png) top right no-repeat;
+}
+
+div.userRolePageForwarder a:hover {
+	background-image: url(/style/images/buttons/left_hover.png);
+}
+
+div.userRolePageForwarder a:hover span {
+	color: #571900;
+	background-image: url(/style/images/buttons/right_big_hover.png);
+}
+
+div#applicationBanner {
+	width: 388px;
+	padding-left: 190px;
+}
+
+div#applicationBanner div.applicationImage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 17px 9px;
+	height: 110px;
+	border-right: 1px #c5c5c5 solid;
+}
