@@ -5,13 +5,14 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.banner.bundle,com.idega.block.banner"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.block.base,com.idega.block.base"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.block.base.ext,com.idega.block.base.ext"/>
-<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.beanshell.bundle,com.idega.block.beanshell, BRANCH_PLATFORM_3_1"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.beanshell.bundle,com.idega.block.beanshell"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.boxoffice.bundle,com.idega.block.boxoffice"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.building.bundle,com.idega.block.building"/>
-<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.cal.bundle,com.idega.block.cal,BRANCH_PLATFORM_3_1"/>
-<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.calendar.bundle,com.idega.block.calendar,BRANCH_PLATFORM_3_1"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.cal.bundle,com.idega.block.cal"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.calendar.bundle,com.idega.block.calendar"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.category.bundle,com.idega.block.category"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.contract.bundle,com.idega.block.contract"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.creditcard.bundle,com.idega.block.creditcard"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.dataquery.bundle,com.idega.block.dataquery"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.datareport.bundle,com.idega.block.datareport"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.dictionary.bundle,com.idega.block.dictionary"/>
@@ -34,21 +35,23 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.reports.bundle,com.idega.block.reports"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.rss.bundle,com.idega.block.rss"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.school.bundle,com.idega.block.school"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.sso.bundle,com.idega.block.sso"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.staff.bundle,com.idega.block.staff"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.survey.bundle,com.idega.block.survey"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.legacy/com.idega.block.text,com.idega.block.text"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.trade.bundle,com.idega.block.trade"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.web2.0.bundle,com.idega.block.web2.0"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.websearch.bundle,com.idega.block.websearch"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.builder.bundle,com.idega.builder"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.company.bundle,com.idega.company"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.content.bundle,com.idega.content"/>
-<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.core.bundle,com.idega.core"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.core,com.idega.core"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.cxf,com.idega.cxf"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.developer.bundle,com.idega.developer"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.dwr.bundle,com.idega.dwr"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.experimental/com.idega.facelets,com.idega.facelets"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.faces.bundle,com.idega.faces"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.graphics.bundle,com.idega.graphics"/>
-<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.idegaweb.bundle,com.idega.idegaweb"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.hibernate,com.idega.hibernate"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.idegaweb.widget.bundle,com.idega.idegaweb.widget"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.manager.bundle,com.idega.manager"/>
@@ -60,6 +63,9 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.webface.bundle,com.idega.webface"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.workspace.bundle,com.idega.workspace"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.family.bundle,is.idega.block.family"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.modernus.bundle,is.idega.block.modernus"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.nationalregister.bundle,is.idega.block.nationalregister"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.block.pki.bundle,is.idega.block.pki"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.bundle,is.idega.idegaweb.egov"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.accounting.bundle,is.idega.idegaweb.egov.accounting"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.afterschoolcare.bundle,is.idega.idegaweb.egov.afterschoolcare"/>
@@ -72,10 +78,13 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.message,is.idega.idegaweb.egov.message"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.musicschool.bundle,is.idega.idegaweb.egov.musicschool"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.school.bundle,is.idega.idegaweb.egov.school"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.member.bundle,is.idega.idegaweb.member"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.mentor.bundle,is.mentor"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.mentor.vefthjonusta.bundle,is.mentor.vefthjonusta"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/net.sourceforge.hsqldb.bundle,net.sourceforge.hsqldb"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/org.apache.axis.bundle,org.apache.axis"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/org.apache.myfaces.bundle,org.apache.myfaces"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/org.apache.slide.bundle,org.apache.slide"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.webapp.custom/reykjavik,reykjavik"/>
 </provider>
 </psf>

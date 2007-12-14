@@ -147,11 +147,19 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
+      <artifactId>com.idega.block.process.webservice</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.cxf</artifactId>
     </dependency>
 	<dependency>
       <groupId>com.idega.block.experimental</groupId>
   	  <artifactId>com.idega.facelets</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.platform</groupId>
+      <artifactId>com.idega.company</artifactId>
     </dependency>
     
     <!-- Legacy dependencies -->
@@ -171,11 +179,23 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.accounting</artifactId>
+    </dependency>
+     <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.afterschoolcare</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.afterschoolcare.rvk</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.application</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
-      <artifactId>is.idega.idegaweb.egov.cases</artifactId>
+      <artifactId>is.idega.idegaweb.egov.childcare</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
@@ -183,14 +203,70 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.course</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.fsk</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.message</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.musicschool</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.school</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.block.family</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>com.idega.block.school</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.mentor</artifactId>
+    </dependency>
     
     <!-- Addon dependencies -->
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.banner</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.beanshell</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.boxoffice</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.building</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.cal</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.calendar</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.contract</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.creditcard</artifactId>
+    </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.questions</artifactId>
@@ -209,11 +285,35 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.dictionary</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.documents</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.email</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.forum</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.importer</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.messenger</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.pdf</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>is.idega.block.pki</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
@@ -223,10 +323,45 @@
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.reports</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.staff</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.sso</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.survey</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.trade</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.quote</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.websearch</artifactId>
+    </dependency>
     
     <!-- Custom dependencies -->
     
-
+	<dependency>
+      <groupId>com.idega.block.custom</groupId>
+      <artifactId>is.idega.block.modernus</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.custom</groupId>
+      <artifactId>is.idega.idegaweb.member</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.custom</groupId>
+      <artifactId>is.idega.block.nationalregister</artifactId>
+    </dependency>
     
   </dependencies>
   
