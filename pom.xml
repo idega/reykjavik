@@ -12,7 +12,7 @@
   <artifactId>reykjavik</artifactId>
   <packaging>iwwar</packaging>
   <version>4.0-SNAPSHOT</version>
-  <description>The eGov project Neytendastofa</description>
+  <description>The eGov project Electronic Reykjavik</description>
   <inceptionYear>2007</inceptionYear>
   <organization>
     <name>idega software</name>
@@ -161,6 +161,10 @@
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.company</artifactId>
     </dependency>
+    <dependency>
+	  <groupId>com.idega.block.platform</groupId>
+	  <artifactId>org.chiba.web</artifactId>
+	</dependency>
     
     <!-- Legacy dependencies -->
     <dependency>
