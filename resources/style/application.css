@@ -209,7 +209,7 @@ div#applicationCategoryViewer div.applicationCategory ul, div#favoriteApplicatio
 
 div#applicationCategoryViewer div.applicationCategory ul li, div#favoriteApplications ul li, div#userApplications ul li {
 	line-height: 13px;
-	background: url(/style/images/bullets/blue_bullet.gif) no-repeat top left;
+	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
 	padding-left: 17px;
 	padding-right: 6px;
 }
@@ -226,15 +226,15 @@ div#applicationCategoryViewer div.applicationCategory ul li a, div#favoriteAppli
 }
 
 div#applicationCategoryViewer div.applicationCategory ul li.electronic, div#favoriteApplications ul li.electronic, div#userApplications ul li.electronic {
-	background-image: url(/style/images/bullets/yellow_bullet.gif);
+	background-image: url(images/bullets/yellow_bullet.gif);
 }
 
 div#applicationCategoryViewer div.applicationCategory ul li.requiresLogin, div#favoriteApplications ul li.requiresLogin, div#userApplications ul li.requiresLogin {
-	background-image: url(/style/images/bullets/green_bullet.gif);
+	background-image: url(images/bullets/green_bullet.gif);
 }
 
 div#applicationCategoryViewer div.applicationCategory ul li.caseConnected, div#favoriteApplications ul li.caseConnected, div#userApplications ul li.caseConnected {
-	background-image: url(/style/images/bullets/green_bullet.gif);
+	background-image: url(images/bullets/green_bullet.gif);
 }
 
 div#applicationCategoryViewer div.applicationCategory ul li a:hover, div#favoriteApplications ul li a:hover, div#userApplications ul li a:hover {
@@ -271,7 +271,7 @@ form#accountApplicationForward a {
 	right: 11px;
 	text-decoration: underline;
 	color: #000;
-	background: url(/style/images/button_image.gif) right no-repeat;
+	background: url(images/button_image.gif) right no-repeat;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	padding-right: 14px;
@@ -291,11 +291,11 @@ ul.applicationLegend li {
 }
 
 ul.applicationLegend li.redBullet {
-	background: url(/style/images/bullets/blue_bullet.gif) no-repeat top left;
+	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
 }
 
 ul.applicationLegend li.greenBullet {
-	background: url(/style/images/bullets/green_bullet.gif) no-repeat top left;
+	background: url(images/bullets/green_bullet.gif) no-repeat top left;
 }
 
 div.receipt, div.stop {
@@ -311,7 +311,7 @@ div.receiptImage, div.stopImage {
 div.receipt a, div.receipt a:hover {
 	text-decoration: underline;
 	color: #000;
-	background: url(/style/images/button_image.gif) right no-repeat;
+	background: url(images/button_image.gif) right no-repeat;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	padding-right: 14px;
@@ -320,12 +320,12 @@ div.receipt a, div.receipt a:hover {
 div.receiptImage {
 	margin-bottom: 160px;
 	background: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/receipt_icon.png',sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/receipt_icon.png',sizingMethod='scale');
 }
 
 html>body div.receiptImage {
 	filter: none;
-	background: url(/style/images/receipt_icon.png) no-repeat;
+	background: url(images/receipt_icon.png) no-repeat;
 }
 
 div.stopImage {
@@ -336,7 +336,7 @@ div.stopImage {
 
 html>body div.stopImage {
 	filter: none;
-	background: url(/style/images/stop_icon.png) no-repeat;
+	background: url(images/stop_icon.png) no-repeat;
 }
 
 div.errorLayer div.errorImage {
@@ -346,7 +346,7 @@ div.errorLayer div.errorImage {
 
 html>body div.errorLayer div.errorImage {
 	filter: none;
-	background: url(/style/images/error_image.png) no-repeat;
+	background: url(images/error_image.png) no-repeat;
 }
 
 div.radioSection {
@@ -447,7 +447,7 @@ div.bottom a.button span.buttonSpan span.left, div.bottom a.button span.buttonSp
 }
 
 div.bottom a.button span.buttonSpan span.middle {
-	background: url(/style/images/buttons/middle.png) repeat-x;
+	background: url(images/buttons/middle.png) repeat-x;
 	width: auto;
 	padding: 0 9px;
 	padding-top: 6px;
@@ -459,7 +459,7 @@ div.bottom a.button span.buttonSpan span.left {
 
 html>body div.bottom a.button span.buttonSpan span.left {
 	filter: none;
-	background: url(/style/images/buttons/left.png) no-repeat;
+	background: url(images/buttons/left.png) no-repeat;
 }
 
 div.bottom a.button span.buttonSpan span.right {
@@ -468,11 +468,11 @@ div.bottom a.button span.buttonSpan span.right {
 
 html>body div.bottom a.button span.buttonSpan span.right {
 	filter: none;
-	background: url(/style/images/buttons/right.png) no-repeat;
+	background: url(images/buttons/right.png) no-repeat;
 }
 
 div.bottom a.button:hover span.buttonSpan span.middle {
-	background: url(/style/images/buttons/middle_hover.png) repeat-x;
+	background: url(images/buttons/middle_hover.png) repeat-x;
 }
 
 div.bottom a.button:hover span.buttonSpan span.left {
@@ -481,7 +481,7 @@ div.bottom a.button:hover span.buttonSpan span.left {
 
 html>body div.bottom a.button:hover span.buttonSpan span.left {
 	filter: none;
-	background: url(/style/images/buttons/left_hover.png) no-repeat;
+	background: url(images/buttons/left_hover.png) no-repeat;
 }
 
 div.bottom a.button:hover span.buttonSpan span.right {
@@ -490,13 +490,13 @@ div.bottom a.button:hover span.buttonSpan span.right {
 
 html>body div.bottom a.button:hover span.buttonSpan span.right {
 	filter: none;
-	background: url(/style/images/buttons/right_hover.png) no-repeat;
+	background: url(images/buttons/right_hover.png) no-repeat;
 }
 
 div.attention {
 	margin-top: 20px;
 	border: 2px #EFD585 solid;
-	background: url(/style/images/backgrounds/attention_background.gif);
+	background: url(images/backgrounds/attention_background.gif);
 	padding: 12px 18px;
 }
 
@@ -510,7 +510,7 @@ div.attention div.attentionImage {
 
 html>body div.attention div.attentionImage {
 	filter: none;
-	background: url(/style/images/attention_icon.png) no-repeat;
+	background: url(images/attention_icon.png) no-repeat;
 }
 
 
@@ -730,11 +730,11 @@ div.applicationLegend {
 	height: 55px;
 	margin-left: 15px;
 	margin-top: 13px;
-	background: url(/style/images/backgrounds/legend_background.gif) no-repeat;
+	background: url(images/backgrounds/legend_background.gif) no-repeat;
 }
 
 div.applicationLegend div.applicationLegendImage {
-	background: url(/style/images/legend_image.gif) no-repeat;
+	background: url(images/legend_image.gif) no-repeat;
 	width: 27px;
 	height: 31px;
 	margin: 8px 12px 0 18px;
@@ -753,7 +753,7 @@ div.applicationLegend ul li {
 	color: #646464;
 	font-size: 11px;
 	padding-left: 18px;
-	background: url(/style/images/bullets/blue_bullet_legend.gif) no-repeat;
+	background: url(images/bullets/blue_bullet_legend.gif) no-repeat;
 }
 
 div.applicationLegend ul li a {
@@ -767,11 +767,11 @@ div.applicationLegend ul li a:hover {
 }
 
 div.applicationLegend ul li.electronic {
-	background-image: url(/style/images/bullets/yellow_bullet_legend.gif);
+	background-image: url(images/bullets/yellow_bullet_legend.gif);
 }
 
 div.applicationLegend ul li.requiresLogin {
-	background-image: url(/style/images/bullets/green_bullet_legend.gif);
+	background-image: url(images/bullets/green_bullet_legend.gif);
 }
 
 div.statisticsLayer {
@@ -812,7 +812,7 @@ div.editLayer a {
 	text-decoration: none;
 	line-height: 33px;
 	float: left;
-	background: url(/style/images/buttons/left.png) top left no-repeat;
+	background: url(images/buttons/left.png) top left no-repeat;
 }
 
 div.editLayer a span {
@@ -826,16 +826,16 @@ div.editLayer a span {
 	font-weight: bold;
 	padding-left: 9px;
 	padding-right: 16px;
-	background: url(/style/images/buttons/right_big.png) top right no-repeat;
+	background: url(images/buttons/right_big.png) top right no-repeat;
 }
 
 div.editLayer a:hover {
-	background-image: url(/style/images/buttons/left_hover.png);
+	background-image: url(images/buttons/left_hover.png);
 }
 
 div.editLayer a:hover span {
 	color: #571900;
-	background-image: url(/style/images/buttons/right_big_hover.png);
+	background-image: url(images/buttons/right_big_hover.png);
 }
 
 h1.productHeading {
@@ -1129,7 +1129,7 @@ div#applicationCategoryViewer div.applicationCategory ul, div#favoriteApplicatio
 
 div#applicationCategoryViewer div.applicationCategory ul li, div#favoriteApplications ul li, div#userApplications ul li {
 	line-height: 13px;
-	background: url(/style/images/bullets/blue_bullet.gif) no-repeat top left;
+	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
 	padding-left: 17px;
 	padding-right: 6px;
 }
@@ -1146,15 +1146,15 @@ div#applicationCategoryViewer div.applicationCategory ul li a, div#favoriteAppli
 }
 
 div#applicationCategoryViewer div.applicationCategory ul li.electronic, div#favoriteApplications ul li.electronic, div#userApplications ul li.electronic {
-	background-image: url(/style/images/bullets/yellow_bullet.gif);
+	background-image: url(images/bullets/yellow_bullet.gif);
 }
 
 div#applicationCategoryViewer div.applicationCategory ul li.requiresLogin, div#favoriteApplications ul li.requiresLogin, div#userApplications ul li.requiresLogin {
-	background-image: url(/style/images/bullets/green_bullet.gif);
+	background-image: url(images/bullets/green_bullet.gif);
 }
 
 div#applicationCategoryViewer div.applicationCategory ul li.caseConnected, div#favoriteApplications ul li.caseConnected, div#userApplications ul li.caseConnected {
-	background-image: url(/style/images/bullets/green_bullet.gif);
+	background-image: url(images/bullets/green_bullet.gif);
 }
 
 div#applicationCategoryViewer div.applicationCategory ul li a:hover, div#favoriteApplications ul li a:hover, div#userApplications ul li a:hover {
@@ -1191,7 +1191,7 @@ form#accountApplicationForward a {
 	right: 11px;
 	text-decoration: underline;
 	color: #000;
-	background: url(/style/images/button_image.gif) right no-repeat;
+	background: url(images/button_image.gif) right no-repeat;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	padding-right: 14px;
@@ -1211,11 +1211,11 @@ ul.applicationLegend li {
 }
 
 ul.applicationLegend li.redBullet {
-	background: url(/style/images/bullets/blue_bullet.gif) no-repeat top left;
+	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
 }
 
 ul.applicationLegend li.greenBullet {
-	background: url(/style/images/bullets/green_bullet.gif) no-repeat top left;
+	background: url(images/bullets/green_bullet.gif) no-repeat top left;
 }
 
 div.receipt, div.stop {
@@ -1231,7 +1231,7 @@ div.receiptImage, div.stopImage {
 div.receipt a, div.receipt a:hover {
 	text-decoration: underline;
 	color: #000;
-	background: url(/style/images/button_image.gif) right no-repeat;
+	background: url(images/button_image.gif) right no-repeat;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	padding-right: 14px;
@@ -1245,7 +1245,7 @@ div.receiptImage {
 
 html>body div.receiptImage {
 	filter: none;
-	background: url(/style/images/receipt_icon.png) no-repeat;
+	background: url(images/receipt_icon.png) no-repeat;
 }
 
 div.stopImage {
@@ -1256,7 +1256,7 @@ div.stopImage {
 
 html>body div.stopImage {
 	filter: none;
-	background: url(/style/images/stop_icon.png) no-repeat;
+	background: url(images/stop_icon.png) no-repeat;
 }
 
 div.errorLayer div.errorImage {
@@ -1266,7 +1266,7 @@ div.errorLayer div.errorImage {
 
 html>body div.errorLayer div.errorImage {
 	filter: none;
-	background: url(/style/images/error_image.png) no-repeat;
+	background: url(images/error_image.png) no-repeat;
 }
 
 div.radioSection {
@@ -1367,7 +1367,7 @@ div.bottom a.button span.buttonSpan span.left, div.bottom a.button span.buttonSp
 }
 
 div.bottom a.button span.buttonSpan span.middle {
-	background: url(/style/images/buttons/middle.png) repeat-x;
+	background: url(images/buttons/middle.png) repeat-x;
 	width: auto;
 	padding: 0 9px;
 	padding-top: 6px;
@@ -1379,7 +1379,7 @@ div.bottom a.button span.buttonSpan span.left {
 
 html>body div.bottom a.button span.buttonSpan span.left {
 	filter: none;
-	background: url(/style/images/buttons/left.png) no-repeat;
+	background: url(images/buttons/left.png) no-repeat;
 }
 
 div.bottom a.button span.buttonSpan span.right {
@@ -1388,11 +1388,11 @@ div.bottom a.button span.buttonSpan span.right {
 
 html>body div.bottom a.button span.buttonSpan span.right {
 	filter: none;
-	background: url(/style/images/buttons/right.png) no-repeat;
+	background: url(images/buttons/right.png) no-repeat;
 }
 
 div.bottom a.button:hover span.buttonSpan span.middle {
-	background: url(/style/images/buttons/middle_hover.png) repeat-x;
+	background: url(images/buttons/middle_hover.png) repeat-x;
 }
 
 div.bottom a.button:hover span.buttonSpan span.left {
@@ -1401,7 +1401,7 @@ div.bottom a.button:hover span.buttonSpan span.left {
 
 html>body div.bottom a.button:hover span.buttonSpan span.left {
 	filter: none;
-	background: url(/style/images/buttons/left_hover.png) no-repeat;
+	background: url(images/buttons/left_hover.png) no-repeat;
 }
 
 div.bottom a.button:hover span.buttonSpan span.right {
@@ -1410,13 +1410,13 @@ div.bottom a.button:hover span.buttonSpan span.right {
 
 html>body div.bottom a.button:hover span.buttonSpan span.right {
 	filter: none;
-	background: url(/style/images/buttons/right_hover.png) no-repeat;
+	background: url(images/buttons/right_hover.png) no-repeat;
 }
 
 div.attention {
 	margin-top: 20px;
 	border: 2px #EFD585 solid;
-	background: url(/style/images/backgrounds/attention_background.gif);
+	background: url(images/backgrounds/attention_background.gif);
 	padding: 12px 18px;
 }
 
@@ -1430,7 +1430,7 @@ div.attention div.attentionImage {
 
 html>body div.attention div.attentionImage {
 	filter: none;
-	background: url(/style/images/attention_icon.png) no-repeat;
+	background: url(images/attention_icon.png) no-repeat;
 }
 
 
@@ -1650,11 +1650,11 @@ div.applicationLegend {
 	height: 55px;
 	margin-left: 15px;
 	margin-top: 13px;
-	background: url(/style/images/backgrounds/legend_background.gif) no-repeat;
+	background: url(images/backgrounds/legend_background.gif) no-repeat;
 }
 
 div.applicationLegend div.applicationLegendImage {
-	background: url(/style/images/legend_image.gif) no-repeat;
+	background: url(images/legend_image.gif) no-repeat;
 	width: 27px;
 	height: 31px;
 	margin: 8px 12px 0 18px;
@@ -1673,7 +1673,7 @@ div.applicationLegend ul li {
 	color: #646464;
 	font-size: 11px;
 	padding-left: 18px;
-	background: url(/style/images/bullets/blue_bullet_legend.gif) no-repeat;
+	background: url(images/bullets/blue_bullet_legend.gif) no-repeat;
 }
 
 div.applicationLegend ul li a {
@@ -1687,11 +1687,11 @@ div.applicationLegend ul li a:hover {
 }
 
 div.applicationLegend ul li.electronic {
-	background-image: url(/style/images/bullets/yellow_bullet_legend.gif);
+	background-image: url(images/bullets/yellow_bullet_legend.gif);
 }
 
 div.applicationLegend ul li.requiresLogin {
-	background-image: url(/style/images/bullets/green_bullet_legend.gif);
+	background-image: url(images/bullets/green_bullet_legend.gif);
 }
 
 div.statisticsLayer {
@@ -1732,7 +1732,7 @@ div.editLayer a {
 	text-decoration: none;
 	line-height: 33px;
 	float: left;
-	background: url(/style/images/buttons/left.png) top left no-repeat;
+	background: url(images/buttons/left.png) top left no-repeat;
 }
 
 div.editLayer a span {
@@ -1746,16 +1746,16 @@ div.editLayer a span {
 	font-weight: bold;
 	padding-left: 9px;
 	padding-right: 16px;
-	background: url(/style/images/buttons/right_big.png) top right no-repeat;
+	background: url(images/buttons/right_big.png) top right no-repeat;
 }
 
 div.editLayer a:hover {
-	background-image: url(/style/images/buttons/left_hover.png);
+	background-image: url(images/buttons/left_hover.png);
 }
 
 div.editLayer a:hover span {
 	color: #571900;
-	background-image: url(/style/images/buttons/right_big_hover.png);
+	background-image: url(images/buttons/right_big_hover.png);
 }
 
 h1.productHeading {

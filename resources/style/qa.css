@@ -142,7 +142,7 @@
 
 .boxContent .questions_and_answers .questions_admin .item p.title{
     float: left;
-    background: url(/style/images/bullets/bullet_arrows.gif) no-repeat top left;
+    background: url(images/bullets/bullet_arrows.gif) no-repeat top left;
     padding-left: 11px;
     margin-bottom: 3px;
     line-height: 11px;

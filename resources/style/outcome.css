@@ -14,7 +14,7 @@ div#outcome div#top {
 }
 
 div#outcome div#top div#logo {
-	background: url(/style/images/outcome/rvk_logo.gif) no-repeat;
+	background: url(images/outcome/rvk_logo.gif) no-repeat;
 	margin-left: 19px;
 	margin-top: 18px;
 	margin-bottom: 11px;
@@ -26,7 +26,7 @@ div#outcome div#outcomeText {
 	padding: 20px 28px;
 	height: 214px;
 	margin-bottom: 1px;
-	background: url(/style/images/outcome/outcome_background.gif);
+	background: url(images/outcome/outcome_background.gif);
 }
 
 div#outcome div#outcomeText h1 {
@@ -45,12 +45,12 @@ div#outcome div#outcomeText p {
 }
 
 div#outcome div#outcomeBottom a.yes {
-	background: url(/style/images/outcome/yes.gif);
+	background: url(images/outcome/yes.gif);
 	width: 138px;
 }
 
 div#outcome div#outcomeBottom a.no {
-	background: url(/style/images/outcome/no.gif);
+	background: url(images/outcome/no.gif);
 	width: 104px;
 	margin-right: 12px;
 }

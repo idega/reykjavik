@@ -6,7 +6,7 @@ div.caseHeader {
 	height: 48px;
 	border: 0;
 	border-top: 1px #c5c5c5 solid;
-	background: url(/style/images/backgrounds/case_background.gif) repeat-x;
+	background: url(images/backgrounds/case_background.gif) repeat-x;
 }
 
 table.caseTable tBody tr.ruled{
@@ -47,7 +47,7 @@ div.caseNavigation ul li {
 }
 
 table.caseTable thead tr {
-	background: url(/style/backgrounds/table_header_background.gif) repeat-x #D6D6D6;
+	background: url(backgrounds/table_header_background.gif) repeat-x #D6D6D6;
 	text-align: left;
 }
 

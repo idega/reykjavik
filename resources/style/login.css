@@ -38,7 +38,7 @@ width: auto;
 .defaultLogin div.submit a {
 	text-decoration: underline;
 	color: #000;
-	background: url(/style/images/button_image.gif) right no-repeat;
+	background: url(images/button_image.gif) right no-repeat;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	padding-right: 14px;
@@ -114,7 +114,7 @@ div#loginBox div.submit {
 div#loginBox div.submit a {
 	text-decoration: underline;
 	color: #000;
-	background: url(/style/images/button_image.gif) right no-repeat;
+	background: url(images/button_image.gif) right no-repeat;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	padding-right: 14px;
@@ -131,7 +131,7 @@ a.lostPassword {
 	left: 12px;
 	text-decoration: underline;
 	color: #000;
-	background: url(/style/images/button_image.gif) right no-repeat;
+	background: url(images/button_image.gif) right no-repeat;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
 	padding-right: 14px;

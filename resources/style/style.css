@@ -15,7 +15,7 @@ a {
 }
 
 img {
-	behavior: url("/style/pngbehavior.htc");
+	behavior: url("/resources/style/pngbehavior.htc");
 	border: 0;
 }
 
@@ -28,14 +28,14 @@ div#wrapper {
 	margin: 0 auto;
 	width: 981px;
 	padding: 0 8px;
-	background: url(/style/images/backgrounds/wrapper_background.gif) repeat-y top left;
+	background: url(images/backgrounds/wrapper_background.gif) repeat-y top left;
 }
 
 div#bottomWrapper {
 	margin: 0 auto;
 	width: 997px;
 	height: 11px;
-	background: url(/style/images/backgrounds/bottom_background.gif) no-repeat top left;
+	background: url(images/backgrounds/bottom_background.gif) no-repeat top left;
 }
 
 div#topWrapper {
@@ -43,7 +43,7 @@ div#topWrapper {
 	margin: 0 auto;
 	width: 997px;
 	height: 105px;
-	background: url(/style/images/header.jpg) repeat-y top left;
+	background: url(images/header.jpg) repeat-y top left;
 }
 
 div#topWrapper a {
@@ -58,7 +58,7 @@ div#topWrapper a {
 div#top {
 	position: relative;
 	height: 92px;
-	background: url(/style/images/backgrounds/top_background.jpg) no-repeat top left;
+	background: url(images/backgrounds/top_background.jpg) no-repeat top left;
 }
 
 div#headImage {
@@ -108,7 +108,7 @@ div#tabs ul {
 
 div#tabs li {
   float:left;
-  background: url(/style/images/tabs/left.png) no-repeat left top;
+  background: url(images/tabs/left.png) no-repeat left top;
   margin-top: 0;
   margin-left: 4px;
   padding-left: 5px;
@@ -117,7 +117,7 @@ div#tabs li {
 div#tabs a {
   float: left;
   display: block;
-  background: url(/style/images/tabs/right.png) no-repeat right top;
+  background: url(images/tabs/right.png) no-repeat right top;
   padding: 10px 14px 0 9px;
   text-decoration: none;
   font-weight: bold;
@@ -137,11 +137,11 @@ div#tabs a span {
 }
 
 div#tabs li.selected {
-  background-image: url(/style/images/tabs/left_selected.png);
+  background-image: url(images/tabs/left_selected.png);
 }
 
 div#tabs li.selected a {
-  background-image: url(/style/images/tabs/right_selected.png);
+  background-image: url(images/tabs/right_selected.png);
   color: #000;
   text-shadow: #fff 2px 2px 1px;
   height: 24px;
@@ -170,7 +170,7 @@ div.logout div.submit a.logoutButton {
 	height: 24px;
 	width: 64px;
 	text-align: center;
-	background: url(/style/images/tabs/logout_tab.png) no-repeat top left;
+	background: url(images/tabs/logout_tab.png) no-repeat top left;
 	display: block;
 	padding-top: 10px;
 	text-decoration: none;
@@ -221,7 +221,7 @@ div#breadCrumbs ul {
 
 div#breadCrumbs ul li {
 	display: inline;
-	background: url(/style/images/bullets/simple_arrow.gif) left no-repeat;
+	background: url(images/bullets/simple_arrow.gif) left no-repeat;
 	padding-left: 12px;
 }
 
@@ -286,7 +286,7 @@ div.boxBorder {
 
 div.box div.boxHeader {
 	border-top: 1px #fff solid;
-	background: url(/style/images/backgrounds/header_background.gif) repeat-x;
+	background: url(images/backgrounds/header_background.gif) repeat-x;
 	height: 14px;
 	padding: 7px 7px;
 }
@@ -301,12 +301,12 @@ div.box div.boxHeader h1 {
 	font-size: 13px;
 	color: #002243;
 	text-transform: uppercase;
-	background: url(/style/images/bullets/header_bullet.gif) no-repeat left;
+	background: url(images/bullets/header_bullet.gif) no-repeat left;
 	padding-left: 11px;
 }
 
 div.box div.boxContent {
-	background: url(/style/images/backgrounds/box_background.gif) no-repeat top left;
+	background: url(images/backgrounds/box_background.gif) no-repeat top left;
 	padding: 10px 8px;
 }
 
@@ -319,12 +319,12 @@ div.box div.boxContent ul {
 div.box div.boxContent ul li {
 	margin-bottom: 3px;
 	line-height: 12px;
-	background: url(/style/images/bullets/bullet_arrows.gif) no-repeat top left;
+	background: url(images/bullets/bullet_arrows.gif) no-repeat top left;
 	padding-left: 11px;
 }
 
 div.box div.boxContent ul.userMessagesList li {
-	background: url(/style/images/bullets/bullet_dot.gif) no-repeat top left;
+	background: url(images/bullets/bullet_dot.gif) no-repeat top left;
 }
 
 div.box div.boxContent ul li a {
@@ -339,13 +339,13 @@ div.box div.boxContent ul li a:hover {
 }
 
 div.box div.boxContent ul.userMessagesList li.newMessage {
-	background: url(/style/images/bullets/bullet_dot_selected.gif) no-repeat top left;
+	background: url(images/bullets/bullet_dot_selected.gif) no-repeat top left;
 	font-weight: bold;
 }
 
 div.box div.boxContentGrey {
 	height: 115px;
-	background: #E3E3E3 url(/style/images/backgrounds/grey_box_background.gif) no-repeat top left;
+	background: #E3E3E3 url(images/backgrounds/grey_box_background.gif) no-repeat top left;
 }
 
 /** End Box styles **/
@@ -464,7 +464,7 @@ div#favoriteApplications {
 }
 
 div#favoriteApplications div.boxContent {
-	background-image: url(/style/images/backgrounds/box_background_left.gif);
+	background-image: url(images/backgrounds/box_background_left.gif);
 }
 
 div#userApplications {
@@ -473,7 +473,7 @@ div#userApplications {
 }
 
 div#userApplications div.boxContent {
-	background-image: url(/style/images/backgrounds/box_background_right.gif);
+	background-image: url(images/backgrounds/box_background_right.gif);
 	position: relative;
 }
 
@@ -481,7 +481,7 @@ div#userApplications a.allApplications {
 	text-decoration: none;
 	height: 33px;
 	width: 135px;
-	background: url(/style/images/all_applications.gif) no-repeat;
+	background: url(images/all_applications.gif) no-repeat;
 	display: block;
 	position: absolute;
 	top: 70px;
@@ -539,11 +539,11 @@ div#userSettings ul li a {
 }
 
 div#userSettings ul li.preferences a {
-	background: url(/style/images/bullets/preferences_icon.gif) no-repeat top left;
+	background: url(images/bullets/preferences_icon.gif) no-repeat top left;
 }
 
 div#userSettings ul li.password a {
-	background: url(/style/images/bullets/lock_icon.gif) no-repeat top left;
+	background: url(images/bullets/lock_icon.gif) no-repeat top left;
 }
 
 div#userSettings ul li a {
@@ -570,7 +570,7 @@ div#loginPage p span.boldText{
 div.adminHeader {
 	height: 48px;
 	border: 0;
-	background: url(/style/images/backgrounds/case_background.gif) repeat-x;
+	background: url(images/backgrounds/case_background.gif) repeat-x;
 	border-bottom: 1px #c5c5c5 solid;
 }
 
@@ -625,7 +625,7 @@ div#welcome {
 }
 
 div#welcome .boxContent {
-	background-image: url(/style/images/backgrounds/box_background_big.gif);
+	background-image: url(images/backgrounds/box_background_big.gif);
 }
 
 div#welcome p {
@@ -653,7 +653,7 @@ div#moreCasesLayer {
 }
 
 div#moreCasesLayer a {
-	background: url(/style/images/backgrounds/button_background.gif) repeat-x;
+	background: url(images/backgrounds/button_background.gif) repeat-x;
 	line-height: 31px;
 	display: block;
 	font-size: 13px;
@@ -690,7 +690,7 @@ div.userRolePageForwarder a {
 	text-decoration: none;
 	line-height: 33px;
 	float: left;
-	background: url(/style/images/buttons/left.png) top left no-repeat;
+	background: url(images/buttons/left.png) top left no-repeat;
 }
 
 div.userRolePageForwarder a span {
@@ -704,16 +704,16 @@ div.userRolePageForwarder a span {
 	font-weight: bold;
 	padding-left: 9px;
 	padding-right: 16px;
-	background: url(/style/images/buttons/right_big.png) top right no-repeat;
+	background: url(images/buttons/right_big.png) top right no-repeat;
 }
 
 div.userRolePageForwarder a:hover {
-	background-image: url(/style/images/buttons/left_hover.png);
+	background-image: url(images/buttons/left_hover.png);
 }
 
 div.userRolePageForwarder a:hover span {
 	color: #571900;
-	background-image: url(/style/images/buttons/right_big_hover.png);
+	background-image: url(images/buttons/right_big_hover.png);
 }
 
 div#applicationBanner {

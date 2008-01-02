@@ -82,9 +82,9 @@ html>body #inner {
 }
 
 #inner ul.userRolePageForwarder li.egovCitizen a {
-	background: url('/style/images/roleicons/citizen.gif') center 10px no-repeat;
+	background: url('images/roleicons/citizen.gif') center 10px no-repeat;
 }
 
 #inner ul.userRolePageForwarder li.fskCompany a {
-	background: url('/style/images/roleicons/company.gif') center 10px no-repeat;
+	background: url('images/roleicons/company.gif') center 10px no-repeat;
 }

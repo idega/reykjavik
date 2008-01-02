@@ -383,6 +383,14 @@
         <groupId>com.idega.maven.plugins</groupId>
         <artifactId>com.idega.maven.webapp</artifactId>
         <extensions>true</extensions>
+        <configuration>
+          <webResources>
+            <resource>
+              <directory>resources</directory>
+              <targetPath>resources</targetPath>
+            </resource>
+          </webResources>
+         </configuration>
       </plugin>
     </plugins>
   </build>
