@@ -55,6 +55,11 @@ table.adminTable td img {
 	width: 15px;
 }
 
+table.adminTable td a.flippedImageLink img {
+	height: 15px					!important;
+	width: 14px						!important;
+}
+
 table.adminTable tBody tr.ruled{
 	background: #E8F1FC;
 }
