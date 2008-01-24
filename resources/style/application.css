@@ -185,7 +185,7 @@ div#applicationCategoryViewer h1 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-div#applicationCategoryViewer div.applicationCategory {
+div#applicationCategoryViewer div.applicationCategory, div#applicationCategoryViewer div.compactCategory {
 	float: left;
 	width: 240px;
 	height: 85px;
@@ -197,17 +197,22 @@ html>body div#applicationCategoryViewer div.applicationCategory {
 	min-height: 85px;
 }
 
+html>body div#applicationCategoryViewer div.compactCategory {
+	height: auto;
+	min-height: 50px;
+}
+
 div#applicationCategoryViewer div.empty {
 	display: none;
 }
 
-div#applicationCategoryViewer div.applicationCategory ul, div#favoriteApplications ul, div#userApplications ul {
+div#applicationCategoryViewer div.applicationCategory ul, div#applicationCategoryViewer div.compactCategory ul, div#favoriteApplications ul, div#userApplications ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-div#applicationCategoryViewer div.applicationCategory ul li, div#favoriteApplications ul li, div#userApplications ul li {
+div#applicationCategoryViewer div.applicationCategory ul li, div#applicationCategoryViewer div.compactCategory ul li, div#favoriteApplications ul li, div#userApplications ul li {
 	line-height: 13px;
 	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
 	padding-left: 17px;
@@ -218,26 +223,26 @@ div#favoriteApplications ul li, div#userApplications ul li {
 	line-height: 11px;
 }
 
-div#applicationCategoryViewer div.applicationCategory ul li a, div#favoriteApplications ul li a, div#userApplications ul li a {
+div#applicationCategoryViewer div.applicationCategory ul li a, div#applicationCategoryViewer div.compactCategory ul li a, div#favoriteApplications ul li a, div#userApplications ul li a {
 	font-size: 10px;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	color: #000;
 	text-decoration: none;
 }
 
-div#applicationCategoryViewer div.applicationCategory ul li.electronic, div#favoriteApplications ul li.electronic, div#userApplications ul li.electronic {
+div#applicationCategoryViewer div.applicationCategory ul li.electronic, div#applicationCategoryViewer div.compactCategory ul li.electronic, div#favoriteApplications ul li.electronic, div#userApplications ul li.electronic {
 	background-image: url(images/bullets/yellow_bullet.gif);
 }
 
-div#applicationCategoryViewer div.applicationCategory ul li.requiresLogin, div#favoriteApplications ul li.requiresLogin, div#userApplications ul li.requiresLogin {
+div#applicationCategoryViewer div.applicationCategory ul li.requiresLogin, div#applicationCategoryViewer div.compactCategory ul li.requiresLogin, div#favoriteApplications ul li.requiresLogin, div#userApplications ul li.requiresLogin {
 	background-image: url(images/bullets/green_bullet.gif);
 }
 
-div#applicationCategoryViewer div.applicationCategory ul li.caseConnected, div#favoriteApplications ul li.caseConnected, div#userApplications ul li.caseConnected {
+div#applicationCategoryViewer div.applicationCategory ul li.caseConnected, div#applicationCategoryViewer div.compactCategory ul li.caseConnected, div#favoriteApplications ul li.caseConnected, div#userApplications ul li.caseConnected {
 	background-image: url(images/bullets/green_bullet.gif);
 }
 
-div#applicationCategoryViewer div.applicationCategory ul li a:hover, div#favoriteApplications ul li a:hover, div#userApplications ul li a:hover {
+div#applicationCategoryViewer div.applicationCategory ul li a:hover, div#applicationCategoryViewer div.compactCategory ul li a:hover, div#favoriteApplications ul li a:hover, div#userApplications ul li a:hover {
 	text-decoration: underline;
 }
 
