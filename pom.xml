@@ -195,6 +195,11 @@
 	  <artifactId>org.chiba.web</artifactId>
       <version>2.0.0</version>
 	</dependency>
+	<dependency>
+      <groupId>com.idega.block.platform</groupId>
+      <artifactId>com.idega.block.form</artifactId>
+      <version>4.0.0</version>
+    </dependency>
     
     <!-- Legacy dependencies -->
     <dependency>
@@ -236,6 +241,11 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.cases</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.childcare</artifactId>
       <version>4.0.0</version>
     </dependency>
@@ -267,6 +277,11 @@
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.school</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+     <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.propertytax</artifactId>
       <version>4.0.0</version>
     </dependency>
     <dependency>
@@ -424,6 +439,11 @@
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.websearch</artifactId>
+      <version>4.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>org.jboss.jbpm</artifactId>
       <version>4.0.0</version>
     </dependency>
     
