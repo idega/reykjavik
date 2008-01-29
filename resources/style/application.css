@@ -179,8 +179,10 @@ html>body div#applicationCategoryViewer {
 }
 
 .applicationCategoryColumn {
+	width: 33%;
 }
 html>body div.applicationCategoryColumn {
+	width: 33%;
 }
 
 div#applicationCategoryViewer h1 {
