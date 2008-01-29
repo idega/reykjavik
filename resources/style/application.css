@@ -194,12 +194,12 @@ div#applicationCategoryViewer div.applicationCategory, div#applicationCategoryVi
 
 html>body div#applicationCategoryViewer div.applicationCategory {
 	height: auto;
-	min-height: 85px;
+	min-height: 85px !important;
 }
 
 html>body div#applicationCategoryViewer div.compactCategory {
 	height: auto;
-	min-height: 50px;
+	min-height: 50px !important;
 }
 
 div#applicationCategoryViewer div.empty {

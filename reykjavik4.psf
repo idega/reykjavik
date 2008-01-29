@@ -19,6 +19,7 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.documents.bundle,com.idega.block.documents"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.email.bundle,com.idega.block.email"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.entity.bundle,com.idega.block.entity"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.block.form,com.idega.block.form"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.forum.bundle,com.idega.block.forum"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.help.bundle,com.idega.block.help"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/com.idega.block.image.bundle,com.idega.block.image"/>
@@ -72,12 +73,14 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.afterschoolcare.bundle,is.idega.idegaweb.egov.afterschoolcare"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.afterschoolcare.rvk.bundle,is.idega.idegaweb.egov.afterschoolcare.rvk"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.application,is.idega.idegaweb.egov.application"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.cases.bundle,is.idega.idegaweb.egov.cases"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.childcare.bundle,is.idega.idegaweb.egov.childcare"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.citizen.bundle,is.idega.idegaweb.egov.citizen"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.course.bundle,is.idega.idegaweb.egov.course"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.fsk.bundle,is.idega.idegaweb.egov.fsk"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.message,is.idega.idegaweb.egov.message"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.musicschool.bundle,is.idega.idegaweb.egov.musicschool"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.propertytax,is.idega.idegaweb.egov.propertytax"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.egov.school.bundle,is.idega.idegaweb.egov.school"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.idega.idegaweb.member.bundle,is.idega.idegaweb.member"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/is.mentor.bundle,is.mentor"/>
@@ -87,6 +90,7 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/org.apache.myfaces.bundle,org.apache.myfaces"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,bundles/org.apache.slide.bundle,org.apache.slide"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/org.chiba.web,org.chiba.web"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/org.jboss.jbpm,org.jboss.jbpm"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.webapp.custom/reykjavik,reykjavik"/>
 </provider>
 </psf>
