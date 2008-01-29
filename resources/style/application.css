@@ -178,6 +178,11 @@ html>body div#applicationCategoryViewer {
 	min-height: 180px;
 }
 
+.applicationCategoryColumn {
+}
+html>body div.applicationCategoryColumn {
+}
+
 div#applicationCategoryViewer h1 {
 	margin-top: 0;
 	margin-bottom: 6px;
