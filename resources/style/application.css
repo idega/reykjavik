@@ -207,7 +207,7 @@ div#applicationCategoryViewer div.compactCategory {
 }
 html>body div#applicationCategoryViewer div.applicationCategory {
 	height: auto;
-	min-height: 85px !important;
+	/*min-height: 85px !important;*/
 }
 
 html>body div#applicationCategoryViewer div.compactCategory {
