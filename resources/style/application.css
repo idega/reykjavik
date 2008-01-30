@@ -183,6 +183,7 @@ html>body div#applicationCategoryViewer {
 }
 html>body div.applicationCategoryColumn {
 	width: 33%;
+	float: left;
 }
 
 div#applicationCategoryViewer h1 {
@@ -192,13 +193,18 @@ div#applicationCategoryViewer h1 {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
-div#applicationCategoryViewer div.applicationCategory, div#applicationCategoryViewer div.compactCategory {
+div#applicationCategoryViewer div.applicationCategory {
 	float: left;
 	width: 240px;
 	height: 85px;
 	margin-top: 13px;
 }
-
+div#applicationCategoryViewer div.compactCategory {
+	float: left;
+	width: 240px;
+	height: 85px;
+	margin-bottom: 13px;
+}
 html>body div#applicationCategoryViewer div.applicationCategory {
 	height: auto;
 	min-height: 85px !important;
