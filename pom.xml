@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+  	<groupId>com.idega.block.egov</groupId>
+  	<artifactId>com.idega.block.egov</artifactId>
+  	<version>4.0.1</version>
+  </parent>
   <name>Electronic Reykjavik</name>
   <groupId>com.idega.webapp.custom</groupId>
   <artifactId>reykjavik</artifactId>
   <packaging>iwwar</packaging>
-  <version>4.0.0</version>
+  <version>4.0.1-SNAPSHOT</version>
   <description>The eGov project Electronic Reykjavik</description>
   <inceptionYear>2007</inceptionYear>
   <organization>
@@ -18,8 +22,8 @@
     <connection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</connection>
     <developerConnection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</developerConnection> 
      -->
-    <connection>scm:cvs:ext:civilis@code.idega.com:/idega/cvs:com.idega.webapp.custom/reykjavik/</connection>
-    <developerConnection>scm:cvs:ext:civilis@code.idega.com:/idega/cvs:com.idega.webapp.custom/reykjavik/</developerConnection>
+    <connection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</connection>
+    <developerConnection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</developerConnection>
   </scm>
   <developers>
   	<developer>
@@ -43,408 +47,334 @@
   	<dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.core</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.builder</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.faces</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>org.apache.myfaces</artifactId>
-      <version>1.1.5</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.user</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.article</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.entity</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.image</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.media</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.navigation</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.rss</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.web2.0</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.content</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.developer</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.dwr</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.manager</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.setup</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.slide</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.webface</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.workspace</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>org.apache.axis</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>org.apache.slide</artifactId>
-      <version>2.2pre1.iwbuild5</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.idegaweb.widget</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.graphics</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.hibernate</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.process</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.block.process.webservice</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.platform</groupId>
       <artifactId>com.idega.cxf</artifactId>
-      <version>4.0.0</version>
     </dependency>
 	<dependency>
-      <groupId>com.idega.block.experimental</groupId>
+      <groupId>com.idega.block.platform</groupId>
   	  <artifactId>com.idega.facelets</artifactId>
-      <version>4.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.idega.block.platform</groupId>
-      <artifactId>com.idega.company</artifactId>
-      <version>4.0.0</version>
-    </dependency>
-    <dependency>
-	  <groupId>com.idega.block.platform</groupId>
-	  <artifactId>org.chiba.web</artifactId>
-      <version>2.0.0</version>
-	</dependency>
-	<dependency>
-      <groupId>com.idega.block.platform</groupId>
-      <artifactId>com.idega.block.form</artifactId>
-      <version>4.0.0</version>
-    </dependency>
-    
-    <!-- Legacy dependencies -->
-    <dependency>
-      <groupId>com.idega.block.legacy</groupId>
-      <artifactId>com.idega.block.text</artifactId>
-      <version>4.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.idega.block.legacy</groupId>
-      <artifactId>com.idega.block.category</artifactId>
-      <version>4.0.0</version>
     </dependency>
     
     <!-- eGov dependencies -->
     <dependency>
       <groupId>com.idega.block.egov</groupId>
+      <artifactId>com.idega.company</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.accounting</artifactId>
-      <version>4.0.0</version>
     </dependency>
      <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.afterschoolcare</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.afterschoolcare.rvk</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.application</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.cases</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.childcare</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.citizen</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.course</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.fsk</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.message</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.musicschool</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.school</artifactId>
-      <version>4.0.0</version>
     </dependency>
      <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.propertytax</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.block.family</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>com.idega.block.school</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.mentor</artifactId>
-      <version>4.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.member</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.block.nationalregister</artifactId>
     </dependency>
     
     <!-- Addon dependencies -->
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.banner</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.beanshell</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.boxoffice</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.building</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.cal</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.calendar</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.contract</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.creditcard</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.questions</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.help</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.dataquery</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.datareport</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.dictionary</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.documents</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.email</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.forum</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.importer</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.messenger</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.pdf</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
-      <groupId>com.idega.block.addon</groupId>
+      <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.block.pki</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.poll</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.reports</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.staff</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.sso</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.survey</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.trade</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.quote</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.websearch</artifactId>
-      <version>4.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>org.jboss.jbpm</artifactId>
-      <version>4.0.0</version>
+    </dependency>
+    <dependency>
+	  <groupId>com.idega.block.addon</groupId>
+	  <artifactId>org.chiba.web</artifactId>
+	</dependency>
+	<dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.form</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.text</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.category</artifactId>
     </dependency>
     
     <!-- Custom dependencies -->
@@ -454,17 +384,6 @@
       <artifactId>is.idega.block.modernus</artifactId>
       <version>4.0.0</version>
     </dependency>
-    <dependency>
-      <groupId>com.idega.block.custom</groupId>
-      <artifactId>is.idega.idegaweb.member</artifactId>
-      <version>4.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>com.idega.block.custom</groupId>
-      <artifactId>is.idega.block.nationalregister</artifactId>
-      <version>4.0.0</version>
-    </dependency>
-    
   </dependencies>
   
   <distributionManagement>
