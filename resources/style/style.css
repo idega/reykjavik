@@ -89,6 +89,14 @@ div#heading h2 {
 	padding: 0;
 	color: #fff;
 	font-size: 12px;
+	width: 200px;
+}
+div#heading h2 span {
+	color: #fff;
+	font-size: 12px;
+}
+div.box div.boxHeader h1.smallerBoxHeader {
+	font-size: 11px						!important;
 }
 
 /** End Headings **/
@@ -343,7 +351,7 @@ div.box div.boxContent ul.userMessagesList li.newMessage {
 }
 
 div.box div.boxContentGrey {
-	height: 115px;
+	height: 121px;
 	background: #E3E3E3 url(images/backgrounds/grey_box_background.gif) no-repeat top left;
 }
 
@@ -395,13 +403,13 @@ html>body div#announcementsRight {
 }
 
 div#announcementsFront div.boxContent {
-	height: 95px;
+	height: 101px;
 }
 
 div#applicationBanner {
 	float: left;
 	border-bottom: 1px #c5c5c5 solid;
-	height: 132px;
+	height: 138px;
 	width: 398px;
 	padding-top: 12px;
 	padding-right: 9px;
@@ -725,6 +733,6 @@ div#applicationBanner div.applicationImage {
 	top: 0;
 	left: 0;
 	padding: 17px 9px;
-	height: 110px;
+	height: 116px;
 	border-right: 1px #c5c5c5 solid;
 }
