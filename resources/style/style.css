@@ -297,7 +297,9 @@ div.box div.boxHeader {
 	height: 14px;
 	padding: 7px 7px;
 }
-
+div.twoLineBoxHeader {
+	padding-top: 0px										important;
+}
 div.box div.boxHeaderBig {
 	border-bottom: 1px #C5C5C5 solid;
 }
