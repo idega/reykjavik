@@ -188,6 +188,10 @@
     </dependency>
     <dependency>
       <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.bpm</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.cases</artifactId>
     </dependency>
     <dependency>
@@ -361,13 +365,25 @@
       <artifactId>org.jboss.jbpm</artifactId>
     </dependency>
     <dependency>
-	  <groupId>com.idega.block.addon</groupId>
-	  <artifactId>org.chiba.web</artifactId>
-	</dependency>
-	<dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.form</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.formbuilder</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.documentmanager</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.formadmin</artifactId>
+    </dependency>
+    <dependency>
+	  <groupId>com.idega.block.addon</groupId>
+	  <artifactId>org.chiba.web</artifactId>
+	</dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.text</artifactId>
@@ -376,14 +392,11 @@
       <groupId>com.idega.block.addon</groupId>
       <artifactId>com.idega.block.category</artifactId>
     </dependency>
-    
-    <!-- Custom dependencies -->
-    
-	<dependency>
-      <groupId>com.idega.block.custom</groupId>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
       <artifactId>is.idega.block.modernus</artifactId>
-      <version>4.0.0</version>
     </dependency>
+    
   </dependencies>
   
   <distributionManagement>
