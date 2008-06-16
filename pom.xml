@@ -246,6 +246,14 @@
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.block.nationalregister</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.mentor.vefthjonusta</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.cases.rvk</artifactId>
+    </dependency>
     
     <!-- Addon dependencies -->
     <dependency>
