@@ -254,6 +254,10 @@
       <groupId>com.idega.block.egov</groupId>
       <artifactId>is.idega.idegaweb.egov.cases.rvk</artifactId>
     </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>is.idega.idegaweb.egov.company</artifactId>
+    </dependency>
     
     <!-- Addon dependencies -->
     <dependency>
