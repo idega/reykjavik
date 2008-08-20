@@ -258,6 +258,23 @@
     	<groupId>com.idega.block.egov</groupId>
     	<artifactId>is.idega.idegaweb.egov.company</artifactId>
     </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>is.idega.idegaweb.egov.schoolmeal</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>is.idega.idegaweb.egov.schoolmeal.rvk</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+    	<artifactId>is.idega.idegaweb.egov.childcare.rvk</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>com.idega.block.egov</groupId>
+  		<artifactId>is.banking</artifactId>
+    </dependency>
+    
     
     <!-- Addon dependencies -->
     <dependency>

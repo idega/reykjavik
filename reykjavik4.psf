@@ -13,6 +13,7 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/com.idega.block.calendar,com.idega.block.calendar"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.legacy/com.idega.block.category,com.idega.block.category"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/com.idega.block.contract,com.idega.block.contract"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/com.idega.block.finance,com.idega.block.finance"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/com.idega.block.creditcard,com.idega.block.creditcard"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/com.idega.block.dataquery,com.idega.block.dataquery"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/com.idega.block.datareport,com.idega.block.datareport"/>
@@ -83,6 +84,7 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.block.pki,is.idega.block.pki"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/is.idega.block.weather,is.idega.block.weather"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/is.idega.iceland,is.idega.iceland"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.banking,is.banking"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov,is.idega.idegaweb.egov"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.accounting,is.idega.idegaweb.egov.accounting"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.afterschoolcare,is.idega.idegaweb.egov.afterschoolcare"/>
@@ -93,6 +95,9 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.cases.focal,is.idega.idegaweb.egov.cases.focal"/>
 <project reference="1.0,:extssh:build.idega.is:/cvs,com.idega.block.egov/is.idega.idegaweb.egov.cases.rvk,is.idega.idegaweb.egov.cases.rvk"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.childcare,is.idega.idegaweb.egov.childcare"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.childcare.rvk,is.idega.idegaweb.egov.childcare.rvk"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.schoolmeal,is.idega.idegaweb.egov.schoolmeal"/>
+<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.schoolmeal.rvk,is.idega.idegaweb.egov.schoolmeal.rvk"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.citizen,is.idega.idegaweb.egov.citizen"/>
 <project reference="1.0,:extssh:build.idega.is:/cvs,com.idega.block.egov/is.idega.idegaweb.egov.company,is.idega.idegaweb.egov.company"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.egov/is.idega.idegaweb.egov.course,is.idega.idegaweb.egov.course"/>
