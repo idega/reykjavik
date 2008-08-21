@@ -425,6 +425,10 @@
       <groupId>com.idega.block.addon</groupId>
       <artifactId>is.idega.block.modernus</artifactId>
     </dependency>
+    <dependency>
+      <groupId>com.idega.block.addon</groupId>
+      <artifactId>com.idega.block.finance</artifactId>
+    </dependency>
     
   </dependencies>
   
