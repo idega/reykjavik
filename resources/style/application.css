@@ -1,3 +1,36 @@
+div.header {
+	background: #FFFFFF url(/style/images/backgrounds/header_background.gif) repeat-x scroll 0 0;
+	border-bottom: 1px solid #B2B6B8;
+	border-top: 1px solid #FFFFFF;
+	clear: both;
+	height: 28px;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+div.header h1 {
+	color: #002243;
+	float: left;
+	font-size: 13px;
+	margin: 0;
+	padding: 7px 0 0 14px;
+	text-transform: uppercase;
+}
+
+h1.subHeader {
+	border-top: 1px #a4a4a4 solid;
+	border-bottom: 1px #a4a4a4 solid;
+	background: url(images/sub_header_tiler.gif) repeat-x #d6d6d6;
+	height: 18px;
+	color: #222222;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left: 15px;
+	padding-top: 4px;
+	margin: 0;
+	clear: both;
+}
+
 span.required {
 	padding-right: 2px;
 }
@@ -24,6 +57,46 @@ div.phases {
 	z-index: 1;
 }
 
+div.phases ul {
+	margin-top: -7px;
+}
+
+div.phases ul li {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/blue_orb.png',sizingMethod='scale');
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: #fff;
+	display: block;
+	float: left;
+	padding-top: 3px;
+	margin-right: 4px;
+	margin-top: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: auto;
+	border: 0;
+}
+
+html>body div.phases ul li {
+	background: url(images/blue_orb.png) no-repeat top center;
+	filter: none;
+}
+
+div.phases ul li.current {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/orange_orb.png',sizingMethod='scale');
+	width: 40px;
+	height: 46px;
+	font-size: 26px;
+	padding-top: 5px;
+	margin-top: 0;
+}
+
+html>body div.phases ul li.current {
+	background-image: url(images/orange_orb.png);
+	filter: none;
+}
+
 html>body div.info {
 	height: auto;
 	min-height: 62px;
@@ -31,6 +104,14 @@ html>body div.info {
 
 div.info {
 	overflow: hidden;
+	height: 62px;
+	background: url(/style/images/info_tiler.gif) repeat-x #ABBAC3;
+	padding: 13px 15px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-shadow: #fff 1px 1px 1px;
+	line-height: 18px;
+	border-bottom: 1px #788892 solid;
 }
 
 div.info div.helperText {
@@ -445,6 +526,7 @@ div.bottom a.button span {
 	display: block;
 	font-size: 18px;
 	font-weight: bold;
+	text-transform: none !important;
 }
 
 div.bottom a.button:hover span {
@@ -1330,10 +1412,6 @@ div.formItem input#area {
 	width: 107px;
 }
 
-form.citizenForm div.buttonLayer {
-	margin-bottom: 20px;
-}
-
 p.requiredInfo {
 	margin: 0;
 	padding: 0;
@@ -1876,4 +1954,28 @@ div.formSection ul li span.dayValidFrom, div.formSection ul li span.dayValidTo, 
 	font-size: 11px;
 	color: #999;
 	font-weight: normal;
+}
+
+div.buttonLayer {
+	display: block;
+	overflow: hidden;
+	padding-left: 160px;
+	margin-top: 0 !important;
+}
+
+form.citizenForm div.buttonLayer a {
+	background: transparent url(/style/images/button_image.gif) no-repeat scroll right center;
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 10px;
+	padding-right: 14px;
+	text-align: left;
+	text-decoration: underline;
+	margin-left: 170px;
+	text-transform: none;
+	font-weight: normal;
+}
+
+div.applicationCategory p {
+	display: none;
 }
