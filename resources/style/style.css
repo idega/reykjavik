@@ -228,13 +228,6 @@ div#breadCrumbs ul {
 }
 div#breadCrumbs ul li {
 	display: inline;
-	background: url(images/bullets/simple_arrow.gif) left no-repeat;
-	padding-left: 12px;
-}
-
-div#breadCrumbs ul li.firstPage {
-	background: none;
-	padding-left: 0px;
 }
 
 div#date {
