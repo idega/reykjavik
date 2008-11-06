@@ -731,3 +731,2744 @@ div#applicationBanner div.applicationImage {
 	height: 116px;
 	border-right: 1px #c5c5c5 solid;
 }
+
+/* Application override */
+div.header {
+	background: #FFFFFF url(/style/images/backgrounds/header_background.gif) repeat-x scroll 0 0;
+	border-bottom: 1px solid #B2B6B8;
+	border-top: 1px solid #FFFFFF;
+	clear: both;
+	height: 28px;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+div.header h1 {
+	color: #002243;
+	float: left;
+	font-size: 13px;
+	margin: 0;
+	padding: 7px 0 0 14px;
+	text-transform: uppercase;
+}
+
+h1.subHeader {
+	border-top: 1px #a4a4a4 solid;
+	border-bottom: 1px #a4a4a4 solid;
+	background: url(images/sub_header_tiler.gif) repeat-x #d6d6d6;
+	height: 18px;
+	color: #222222;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-left: 15px;
+	padding-top: 4px;
+	margin: 0;
+	clear: both;
+}
+
+span.required {
+	padding-right: 2px;
+}
+
+div.formSection p.requiredInformation {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 24px;
+}
+
+form#applicationForm {
+	position: relative;
+}
+
+div.helperText {
+	position: relative;
+	top: 0;
+	right: 0;
+	float: right;
+	width: 200px;
+}
+
+div.phases {
+	z-index: 1;
+}
+
+div.phases ul {
+	margin-top: -7px;
+}
+
+div.phases ul li {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/blue_orb.png',sizingMethod='scale');
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: #fff;
+	display: block;
+	float: left;
+	padding-top: 3px;
+	margin-right: 4px;
+	margin-top: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: auto;
+	border: 0;
+}
+
+html>body div.phases ul li {
+	background: url(images/blue_orb.png) no-repeat top center;
+	filter: none;
+}
+
+div.phases ul li.current {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/orange_orb.png',sizingMethod='scale');
+	width: 40px;
+	height: 46px;
+	font-size: 26px;
+	padding-top: 5px;
+	margin-top: 0;
+}
+
+html>body div.phases ul li.current {
+	background-image: url(images/orange_orb.png);
+	filter: none;
+}
+
+html>body div.info {
+	height: auto;
+	min-height: 62px;
+}
+
+div.info {
+	overflow: hidden;
+	height: 62px;
+	background: url(/style/images/info_tiler.gif) repeat-x #ABBAC3;
+	padding: 13px 15px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-shadow: #fff 1px 1px 1px;
+	line-height: 18px;
+	border-bottom: 1px #788892 solid;
+}
+
+div.info div.helperText {
+	margin-top: 16px;
+}
+
+div.formItem {
+	clear: none;
+	float: left;
+	width: 542px;
+	margin-bottom: 8px;
+}
+
+div.formItem label {
+	margin-bottom: 8px;
+	width: 152px;
+	margin-right: 8px;
+}
+
+div.formItem span p {
+	margin: 0;
+	padding: 0;
+}
+
+div.required span {
+	padding-right: 8px;
+	background: url(images/bullets/required.gif) right top no-repeat;
+}
+
+div.formSection {
+	padding: 13px 15px;
+	position: relative;
+	height: 20px;
+}
+
+html>body div.formSection {
+	height: auto;
+overflow: hidden;
+}
+
+div.formItem textarea {
+	clear: none;
+	width: 330px;
+}
+
+div.formItem input, div.formItem textarea, div.formItem select {
+	margin-right: 5px;
+	margin-bottom: 8px;
+	font-size: 11px;
+}
+
+div.formSection textarea {
+	font-size: 11px;
+}
+
+div.formItem select.dateInput {
+	width: auto;
+}
+
+div.informationItem {
+	width: auto;
+	float: none;
+	clear: both;
+	margin-bottom: 16px;
+}
+
+div.informationItem label {
+	width: auto;
+	display: block;
+	float: none;
+	margin-bottom: 4px;
+}
+
+div.informationItem span {
+	float: none;
+	width: auto;
+}
+
+
+h1.subHeader {
+	height: 17px;
+	padding-top: 5px;
+	clear: none;
+}
+
+div.phases ul li {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/blue_orb.png',sizingMethod='scale');
+	height: 16px;
+	padding-top: 4px;
+	line-height: 12px;
+}
+
+div.phases ul li.current {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/orange_orb.png',sizingMethod='scale');
+	height: 40px;
+	line-height: 26px;
+	padding-top: 6px;
+}
+
+div.bottom a:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+div.bottom a.buttonBack {
+	margin-right: 6px;
+}
+
+div.bottom a.buttonNext {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_next.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonNext:hover {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_next_hover.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonBack {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_back.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonBack:hover {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_back_hover.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonCancel {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_cancel.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonCancel:hover {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_cancel_hover.png',sizingMethod='scale');
+}
+
+div.formItem label {
+	padding-top: 0;
+}
+
+div#applicationCategoryViewer {
+	padding: 0 15px;
+	height: 180px;
+	padding-bottom: 13px;
+}
+
+html>body div#applicationCategoryViewer {
+	height: auto;
+	min-height: 180px;
+}
+
+.applicationCategoryColumn {
+	width: 33%;
+}
+html>body div.applicationCategoryColumn {
+	width: 33%;
+	float: left;
+}
+
+div#applicationCategoryViewer h1 {
+	margin-top: 0;
+	margin-bottom: 6px;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#applicationCategoryViewer div.applicationCategory {
+	float: left;
+	width: 240px;
+	height: 85px;
+	margin-top: 13px;
+}
+div#applicationCategoryViewer div.compactCategory {
+	float: left;
+	width: 240px;
+	height: 85px;
+	margin-bottom: 13px;
+}
+html>body div#applicationCategoryViewer div.applicationCategory {
+	height: auto;
+	/*min-height: 85px !important;*/
+}
+
+html>body div#applicationCategoryViewer div.compactCategory {
+	height: auto;
+	min-height: 50px !important;
+}
+
+div#applicationCategoryViewer div.empty {
+	display: none;
+}
+
+div#applicationCategoryViewer div.applicationCategory ul, div#applicationCategoryViewer div.compactCategory ul, div#favoriteApplications ul, div#userApplications ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li, div#applicationCategoryViewer div.compactCategory ul li, div#favoriteApplications ul li, div#userApplications ul li {
+	line-height: 13px;
+	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
+	padding-left: 17px;
+	padding-right: 6px;
+}
+
+div#favoriteApplications ul li, div#userApplications ul li {
+	line-height: 11px;
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li a, div#applicationCategoryViewer div.compactCategory ul li a, div#favoriteApplications ul li a, div#userApplications ul li a {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li.electronic, div#applicationCategoryViewer div.compactCategory ul li.electronic, div#favoriteApplications ul li.electronic, div#userApplications ul li.electronic {
+	background-image: url(images/bullets/yellow_bullet.gif);
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li.requiresLogin, div#applicationCategoryViewer div.compactCategory ul li.requiresLogin, div#favoriteApplications ul li.requiresLogin, div#userApplications ul li.requiresLogin {
+	background-image: url(images/bullets/green_bullet.gif);
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li.caseConnected, div#applicationCategoryViewer div.compactCategory ul li.caseConnected, div#favoriteApplications ul li.caseConnected, div#userApplications ul li.caseConnected {
+	background-image: url(images/bullets/green_bullet.gif);
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li a:hover, div#applicationCategoryViewer div.compactCategory ul li a:hover, div#favoriteApplications ul li a:hover, div#userApplications ul li a:hover {
+	text-decoration: underline;
+}
+
+form#accountApplicationForward {
+	padding: 18px 20px;
+	height: 81px;
+	position:relative;
+}
+
+form#accountApplicationForward div.label, form#accountApplicationForward div.example {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+form#accountApplicationForward input {
+	font-size: 10px;
+	width: 140px;
+	margin-bottom: 5px;
+}
+
+form#accountApplicationForward div.example {
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+
+form#accountApplicationForward a {
+	position: absolute;
+	top: 94px;
+	right: 11px;
+	text-decoration: underline;
+	color: #000;
+	background: url(images/button_image.gif) right no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-right: 14px;
+}
+
+ul.applicationLegend {
+	margin: 5px 15px 13px 15px;
+	padding: 0;
+	list-style: none;
+}
+
+ul.applicationLegend li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 13px;
+	padding-left: 17px;
+}
+
+ul.applicationLegend li.redBullet {
+	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
+}
+
+ul.applicationLegend li.greenBullet {
+	background: url(images/bullets/green_bullet.gif) no-repeat top left;
+}
+
+div.receipt, div.stop {
+	height: auto;
+	overflow: hidden;
+}
+
+div.receiptImage, div.stopImage {
+	width: 67px;
+	height: 77px;
+}
+
+div.receipt a, div.receipt a:hover {
+	text-decoration: underline;
+	color: #000;
+	background: url(images/button_image.gif) right no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-right: 14px;
+}
+
+div.receiptImage {
+	margin-bottom: 160px;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/receipt_icon.png',sizingMethod='scale');
+}
+
+html>body div.receiptImage {
+	filter: none;
+	background: url(images/receipt_icon.png) no-repeat;
+}
+
+div.stopImage {
+	margin-bottom: 160px;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/stop_icon.png',sizingMethod='scale');
+}
+
+html>body div.stopImage {
+	filter: none;
+	background: url(images/stop_icon.png) no-repeat;
+}
+
+div.errorLayer div.errorImage {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/error_image.png',sizingMethod='scale');
+}
+
+html>body div.errorLayer div.errorImage {
+	filter: none;
+	background: url(images/error_image.png) no-repeat;
+}
+
+div.radioSection {
+	float: left;
+	margin-bottom: 8px;
+}
+
+div.radioSection input {
+	float: left;
+	clear: left;
+	margin-bottom: 0;
+}
+
+div.radioSection label {
+	width: 340px;
+}
+
+div.multiRowRadioSection label {
+	width: 80px;
+}
+
+div.multiRowRadioSection {
+	width: 230px;
+}
+
+div.multiRowRadioSection input {
+	clear: none;
+}
+
+div.multiRowRadioSection input.clearRadioButton {
+	clear: left;
+}
+
+div.formItem input#zip {
+	width: 35px;
+}
+
+div.indentedCheckbox label {
+	width: 300px;
+}
+
+div.formItem input#area {
+	width: 107px;
+}
+
+form.citizenForm div.buttonLayer {
+	margin-bottom: 20px;
+}
+
+p.requiredInfo {
+	margin: 0;
+	padding: 0;
+	margin-left: 15px;
+	margin-bottom: 13px;
+}
+
+div.formSection p.requiredInfo {
+	margin-left: 0;
+}
+
+div.formSection p.requiredInfo span {
+	margin-right: 3px;
+}
+
+div.bottom a.button {
+	float: right;
+	margin-top: 0;
+	padding-top: 0;
+	height: 33px;
+	margin-left: 12px;
+}
+
+div.bottom a.button span {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #21262D;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: none !important;
+}
+
+div.bottom a.button:hover span {
+	color: #571900;
+}
+
+div.bottom a.button span span {
+	float: left;
+}
+
+div.bottom a.buttonHome {
+	float: left;
+}
+
+div.bottom a.button span.buttonSpan span.left, div.bottom a.button span.buttonSpan span.middle, div.bottom a.button span.buttonSpan span.right {
+	width: 7px;
+	height: 33px;
+}
+
+div.bottom a.button span.buttonSpan span.middle {
+	background: url(images/buttons/middle.png) repeat-x;
+	width: auto;
+	padding: 0 9px;
+	padding-top: 6px;
+}
+
+div.bottom a.button span.buttonSpan span.left {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/buttons/left.png',sizingMethod='scale');
+}
+
+html>body div.bottom a.button span.buttonSpan span.left {
+	filter: none;
+	background: url(images/buttons/left.png) no-repeat;
+}
+
+div.bottom a.button span.buttonSpan span.right {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/buttons/right.png',sizingMethod='scale');
+}
+
+html>body div.bottom a.button span.buttonSpan span.right {
+	filter: none;
+	background: url(images/buttons/right.png) no-repeat;
+}
+
+div.bottom a.button:hover span.buttonSpan span.middle {
+	background: url(images/buttons/middle_hover.png) repeat-x;
+}
+
+div.bottom a.button:hover span.buttonSpan span.left {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/buttons/left_hover.png',sizingMethod='scale');
+}
+
+html>body div.bottom a.button:hover span.buttonSpan span.left {
+	filter: none;
+	background: url(images/buttons/left_hover.png) no-repeat;
+}
+
+div.bottom a.button:hover span.buttonSpan span.right {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/buttons/right_hover.png',sizingMethod='scale');
+}
+
+html>body div.bottom a.button:hover span.buttonSpan span.right {
+	filter: none;
+	background: url(images/buttons/right_hover.png) no-repeat;
+}
+
+div.attention {
+	margin-top: 20px;
+	border: 2px #EFD585 solid;
+	background: url(images/backgrounds/attention_background.gif);
+	padding: 12px 18px;
+}
+
+div.attention div.attentionImage {
+	width: 24px;
+	height: 30px;
+	float: left;
+	margin-right: 18px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/attention_icon.png',sizingMethod='scale');
+}
+
+html>body div.attention div.attentionImage {
+	filter: none;
+	background: url(images/attention_icon.png) no-repeat;
+}
+
+
+div.attention div.attentionText {
+	float: left;
+	width: 672px;
+}
+
+div.attention div.attentionText p {
+	margin: 0;
+	padding: 0;
+}
+
+div.attention div.attentionClear {
+	clear: both;
+}
+
+div.printIcons {
+	text-align: right;
+	margin: 4px 6px;
+}
+
+input.indentedButton {
+	width: 10px;
+}
+
+table.adminTable tr th.edit, table.adminTable tr td.edit, table.adminTable tr th.remove, table.adminTable tr td.remove, table.adminTable tr th.viewContract, table.adminTable tr td.viewContract {
+	width: 16px;
+	text-align: center;
+}
+
+table.adminTable tr th.monday, table.adminTable tr td.monday {
+	text-align: center;
+}
+
+table.adminTable tr th.tuesday, table.adminTable tr td.tuesday {
+	text-align: center;
+}
+
+table.adminTable tr th.wednesday, table.adminTable tr td.wednesday {
+	text-align: center;
+}
+
+table.adminTable tr th.thursday, table.adminTable tr td.thursday {
+	text-align: center;
+}
+
+table.adminTable tr th.friday, table.adminTable tr td.friday {
+	text-align: center;
+}
+
+table.adminTable tr td.isPickedUp span {
+	padding: 2px 3px;
+	background-color: #f09e00;
+	color: #ffffff;
+}
+
+table.adminTable tr td.walksSelf span {
+	padding: 2px 3px;
+	background-color: #0088ff;
+	color: #ffffff;
+}
+
+table.adminTable tr td.usesTravelService span {
+	padding: 2px 3px;
+	background-color: #ff1223;
+	color: #ffffff;
+}
+
+table.adminTable tr td.appliedTo span {
+	padding: 2px 3px;
+	background-color: #f09e00;
+	color: #ffffff;
+}
+table.adminTable tr td.appliedTo.selectedDay span {
+	padding: 2px 3px;
+	background-color: #0088ff;
+	color: #ffffff;
+}
+
+table.adminTable tr td.offered span {
+	padding: 2px 3px;
+	background-color: #ff4444 !important;
+	color: #fff000;
+}
+
+table.adminTable tr.locked, table.adminTable tr.approved, table.adminTable tr.missingAttachments, table.adminTable tr.choiceNextSeason, table.adminTable tr.placementHasNotStarted, table.adminTable tr.previouslyPlaced, table.adminTable tr.parentCancelled, table.adminTable tr.removed, table.adminTable tr.noSchoolPlacing {
+	background-color: #cce7ff;
+}
+
+table.adminTable tr.inactive, table.adminTable tr.closed, table.adminTable tr.hasReceivedReminder, table.adminTable tr.placementHasTerminationDate, table.adminTable tr.hasOffer, table.adminTable tr.otherPayer, table.adminTable tr.notYetActive {
+	background-color: #fff0cc;
+}
+
+table.adminTable tbody tr.sent_to_parents td {
+	background-color : #f0c0ff !important;
+}
+
+table.adminTable tbody tr.parents_accepted td {
+	background-color : #e2d0b3 !important;
+}
+
+table.adminTable tbody tr.parents_rejected_offer td {
+	background-color : #00ff00 !important;
+}
+
+ul.legend li.parents_accepted {
+	color : #e2d0b3;
+}
+
+ul.legend li.parents_rejected_offer {
+	color : #00ff00;
+}
+
+ul.legend li.parents_accepted span {
+	background-color : #e2d0b3;
+}
+
+ul.legend li.parents_rejected_offer span {
+	background-color : #00ff00;
+}
+
+ul.legend li.sent_to_parents {
+	color : #f0c0ff;
+}
+
+ul.legend li.sent_to_parents span {
+	background-color : #f0c0ff;
+}
+
+ul.legend li.isPickedUp span, 
+ul.legend li.isPickedUp {
+	color: #f09e00;
+}
+
+ul.legend li.walksSelf span,
+ul.legend li.walksSelf {
+	color: #0088ff;
+}
+
+ul.legend li.usesTravelService span,
+ul.legend li.usesTravelService {
+	color: #ff1223;
+}
+
+ul.legend li.appliedTo, 
+ul.legend li.appliedTo span{
+	color: #f09e00;
+}
+
+ul.legend li.appliedTo.selectedDay,
+ul.legend li.appliedTo.selectedDay span {
+	color: #0088ff;
+}
+
+ul.legend li.offered,
+ul.legend li.offered span {
+	color: #ff4444 !important;
+}
+
+ul.legend li.locked, ul.legend li.approved, ul.legend li.missingAttachments, ul.legend li.choiceNextSeason, ul.legend li.placementHasNotStarted, ul.legend li.previouslyPlaced, ul.legend li.parentCancelled, ul.legend li.removed, ul.legend li.noSchoolPlacing {
+	color: #0088ff;
+}
+
+ul.legend li.inactive, ul.legend li.closed, ul.legend li.hasReceivedReminder, ul.legend li.placementHasTerminationDate, ul.legend li.hasOffer, ul.legend li.otherPayer, ul.legend li.notYetActive {
+	color: #f09e00;
+}
+
+table.adminTable tr.isPlaced {
+	background-color: #ffa0ff;
+}
+
+table.adminTable tr.hasReview {
+	background-color: #00ffdd;
+}
+
+ul.legend li.isPlaced {
+	color: #f09ef0;
+}
+
+ul.legend li.hasReview {
+	color: #00ddaa;
+}
+
+div.multiValueItem {
+	width: 754px;
+	clear: left;
+	margin-bottom: 3px;
+}
+
+div.multiValueItem span {
+	float: left
+	display: block;
+	position: relative;
+	width: 190px;
+	clear: none;
+}
+
+form#applicationCreator table tr th.url, form#applicationCreator table tr td.url {
+	display: none;
+}
+
+form#applicationCreator table tr th, form#applicationCategoryCreator table tr th {
+	border-top: 0;
+}
+
+form#afterSchoolCareApplicationAdmin div#type {
+	display: none;
+}
+
+div.formItem input.indentedButton {
+	margin-left: 160px;
+}
+
+div.applicationLegend {
+	width: 758px;
+	height: 55px;
+	margin-left: 15px;
+	margin-top: 13px;
+	background: url(images/backgrounds/legend_background.gif) no-repeat;
+}
+
+div.applicationLegend div.applicationLegendImage {
+	background: url(images/legend_image.gif) no-repeat;
+	width: 27px;
+	height: 31px;
+	margin: 8px 12px 0 18px;
+	float: left;
+}
+
+div.applicationLegend ul {
+	margin: 0;
+	padding: 0;
+	padding-top: 8px;
+	list-style: none;
+	float: left;
+}
+
+div.applicationLegend ul li {
+	color: #646464;
+	font-size: 11px;
+	padding-left: 18px;
+	background: url(images/bullets/blue_bullet_legend.gif) no-repeat;
+}
+
+div.applicationLegend ul li a {
+	color: #646464;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+div.applicationLegend ul li a:hover {
+	text-decoration: underline;
+}
+
+div.applicationLegend ul li.electronic {
+	background-image: url(images/bullets/yellow_bullet_legend.gif);
+}
+
+div.applicationLegend ul li.requiresLogin {
+	background-image: url(images/bullets/green_bullet_legend.gif);
+}
+
+div.statisticsLayer {
+	width: 360px;
+	float: left;
+	clear: none;
+}
+
+div.statisticsLayer h1 {
+	margin: 0;
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+div.statisticsLayer h2 {
+	margin: 0;
+	margin-bottom: 6px;
+	margin-top: 9px;
+	font-size: 12px;
+}
+
+div.statisticsLayer div.formItem {
+	margin-bottom: 0;
+}
+
+form#afterSchoolCareStudentOverview div.attention {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+div.editLayer {
+	overflow: hidden;
+	float: left;
+	width: 542px;
+}
+
+div.editLayer a {
+	text-decoration: none;
+	line-height: 33px;
+	float: left;
+	background: url(images/buttons/left.png) top left no-repeat;
+}
+
+div.editLayer a span {
+	margin-left: 7px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #21262D;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 9px;
+	padding-right: 16px;
+	background: url(images/buttons/right_big.png) top right no-repeat;
+}
+
+div.editLayer a:hover {
+	background-image: url(images/buttons/left_hover.png);
+}
+
+div.editLayer a:hover span {
+	color: #571900;
+	background-image: url(images/buttons/right_big_hover.png);
+}
+
+h1.productHeading {
+	font-size: 14px;
+	margin-left: 17px;
+	margin-top: 20px;
+}
+
+div.stop div.formItem {
+	position: relative;
+}
+
+div.radioButtonItem label {
+	width: auto;
+}
+
+div.statisticsLayer {
+	width: auto;
+	padding: 0;
+}
+
+div.statisticsLayer h1 {
+	display: none;
+}
+
+div.statisticsLayer h2 {
+	padding: 10px 15px;
+}
+
+* html #applicationCategoryViewer .applicationCategory {
+	height: 150px !important;
+}
+
+#applicationCategoryViewer .applicationCategory {
+	min-height: 150px !important;
+	width: 240px !important;
+}
+
+html* div#left #childCareApplicationForm {
+	height: auto !important;
+	min-height: 1799px !important;
+}
+
+html* h1.subHeader {
+	display: block;
+	width: 770px;
+}
+
+html* #childCareApplicationForm h1.subHeader.topSubHeader {
+	margin-top: 9px;
+}
+
+html* div#start_date.formItem table {
+	margin-top: -18px;
+}
+
+html* div#start_date.formItem input {
+	margin: 0;
+	padding: 0;
+}
+
+html* div#start_date.formItem img {
+	margin-top: 15px;
+	height: 14px;
+}
+
+#childCareApplicationForm .header .buttonContainer {
+	overflow: hidden;
+}
+
+#childCareApplicationForm .buttonContainer div.centrale {
+	float: right;
+	margin-right: 10px;
+	width: auto;
+	padding-top: 6px;
+	display: inline;
+	cursor: pointer;
+}
+
+span.required {
+	padding-right: 2px;
+}
+
+div.formSection p.requiredInformation {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 24px;
+}
+
+form#applicationForm {
+	position: relative;
+}
+
+div.helperText {
+	position: relative;
+	top: 0;
+	right: 0;
+	float: right;
+	width: 200px;
+}
+
+div.phases {
+	z-index: 1;
+}
+
+html>body div.info {
+	height: auto;
+	min-height: 62px;
+}
+
+div.info {
+	overflow: hidden;
+}
+
+div.info div.helperText {
+	margin-top: 16px;
+}
+
+div.formItem {
+	clear: none;
+	float: left;
+	width: 542px;
+	margin-bottom: 8px;
+}
+
+div.formItem label {
+	margin-bottom: 8px;
+	width: 152px;
+	margin-right: 8px;
+}
+
+div.formItem span p {
+	margin: 0;
+	padding: 0;
+}
+
+div.required span {
+	padding-right: 8px;
+	background: url(images/bullets/required.gif) right top no-repeat;
+}
+
+div.formSection {
+	padding: 13px 15px;
+	position: relative;
+	height: 20px;
+}
+
+html>body div.formSection {
+	height: auto;
+overflow: hidden;
+}
+
+div.formItem textarea {
+	clear: none;
+	width: 330px;
+}
+
+div.formItem input, div.formItem textarea, div.formItem select {
+	margin-right: 5px;
+	margin-bottom: 8px;
+	font-size: 11px;
+}
+
+div.formSection textarea {
+	font-size: 11px;
+}
+
+div.formItem select.dateInput {
+	width: auto;
+}
+
+div.informationItem {
+	width: auto;
+	float: none;
+	clear: both;
+	margin-bottom: 16px;
+}
+
+div.informationItem label {
+	width: auto;
+	display: block;
+	float: none;
+	margin-bottom: 4px;
+}
+
+div.informationItem span {
+	float: none;
+	width: auto;
+}
+
+
+h1.subHeader {
+	height: 17px;
+	padding-top: 5px;
+}
+
+div.phases ul li {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/blue_orb.png',sizingMethod='scale');
+	height: 16px;
+	padding-top: 4px;
+	line-height: 12px;
+}
+
+div.phases ul li.current {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/orange_orb.png',sizingMethod='scale');
+	height: 40px;
+	line-height: 26px;
+	padding-top: 6px;
+}
+
+div.bottom a:hover {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+}
+
+div.bottom a.buttonBack {
+	margin-right: 6px;
+}
+
+div.bottom a.buttonNext {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_next.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonNext:hover {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_next_hover.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonBack {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_back.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonBack:hover {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_back_hover.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonCancel {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_cancel.png',sizingMethod='scale');
+}
+
+div.bottom a.buttonCancel:hover {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_cancel_hover.png',sizingMethod='scale');
+}
+
+div.formItem label {
+	padding-top: 0;
+}
+
+div#applicationCategoryViewer {
+	padding: 0 15px;
+	height: 180px;
+	padding-bottom: 13px;
+}
+
+html>body div#applicationCategoryViewer {
+	height: auto;
+	min-height: 180px;
+}
+
+div#applicationCategoryViewer h1 {
+	margin-top: 0;
+	margin-bottom: 6px;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#applicationCategoryViewer div.applicationCategory {
+	float: left;
+	width: 240px;
+	height: 85px;
+	margin-top: 13px;
+}
+
+html>body div#applicationCategoryViewer div.applicationCategory {
+	height: auto;
+	min-height: 85px;
+}
+
+div#applicationCategoryViewer div.empty {
+	display: none;
+}
+
+div#applicationCategoryViewer div.applicationCategory ul, div#favoriteApplications ul, div#userApplications ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li, div#favoriteApplications ul li, div#userApplications ul li {
+	line-height: 13px;
+	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
+	padding-left: 17px;
+	padding-right: 6px;
+}
+
+div#favoriteApplications ul li, div#userApplications ul li {
+	line-height: 11px;
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li a, div#favoriteApplications ul li a, div#userApplications ul li a {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li.electronic, div#favoriteApplications ul li.electronic, div#userApplications ul li.electronic {
+	background-image: url(images/bullets/yellow_bullet.gif);
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li.requiresLogin, div#favoriteApplications ul li.requiresLogin, div#userApplications ul li.requiresLogin {
+	background-image: url(images/bullets/green_bullet.gif);
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li.caseConnected, div#favoriteApplications ul li.caseConnected, div#userApplications ul li.caseConnected {
+	background-image: url(images/bullets/green_bullet.gif);
+}
+
+div#applicationCategoryViewer div.applicationCategory ul li a:hover, div#favoriteApplications ul li a:hover, div#userApplications ul li a:hover {
+	text-decoration: underline;
+}
+
+form#accountApplicationForward {
+	padding: 18px 20px;
+	height: 81px;
+	position:relative;
+}
+
+form#accountApplicationForward div.label, form#accountApplicationForward div.example {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+form#accountApplicationForward input {
+	font-size: 10px;
+	width: 140px;
+	margin-bottom: 5px;
+}
+
+form#accountApplicationForward div.example {
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+
+form#accountApplicationForward a {
+	position: absolute;
+	top: 94px;
+	right: 11px;
+	text-decoration: underline;
+	color: #000;
+	background: url(images/button_image.gif) right no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-right: 14px;
+}
+
+ul.applicationLegend {
+	margin: 5px 15px 13px 15px;
+	padding: 0;
+	list-style: none;
+}
+
+ul.applicationLegend li {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 13px;
+	padding-left: 17px;
+}
+
+ul.applicationLegend li.redBullet {
+	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
+}
+
+ul.applicationLegend li.greenBullet {
+	background: url(images/bullets/green_bullet.gif) no-repeat top left;
+}
+
+div.receipt, div.stop {
+	height: auto;
+	overflow: hidden;
+}
+
+div.receiptImage, div.stopImage {
+	width: 67px;
+	height: 77px;
+}
+
+div.receipt a, div.receipt a:hover {
+	text-decoration: underline;
+	color: #000;
+	background: url(images/button_image.gif) right no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-right: 14px;
+}
+
+div.receiptImage {
+	margin-bottom: 160px;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/receipt_icon.png',sizingMethod='scale');
+}
+
+html>body div.receiptImage {
+	filter: none;
+	background: url(images/receipt_icon.png) no-repeat;
+}
+
+div.stopImage {
+	margin-bottom: 160px;
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/stop_icon.png',sizingMethod='scale');
+}
+
+html>body div.stopImage {
+	filter: none;
+	background: url(images/stop_icon.png) no-repeat;
+}
+
+div.errorLayer div.errorImage {
+	background: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/error_image.png',sizingMethod='scale');
+}
+
+html>body div.errorLayer div.errorImage {
+	filter: none;
+	background: url(images/error_image.png) no-repeat;
+}
+
+div.radioSection {
+	float: left;
+	margin-bottom: 8px;
+}
+
+div.radioSection input {
+	float: left;
+	clear: left;
+	margin-bottom: 0;
+}
+
+div.radioSection label {
+	width: 340px;
+}
+
+div.multiRowRadioSection label {
+	width: 80px;
+}
+
+div.multiRowRadioSection {
+	width: 230px;
+}
+
+div.multiRowRadioSection input {
+	clear: none;
+}
+
+div.multiRowRadioSection input.clearRadioButton {
+	clear: left;
+}
+
+div.formItem input#zip {
+	width: 35px;
+}
+
+div.indentedCheckbox label {
+	width: 300px;
+}
+
+div.formItem input#area {
+	width: 107px;
+}
+
+p.requiredInfo {
+	margin: 0;
+	padding: 0;
+	margin-left: 15px;
+	margin-bottom: 13px;
+}
+
+div.formSection p.requiredInfo {
+	margin-left: 0;
+}
+
+div.formSection p.requiredInfo span {
+	margin-right: 3px;
+}
+
+div.bottom a.button {
+	float: right;
+	margin-top: 0;
+	padding-top: 0;
+	height: 33px;
+	margin-left: 12px;
+}
+
+div.bottom a.button span {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #21262D;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+div.bottom a.button:hover span {
+	color: #571900;
+}
+
+div.bottom a.button span span {
+	float: left;
+}
+
+div.bottom a.buttonHome {
+	float: left;
+}
+
+div.bottom a.button span.buttonSpan span.left, div.bottom a.button span.buttonSpan span.middle, div.bottom a.button span.buttonSpan span.right {
+	width: 7px;
+	height: 33px;
+}
+
+div.bottom a.button span.buttonSpan span.middle {
+	background: url(images/buttons/middle.png) repeat-x;
+	width: auto;
+	padding: 0 9px;
+	padding-top: 6px;
+}
+
+div.bottom a.button span.buttonSpan span.left {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/buttons/left.png',sizingMethod='scale');
+}
+
+html>body div.bottom a.button span.buttonSpan span.left {
+	filter: none;
+	background: url(images/buttons/left.png) no-repeat;
+}
+
+div.bottom a.button span.buttonSpan span.right {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/buttons/right.png',sizingMethod='scale');
+}
+
+html>body div.bottom a.button span.buttonSpan span.right {
+	filter: none;
+	background: url(images/buttons/right.png) no-repeat;
+}
+
+div.bottom a.button:hover span.buttonSpan span.middle {
+	background: url(images/buttons/middle_hover.png) repeat-x;
+}
+
+div.bottom a.button:hover span.buttonSpan span.left {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/buttons/left_hover.png',sizingMethod='scale');
+}
+
+html>body div.bottom a.button:hover span.buttonSpan span.left {
+	filter: none;
+	background: url(images/buttons/left_hover.png) no-repeat;
+}
+
+div.bottom a.button:hover span.buttonSpan span.right {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/buttons/right_hover.png',sizingMethod='scale');
+}
+
+html>body div.bottom a.button:hover span.buttonSpan span.right {
+	filter: none;
+	background: url(images/buttons/right_hover.png) no-repeat;
+}
+
+div.attention {
+	margin-top: 20px;
+	border: 2px #EFD585 solid;
+	background: url(images/backgrounds/attention_background.gif);
+	padding: 12px 18px;
+}
+
+div.attention div.attentionImage {
+	width: 24px;
+	height: 30px;
+	float: left;
+	margin-right: 18px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/attention_icon.png',sizingMethod='scale');
+}
+
+html>body div.attention div.attentionImage {
+	filter: none;
+	background: url(images/attention_icon.png) no-repeat;
+}
+
+
+div.attention div.attentionText {
+	float: left;
+	width: 672px;
+}
+
+div.attention div.attentionText p {
+	margin: 0;
+	padding: 0;
+}
+
+div.attention div.attentionClear {
+	clear: both;
+}
+
+div.printIcons {
+	text-align: right;
+	margin: 4px 6px;
+}
+
+input.indentedButton {
+	width: 10px;
+}
+
+table.adminTable tr th.edit, table.adminTable tr td.edit, table.adminTable tr th.remove, table.adminTable tr td.remove, table.adminTable tr th.viewContract, table.adminTable tr td.viewContract {
+	width: 16px;
+	text-align: center;
+}
+
+table.adminTable tr th.monday, table.adminTable tr td.monday {
+	text-align: center;
+}
+
+table.adminTable tr th.tuesday, table.adminTable tr td.tuesday {
+	text-align: center;
+}
+
+table.adminTable tr th.wednesday, table.adminTable tr td.wednesday {
+	text-align: center;
+}
+
+table.adminTable tr th.thursday, table.adminTable tr td.thursday {
+	text-align: center;
+}
+
+table.adminTable tr th.friday, table.adminTable tr td.friday {
+	text-align: center;
+}
+
+table.adminTable tr td.isPickedUp span {
+	padding: 2px 3px;
+	background-color: #f09e00;
+	color: #ffffff;
+}
+
+table.adminTable tr td.walksSelf span {
+	padding: 2px 3px;
+	background-color: #0088ff;
+	color: #ffffff;
+}
+
+table.adminTable tr td.usesTravelService span {
+	padding: 2px 3px;
+	background-color: #ff1223;
+	color: #ffffff;
+}
+
+table.adminTable tr td.appliedTo span {
+	padding: 2px 3px;
+	background-color: #f09e00;
+	color: #ffffff;
+}
+table.adminTable tr td.appliedTo.selectedDay span {
+	padding: 2px 3px;
+	background-color: #0088ff;
+	color: #ffffff;
+}
+
+table.adminTable tr td.offered span {
+	padding: 2px 3px;
+	background-color: #ff4444 !important;
+	color: #fff000;
+}
+
+table.adminTable tr.locked, table.adminTable tr.approved, table.adminTable tr.missingAttachments, table.adminTable tr.choiceNextSeason, table.adminTable tr.placementHasNotStarted, table.adminTable tr.previouslyPlaced, table.adminTable tr.parentCancelled, table.adminTable tr.removed, table.adminTable tr.noSchoolPlacing {
+	background-color: #cce7ff;
+}
+
+table.adminTable tr.inactive, table.adminTable tr.closed, table.adminTable tr.hasReceivedReminder, table.adminTable tr.placementHasTerminationDate, table.adminTable tr.hasOffer, table.adminTable tr.otherPayer, table.adminTable tr.notYetActive {
+	background-color: #fff0cc;
+}
+
+table.adminTable tbody tr.sent_to_parents td {
+	background-color : #f0c0ff;
+}
+
+table.adminTable tbody tr.parents_accepted td {
+	background-color : #e2d0b3;
+}
+
+table.adminTable tbody tr.parents_rejected_offer td {
+	background-color : #00ff00;
+}
+
+ul.legend li.parents_accepted {
+	color : #e2d0b3;
+}
+
+ul.legend li.parents_accepted span {
+	background-color : #e2d0b3;
+}
+
+ul.legend li.parents_rejected_offer {
+	color : #00ff00;
+}
+
+ul.legend li.parents_rejected_offer span {
+	background-color : #00ff00;
+}
+
+ul.legend li.sent_to_parents {
+	color : #f0c0ff;
+}
+
+ul.legend li.sent_to_parents span {
+	background-color : #f0c0ff;
+}
+
+ul.legend li.isPickedUp span, 
+ul.legend li.isPickedUp {
+	color: #f09e00;
+}
+
+ul.legend li.walksSelf span,
+ul.legend li.walksSelf {
+	color: #0088ff;
+}
+
+ul.legend li.usesTravelService span,
+ul.legend li.usesTravelService {
+	color: #ff1223;
+}
+
+ul.legend li.appliedTo, 
+ul.legend li.appliedTo span{
+	color: #f09e00;
+}
+
+ul.legend li.appliedTo.selectedDay,
+ul.legend li.appliedTo.selectedDay span {
+	color: #0088ff;
+}
+
+ul.legend li.offered,
+ul.legend li.offered span {
+	color: #ff4444 !important;
+}
+
+ul.legend li.locked, ul.legend li.approved, ul.legend li.missingAttachments, ul.legend li.choiceNextSeason, ul.legend li.placementHasNotStarted, ul.legend li.previouslyPlaced, ul.legend li.parentCancelled, ul.legend li.removed, ul.legend li.noSchoolPlacing {
+	color: #0088ff;
+}
+
+ul.legend li.inactive, ul.legend li.closed, ul.legend li.hasReceivedReminder, ul.legend li.placementHasTerminationDate, ul.legend li.hasOffer, ul.legend li.otherPayer, ul.legend li.notYetActive {
+	color: #f09e00;
+}
+
+table.adminTable tr.isPlaced {
+	background-color: #ffa0ff;
+}
+
+table.adminTable tr.hasReview {
+	background-color: #00ffdd;
+}
+
+ul.legend li.isPlaced {
+	color: #f09ef0;
+}
+
+ul.legend li.hasReview {
+	color: #00ddaa;
+}
+
+div.multiValueItem {
+	width: 754px;
+	clear: left;
+	margin-bottom: 3px;
+}
+
+div.multiValueItem span {
+	float: left
+	display: block;
+	position: relative;
+	width: 190px;
+	clear: none;
+}
+
+form#applicationCreator table tr th.url, form#applicationCreator table tr td.url {
+	display: none;
+}
+
+form#applicationCreator table tr th, form#applicationCategoryCreator table tr th {
+	border-top: 0;
+}
+
+form#afterSchoolCareApplicationAdmin div#type {
+	display: none;
+}
+
+div.formItem input.indentedButton {
+	margin-left: 160px;
+}
+
+div.applicationLegend {
+	width: 758px;
+	height: 55px;
+	margin-left: 15px;
+	margin-top: 13px;
+	background: url(images/backgrounds/legend_background.gif) no-repeat;
+}
+
+div.applicationLegend div.applicationLegendImage {
+	background: url(images/legend_image.gif) no-repeat;
+	width: 27px;
+	height: 31px;
+	margin: 8px 12px 0 18px;
+	float: left;
+}
+
+div.applicationLegend ul {
+	margin: 0;
+	padding: 0;
+	padding-top: 8px;
+	list-style: none;
+	float: left;
+}
+
+div.applicationLegend ul li {
+	color: #646464;
+	font-size: 11px;
+	padding-left: 18px;
+	background: url(images/bullets/blue_bullet_legend.gif) no-repeat;
+}
+
+div.applicationLegend ul li a {
+	color: #646464;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+div.applicationLegend ul li a:hover {
+	text-decoration: underline;
+}
+
+div.applicationLegend ul li.electronic {
+	background-image: url(images/bullets/yellow_bullet_legend.gif);
+}
+
+div.applicationLegend ul li.requiresLogin {
+	background-image: url(images/bullets/green_bullet_legend.gif);
+}
+
+div.statisticsLayer {
+	width: 360px;
+	float: left;
+	clear: none;
+}
+
+div.statisticsLayer h1 {
+	margin: 0;
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+div.statisticsLayer h2 {
+	margin: 0;
+	margin-bottom: 6px;
+	margin-top: 9px;
+	font-size: 12px;
+}
+
+div.statisticsLayer div.formItem {
+	margin-bottom: 0;
+}
+
+form#afterSchoolCareStudentOverview div.attention {
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+div.editLayer {
+	overflow: hidden;
+	float: left;
+	width: 542px;
+}
+
+div.editLayer a {
+	text-decoration: none;
+	line-height: 33px;
+	float: left;
+	background: url(images/buttons/left.png) top left no-repeat;
+}
+
+div.editLayer a span {
+	margin-left: 7px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #21262D;
+	text-align: center;
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 9px;
+	padding-right: 16px;
+	background: url(images/buttons/right_big.png) top right no-repeat;
+}
+
+div.editLayer a:hover {
+	background-image: url(images/buttons/left_hover.png);
+}
+
+div.editLayer a:hover span {
+	color: #571900;
+	background-image: url(images/buttons/right_big_hover.png);
+}
+
+h1.productHeading {
+	font-size: 14px;
+	margin-left: 17px;
+	margin-top: 20px;
+}
+
+div.stop div.formItem {
+	position: relative;
+}
+
+div.radioButtonItem label {
+	width: auto;
+}
+
+div.statisticsLayer {
+	width: auto;
+	padding: 0;
+}
+
+div.statisticsLayer h1 {
+	display: none;
+}
+
+div.statisticsLayer h2 {
+	padding: 10px 15px;
+}
+
+* html #applicationCategoryViewer .applicationCategory {
+	height: 150px !important;
+}
+
+#applicationCategoryViewer .applicationCategory {
+	min-height: 180px !important;
+	width: 240px !important;
+}
+
+html* div#left #childCareApplicationForm {
+	height: auto !important;
+	min-height: 1799px !important;
+}
+
+html* h1.subHeader {
+	display: block;
+	width: 770px;
+}
+
+html* #childCareApplicationForm h1.subHeader.topSubHeader {
+	margin-top: 9px;
+}
+
+html* div#start_date.formItem table {
+	margin-top: -18px;
+}
+
+html* div#start_date.formItem input {
+	margin: 0;
+	padding: 0;
+}
+
+html* div#start_date.formItem img {
+	margin-top: 15px;
+	height: 14px;
+}
+
+#childCareApplicationForm .header .buttonContainer {
+	overflow: hidden;
+}
+
+#childCareApplicationForm .buttonContainer div.centrale {
+	float: right;
+	margin-right: 10px;
+	width: auto;
+	padding-top: 6px;
+	display: inline;
+	cursor: pointer;
+}
+
+div.formSection ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+div.formSection ul li {
+	margin-bottom: 12px;
+}
+
+div.formSection ul li span {
+	font-weight: bold;
+	font-size: 11px;
+	display: block;
+}
+
+div.formSection ul li span.dayValidFrom, div.formSection ul li span.dayValidTo, div.formSection ul li span.dayDepartureTime {
+	font-size: 11px;
+	color: #999;
+	font-weight: normal;
+}
+
+div.buttonLayer {
+	display: block;
+	overflow: hidden;
+	padding-left: 160px;
+	margin-top: 0 !important;
+}
+
+form.citizenForm div.buttonLayer a {
+	background: transparent url(/style/images/button_image.gif) no-repeat scroll right center;
+	color: #000000;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 10px;
+	padding-right: 14px;
+	text-align: left;
+	text-decoration: underline;
+	margin-left: 170px;
+	text-transform: none;
+	font-weight: normal;
+}
+
+div.applicationCategory p {
+	display: none;
+}
+
+/* Article override */
+
+div#announcementsFront .blog-entry, div#announcementsRight .blog-entry {
+	margin: 0;
+	width: auto;
+}
+
+div#announcementsFront .content_item_toolbarcontainer, div#announcementsRight .content_item_toolbarcontainer {
+	display: none;
+}
+
+div#announcementsFront .blog-entry-title, div#announcementsRight .blog-entry-title {
+	margin-bottom: 2px;
+	margin-top: 0;
+	line-height: 12px;
+	background: url(images/bullets/bullet_arrows.gif) no-repeat top left;
+	padding-left: 11px;
+	width: auto;
+}
+
+html>body div#announcementsFront .blog-entry-title, html>body div#announcementsRight .blog-entry-title {
+	margin-bottom: 3px;
+}
+
+div#announcementsFront .blog-entry-title a, div#announcementsRight .blog-entry-title a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #191919;
+	font-size: 10px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+div#announcementsFront .blog-entry-title a:hover, div#announcementsRight .blog-entry-title a:hover {
+	text-decoration: underline;
+}
+
+div#announcementsFront .article_author, div#announcementsRight .article_author {
+	display: none;
+}
+
+div#announcementsFront .blog-entry-date, div#announcementsRight .blog-entry-date {
+	display: none;
+}
+
+div#announcementsFront .blog-entry-body, div#announcementsRight .blog-entry-body {
+	display: none;
+}
+
+div#announcementsFront .article_teaser, div#announcementsRight .article_teaser {
+	display: none;
+}
+
+div#announcementsFront .item_details_command, div#announcementsRight .item_details_command {
+	display: none;
+}
+
+div#announcementsDetails .article_item, div#announcementsDetails .blog-entry {
+	margin: 13px 15px;
+	width: auto;
+}
+
+div#announcementsDetails .article_author {
+	display: none;
+}
+
+div#announcementsDetails .article_teaser {
+	display: none;
+}
+
+div#announcementsDetails .blog-entry-date {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 0;
+	padding: 0;
+	margin-bottom: 3px;
+}
+
+div#announcementsDetails .blog-entry-title {
+	width: auto;
+	margin-bottom: 12px;
+}
+
+div#announcementsDetails .blog-entry-body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: auto;
+	margin-bottom: 16px;
+}
+
+/** Login styles **/ 
+
+.logout .currentUser {
+	display: none;
+}
+
+.logout div.username, .logout div.password, .logout a.loginButton {
+	display: none;
+}
+
+.defaultLogin {
+	max-width: 100%;
+}
+
+.defaultLogin {
+width: auto;
+}
+
+.defaultLogin label {
+	width: 160px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #222222;
+	margin: 0;
+	text-align: left;
+}
+
+.defaultLogin input {
+	margin-bottom: 8px;
+}
+
+.defaultLogin div.submit {
+	margin-top: 10px;
+	margin-left: 160px;
+	text-align: left;
+}
+
+.defaultLogin div.submit a {
+	text-decoration: underline;
+	color: #000;
+	background: url(images/button_image.gif) right no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-right: 14px;
+}
+
+div#loginBox {
+	position: relative;
+}
+
+div#loginBox div.boxHeader {
+	clear: both;
+	position: relative;
+}
+
+div#loginBox div.boxContentGrey {
+	position: relative;
+}
+
+div#loginBox div.login {
+	float: none;
+	top: 0;
+	left: 0;
+	clear: both;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+div#loginBox div.login div {
+	clear: both;
+}
+
+div#loginBox div.login label {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	float: none;
+	text-align: left;
+	width: auto;
+	margin: 0;
+	margin-bottom: 3px;
+	margin-left: 20px;
+}
+
+div#loginBox div.login input {
+	font-size: 10px;
+	width: 140px;
+	margin-left: 20px;
+}
+
+div#loginBox div.login div.password {
+	padding-top: 10px;
+}
+
+div#loginBox div.login div.username {
+	padding-top: 6px;
+}
+
+div#loginBox div.login p.currentUser, div#loginBox div.login p.errorMessage {
+	text-align: center;
+	padding-top: 36px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 12px;
+}
+
+div#loginBox div.submit {
+	position: absolute;
+	top: 94px;
+	right: 11px;
+}
+
+div#loginBox div.submit a {
+	text-decoration: underline;
+	color: #000;
+	background: url(images/button_image.gif) right no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-right: 14px;
+}
+
+div#loginBox div.submit a span {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+a.lostPassword {
+	position: absolute;
+	top: 94px;
+	left: 12px;
+	text-decoration: underline;
+	color: #000;
+	background: url(images/button_image.gif) right no-repeat;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	padding-right: 14px;
+}
+
+a.lostPassword:hover {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/** End Login styles **/
+
+/* Process override */
+div#userCases {
+	margin-bottom: 38px;
+}
+
+div.caseHeader {
+	height: 48px;
+	border: 0;
+	border-top: 1px #c5c5c5 solid;
+	background: url(images/backgrounds/case_background.gif) repeat-x;
+}
+
+table.caseTable tBody tr.ruled{
+	background: #E8F1FC;
+}
+
+table.caseTable tbody tr td, table.caseTable thead tr th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table.caseTable td a, table.caseTable td a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#userCases div.caseHeader {
+	border-top: 0;
+}
+
+html>body div.caseHeader {
+	height: auto;
+	min-height: 48px;
+}
+
+div.caseHeading {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div.caseNavigation select {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div.caseNavigation {
+	top: 16px;
+}
+
+div.caseNavigation ul li {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table.caseTable thead tr {
+	background: url(backgrounds/table_header_background.gif) repeat-x #D6D6D6;
+	text-align: left;
+}
+
+table.caseTable tr.newEntry td.messageSubject a {
+	background: url(/idegaweb/bundles/com.idega.block.process.bundle/resources/new.gif) right no-repeat;
+	padding-left: 0;
+	padding-right: 36px;
+}
+
+table.caseTable td img {
+	vertical-align: bottom;
+	width: 15px;
+	height: 14px;
+}
+
+table.caseTable thead tr th {
+	border-top: 1px #A4A4A4 solid;
+	border-bottom: 1px #A4A4A4 solid;
+}
+
+table.caseTable tbody tr {
+	background-color: #FFFFFF;
+	text-align: left;
+}
+
+table.caseTable tBody tr td {
+	border-top: 0;
+	border-bottom: 1px #D5D5D5 solid;
+}
+
+table.caseTable th.firstColumn, table.caseTable td.firstColumn {
+	padding-left: 17px;
+	text-align: left;
+}
+
+table.caseTable th.lastColumn, table.caseTable td.lastColumn {
+	padding-right: 17px;
+}
+
+div.caseNavigation select {
+	font-family: Arial, Helvetica, sans-serif;
+	height: 15px;
+	border: 1px #d5d5d5 solid;
+	width: 85px;
+}
+
+div.caseNavigation ul li {
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #303030;
+}
+
+
+div#messageViewer div.caseHeading {
+	display: none;
+}
+
+div#messageViewer div.caseHeader {
+	border-bottom: 1px #a4a4a4 solid;
+}
+
+div.messageSubjectHeading {
+	display: block;
+	position: relative;
+	top: 18px;
+	left: 16px;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #303030;
+	text-shadow: #FFFFFF 2px 2px 1px;
+	width: auto;
+}
+
+div#messageSubject {
+	display: none;
+}
+
+div.messageItem {
+	margin-bottom: 6px;
+}
+
+div#messageBody {
+	padding: 13px 15px;
+	line-height: 15px;
+}
+
+div.caseElement div.buttonLayer {
+	clear: both;
+	margin: 20px 12px 12px 0;
+	text-align: right;
+}
+
+/** Q&A Override **/
+
+
+.questions_and_answers {
+	width: auto; 
+	margin: 22px 15px;
+}
+
+
+/* style definitions for administration of categories part */
+.questions_and_answers .category_admin {   
+	width: auto;
+}
+
+.questions_and_answers .category_admin .category_management { 
+	margin-top: 2px;
+	display: block; 
+	float: left;    
+}
+.questions_and_answers .category_admin .category_help {
+	display: block;   
+	float: right;    
+}
+.questions_and_answers .category_admin .clearer {
+	clear: both;
+	width: 1px; height: 1px;    
+}
+
+
+/* style definitions for administration of questions part */
+.questions_and_answers .questions_admin {
+	display: block;
+}
+
+.questions_and_answers .questions_admin .category {
+	display: none;
+}
+
+.questions_and_answers .questions_admin .item{
+	display: block;
+}
+
+.questions_and_answers .questions_admin .item p.number {
+	display: none;
+}
+
+/* style definitions for list of questions and answers part */
+.questions_and_answers .questions_list {
+	margin-top: 0;
+}
+.questions_and_answers .questions_list .category{
+	display: none;
+}
+
+.questions_and_answers .questions_list .item{
+    margin-bottom: 28px;
+    margin-left: 0;
+    margin-top: 0;    
+}
+
+.questions_and_answers .questions_list .item .question{
+	padding-left: 20px;
+	margin-bottom: 8px;
+	font-size: 11px;
+	font-weight: bold;
+	background: url(images/bullets/blue_bullet.gif) no-repeat top left;
+}
+
+.questions_and_answers .questions_list .item .question .prefix{
+	display: none;
+}
+
+.questions_and_answers .questions_list .item .answer{
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.questions_and_answers .questions_list .item .answer .prefix{
+	display: none;
+}
+
+.questions_and_answers .questions_list .item .answer .body  {
+	margin-left: 20px;
+}
+
+.questions_and_answers .questions_list .item a.home {
+	display: none;
+}
+
+/** More override **/
+.boxContent .questions_and_answers {
+	width: auto; 
+	margin: 0;
+}
+
+.boxContent .questions_and_answers .category_admin {   
+    display: block;
+}
+
+.boxContent .questions_and_answers .category_admin .category_help {
+    display: none;
+}
+
+.boxContent .questions_and_answers .category_admin .clearer {
+    display: none;
+}
+
+.boxContent .questions_and_answers .questions_admin {
+    width: auto;
+}
+
+.boxContent .questions_and_answers .questions_admin .item .question_form {
+    display: none;
+}
+
+.boxContent .questions_and_answers .questions_admin .new_and_deleted_questions{
+    display: none;
+}
+
+.boxContent .questions_and_answers .questions_admin .new_and_deleted_questions{
+    display: none;
+}
+
+.boxContent .questions_and_answers .questions_admin .category {
+    clear: both;
+    display: none;
+}
+
+.boxContent .questions_and_answers .questions_admin .item{
+    margin: 0;
+    display: block;
+}
+
+.boxContent .questions_and_answers .questions_admin .item p{
+    margin: 0;
+    padding: 0; 
+}
+
+.boxContent .questions_and_answers .questions_admin .item p.number{
+    display: none;
+}
+
+.boxContent .questions_and_answers .questions_admin .item p.title{
+    float: left;
+    background: url(images/bullets/bullet_arrows.gif) no-repeat top left;
+    padding-left: 11px;
+    margin-bottom: 3px;
+    line-height: 11px;
+}
+
+.boxContent .questions_and_answers .questions_admin .item p.title a {
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #191919;
+    font-size: 10px;
+}
+
+.boxContent .questions_and_answers .questions_admin .item p.title a:hover {
+    text-decoration: underline;
+}
+
+.boxContent .questions_and_answers .questions_admin .item p.clearer{
+    clear: both;
+font-size: 1px;
+}
+
+.boxContent .questions_and_answers .questions_list {
+    display: none;
+}
+
+/* School override */
+form.schoolForm .listTable td, th {
+	font-size: 11px;
+}
+
+form.schoolForm .InterfaceButton {
+	margin-bottom: 20px;
+}
+
+form.schoolForm .listTable tbody tr td {
+	padding: 5px 8px;
+	border-bottom: 1px #D5D5D5 solid;
+}
+
+form.schoolForm .listTable thead tr th {
+	background-color: #E8E8E8;
+	padding: 5px 8px;
+	font-weight: bold;
+	border-top: 0;
+	border-bottom: 1px solid #D7D7D7;
+}
+
+form.schoolForm .listTable .listTable_oddRow {
+	background-color: #FFFFFF;	
+}
+
+form.schoolForm .listTable .listTable_evenRow {
+	background-color: #FFFFFF;	
+}
+
+table.adminTable thead tr th, table.adminTable tfoot tr td {
+	text-align: left;
+	background-color: #E8E8E8;
+	padding: 5px 8px;
+	font-weight: bold;
+	border-top: 1px solid #c5c5c5;
+	border-bottom: 1px solid #c5c5c5;
+}
+
+table.adminTable tfoot tr td {
+	border-top: 0;
+}
+
+table.adminTable tbody tr td {
+	padding: 5px 8px;
+	border-bottom: 1px #D5D5D5 solid;
+}
+
+table.adminTable td, table.adminTable th {
+	font-size: 11px;
+}
+
+
+table.adminTable td img {
+	height: 14px;
+	width: 15px;
+}
+
+table.adminTable td a.flippedImageLink img {
+	height: 15px					!important;
+	width: 14px						!important;
+}
+
+table.adminTable tBody tr.ruled{
+	background: #E8F1FC;
+}
+
+table.adminTable .firstColumn {
+	padding-left: 17px;
+}
+
+table.adminTable .lastColumn {
+	padding-right: 17px;
+}
+
+form#afterSchoolCareCreator div#keycode,
+form#afterSchoolCareCreator div#latitude,
+form#afterSchoolCareCreator div#longitude,
+form#afterSchoolCareCreator div#juniorHigh,
+form#afterSchoolCareCreator div#afterSchoolCareProvider,
+form#afterSchoolCareCreator div#hasReview {
+	display: none;
+}
+
+/* From screen.css */
+div#heading {
+	width: 155px;
+}
+
+#childCareApplicationForm .header .buttonContainer{
+overflow: hidden;
+}
+
+#childCareApplicationForm .buttonContainer div.centrale{
+float: right;
+margin-right: 10px;
+width: auto;
+padding-top: 6px;
+display: inline;
+cursor: pointer;
+}
+
+html* h1.subHeader{
+display: block;
+width: 770px;
+}
+
+.courses tbody tr td img, .choices tbody tr td img {
+ width: 15px;
+ height: 14px;
+ }
+
+html* div#left #childCareApplicationForm{
+height: auto !important;
+min-height: 1799px !important;#}
+}
+
+.choosersAndDescriptionStyleClass{
+padding: 12px 15px;
+}
+
+.choosersAndDescriptionStyleClass .userApplicationChoosersContainer div{
+margin-bottom: 8px;
+}
+
+.parentGroupLabelContainerStyleClass,
+.childGroupsLabelContainerStyleClass,
+.orderByLabelContainerStyleClass,
+.userFiledsContainerStyleClass,
+.addUserlabelContainerStyleClass,
+.userFieldLabelContainerStyleClass{
+padding-left: 10px;
+margin-right: -10px;
+font-weight: bold;
+}
+
+.removeUserCheckboxContainerStyleClass {
+width: auto;
+float: right;
+margin-right: 50px;
+}
+
+.choosersAndDescriptionStyleClass .userApplicationChoosersContainer div select,
+.userFieldsContainerStyleClass .userFieldValueContainerStyleClass select{
+font-size: 11px;
+width: 150px;
+}
+
+.userFieldsContainerStyleClass div div{
+padding-left: 10px;
+margin-right: -10px;
+}
+
+.userApplicationButtonsContainerStyleClass{
+margin-right: 40px;
+}
+
+.userApplicationButtonsContainerStyleClass input{
+border: 1px solid grey;
+text-transform: uppercase;
+font-size: 11px;
+}
+
+.groupMembersListLabelsStyleClass{
+margin-left: -5px;
+background: #d6d6d6;
+border: 1px solid #a4a4a4;
+border-width: 1px 0;
+padding: 5px 10px;
+margin-bottom: 4px;
+font-weight: bold;
+color: #303030;
+}
+
+.userValuesLineContainerStyleClass{
+border-bottom: 1px solid #d5d5d5;
+overflow: hidden;
+margin-left: -5px;
+padding: 6px 0 3px 10px;
+}
+
+.allUsersValuesLinesStyleClass{
+margin-top: -4px;
+}
+
+div.userAppLowerPartStyleClass{
+width: 784px !important;
+overflow: hidden;
+}
+
+
+*html #left{
+overflow-x: hidden;
+}
+
+*html form#periodEditor.adminForm div.formSection.columnSection div.formItem.columnHeader{
+clear: both;
+margin-left: 80px;
+}
+
+*html form#periodEditor.adminForm div.formSection .datePicker{
+height: 30px;
+}
+
+*html form#periodEditor.adminForm div.formSection .datePicker input{
+border: 1px solid #a4a4a4;
+width: 118px;
+}
+
+*html .userValuesLineContainerStyleClass .changeUserImageContainerStyleClass{
+width: 110px;
+height: 14px;
+}
+
+*html .userValuesLineContainerStyleClass .changeUserImageStyleClass{
+height: 14px;
+}
