@@ -279,7 +279,10 @@
     	<groupId>com.idega.block.egov</groupId>
   		<artifactId>is.banking</artifactId>
     </dependency>
-    
+    <dependency>
+      <groupId>com.idega.block.egov</groupId>
+      <artifactId>is.idega.idegaweb.egov.xformscase</artifactId>
+    </dependency>
     
     <!-- Addon dependencies -->
     <dependency>
