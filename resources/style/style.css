@@ -2794,6 +2794,24 @@ div#announcementsDetails .blog-entry-body {
 	margin-bottom: 16px;
 }
 
+.article_item {
+	margin: 13px 15px;
+	width: auto;
+}
+
+.content_list .article_item {
+	margin: 0;
+}
+
+.article_item .blog-entry-title {
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+.article_item .blog-entry-body {
+	width: auto;
+}
+
 /** Login styles **/ 
 
 .logout .currentUser {
@@ -3430,45 +3448,111 @@ color: #303030;
 }
 
 .userValuesLineContainerStyleClass{
-border-bottom: 1px solid #d5d5d5;
-overflow: hidden;
-margin-left: -5px;
-padding: 6px 0 3px 10px;
+	border-bottom: 1px solid #d5d5d5;
+	overflow: hidden;
+	margin-left: -5px;
+	padding: 6px 0 3px 10px;
 }
 
 .allUsersValuesLinesStyleClass{
-margin-top: -4px;
+	margin-top: -4px;
 }
 
 div.userAppLowerPartStyleClass{
-width: 784px !important;
-overflow: hidden;
+	width: 784px !important;
+	overflow: hidden;
 }
 
 
 *html #left{
-overflow-x: hidden;
+	overflow-x: hidden;
 }
 
 *html form#periodEditor.adminForm div.formSection.columnSection div.formItem.columnHeader{
-clear: both;
-margin-left: 80px;
+	clear: both;
+	margin-left: 80px;
 }
 
 *html form#periodEditor.adminForm div.formSection .datePicker{
-height: 30px;
+	height: 30px;
 }
 
 *html form#periodEditor.adminForm div.formSection .datePicker input{
-border: 1px solid #a4a4a4;
-width: 118px;
+	border: 1px solid #a4a4a4;
+	width: 118px;
 }
 
 *html .userValuesLineContainerStyleClass .changeUserImageContainerStyleClass{
-width: 110px;
-height: 14px;
+	width: 110px;
+	height: 14px;
 }
 
 *html .userValuesLineContainerStyleClass .changeUserImageStyleClass{
-height: 14px;
+	height: 14px;
+}
+
+#roleSwitcher {
+	border-top: 1px #c5c5c5 solid;
+}
+
+#roleSwitcher .userRoleSwitcherStyle {
+	background: url(/style/images/backgrounds/box_background.gif) top left no-repeat;
+	padding: 10px 8px;
+}
+
+.userRoleSwitcherStyle ul {
+	margin: 0;
+	padding: 0;
+	margin-left: 15px;
+	list-style: none;
+}
+
+#roleSwitcher .userRoleSwitcherStyle ul {
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.userRoleSwitcherStyle ul li {
+	background: url(/style/images/bullets/bullet_arrows.gif) no-repeat left 1px;
+	padding-left: 11px;
+}
+
+#roleSwitcher .userRoleSwitcherStyle ul li {
+	margin-bottom: 3px;
+}
+
+#roleSwitcher .userRoleSwitcherStyle ul li a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	line-height: 11px;
+}
+
+#roleSwitcher .userRoleSwitcherStyle ul li a:hover {
+	text-decoration: underline;
+}
+
+.companyServicesViewer ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.companyServicesViewer ul li {
+	border-bottom: 1px #c5c5c5 solid;
+	padding: 5px 14px;
+}
+
+.companyServicesViewer ul li:hover {
+	background-color: #E8F1FC;
+}
+
+.companyServicesViewer ul li a {
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.companyServicesViewer ul li a:hover {
+	text-decoration: underline;
 }
