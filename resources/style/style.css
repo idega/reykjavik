@@ -175,6 +175,7 @@ div.logout {
 }
 
 div.logout div.submit a.logoutButton {
+	margin-top: 0;
 	height: 24px;
 	width: 64px;
 	text-align: center;
@@ -2164,6 +2165,7 @@ div.bottom a.button {
 	padding-top: 0;
 	height: 33px;
 	margin-left: 12px;
+	text-decoration: none;
 }
 
 div.bottom a.button span {
@@ -2826,8 +2828,12 @@ div#announcementsDetails .blog-entry-body {
 	max-width: 100%;
 }
 
+#logout .submit {
+	margin-top: 0;
+}
+
 .defaultLogin {
-width: auto;
+	width: auto;
 }
 
 .defaultLogin label {
@@ -2904,11 +2910,14 @@ div#loginBox div.login input {
 }
 
 div#loginBox div.login div.password {
-	padding-top: 10px;
+	padding-top: 6px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 div#loginBox div.login div.username {
 	padding-top: 6px;
+	margin-bottom: 0;
 }
 
 div#loginBox div.login p.currentUser, div#loginBox div.login p.errorMessage {
@@ -2920,6 +2929,7 @@ div#loginBox div.login p.currentUser, div#loginBox div.login p.errorMessage {
 }
 
 div#loginBox div.submit {
+	margin-top: 0;
 	position: absolute;
 	top: 94px;
 	right: 11px;
@@ -2928,9 +2938,10 @@ div#loginBox div.submit {
 div#loginBox div.submit a {
 	text-decoration: underline;
 	color: #000;
-	background: url(images/button_image.gif) right no-repeat;
+	background: url(/style/images/button_image.gif) right no-repeat;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 10px;
+	display: block;
 	padding-right: 14px;
 }
 
@@ -3515,6 +3526,19 @@ div.userAppLowerPartStyleClass{
 .userRoleSwitcherStyle ul li {
 	background: url(/style/images/bullets/bullet_arrows.gif) no-repeat left 1px;
 	padding-left: 11px;
+	margin-bottom: 6px;
+}
+
+.userRoleSwitcherStyle ul li a {
+	font-size: 13px;
+}
+
+.roleSwitcherBox .article_item .blog-entry-title {
+	font-size: 14px;
+}
+
+.roleSwitcherBox .article_item .blog-entry-body {
+	font-size: 13px;
 }
 
 #roleSwitcher .userRoleSwitcherStyle ul li {
@@ -3555,4 +3579,17 @@ div.userAppLowerPartStyleClass{
 
 .companyServicesViewer ul li a:hover {
 	text-decoration: underline;
+}
+
+#applicationCreator th.caseCode, #applicationCreator td.caseCode {
+	display: none;
+}
+
+.adminForm .buttonLayer {
+	padding: 13px 15px;
+	text-align: right;
+}
+
+h3.applicationsTypeLabelStyle {
+	display: none;
 }
