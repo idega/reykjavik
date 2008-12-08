@@ -28,14 +28,14 @@ div#wrapper {
 	margin: 0 auto;
 	width: 981px;
 	padding: 0 8px;
-	background: url(images/backgrounds/wrapper_background.gif) repeat-y top left;
+	background: url(/style/images/backgrounds/wrapper_background.gif) repeat-y top left;
 }
 
 div#bottomWrapper {
 	margin: 0 auto;
 	width: 997px;
 	height: 11px;
-	background: url(images/backgrounds/bottom_background.gif) no-repeat top left;
+	background: url(/style/images/backgrounds/bottom_background.gif) no-repeat top left;
 }
 
 div#topWrapper {
@@ -43,7 +43,7 @@ div#topWrapper {
 	margin: 0 auto;
 	width: 997px;
 	height: 105px;
-	background: url(images/header.jpg) repeat-y top left;
+	background: url(/style/images/header.jpg) repeat-y top left;
 }
 
 div#topWrapper a {
@@ -3623,4 +3623,50 @@ h3.applicationsTypeLabelStyle {
 
 table.adminTable, form.adminForm {
 	margin-top: 0;
+}
+
+.casesSearcherBoxStyleClass {
+	border-top: 1px #c5c5c5 solid;
+}
+
+.casesSearcherBoxStyleClass h1 {
+	background: url(/style/images/backgrounds/header_background.gif) repeat-x;
+	border-top: 1px #fff solid;
+	height: 14px;
+	padding: 7px;
+	padding-left: 18px;
+	color: #002243;
+	font-size: 13px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+div.casesSearcherInputsBoxStyleClass {
+	border-top: 0;
+	padding: 10px 8px;
+	background: url(/style/images/backgrounds/box_background.gif) top left no-repeat;
+}
+
+div.casesSearcherInputsBoxStyleClass div.shortFormItem {
+	width: auto;
+	margin-bottom: 6px;
+}
+
+div.casesSearcherInputsBoxStyleClass div.shortFormItem label {
+	margin-bottom: 0;
+}
+
+div.casesSearcherInputsBoxStyleClass div.shortFormItem input, div.casesSearcherInputsBoxStyleClass div.shortFormItem textarea, div.casesSearcherInputsBoxStyleClass div.shortFormItem select {
+	margin: 0;
+}
+
+.datepicker_wrap {
+	margin: 0 !important;
+}
+
+div.casesSearcherInputsBoxStyleClass .buttonLayer {
+	clear: both;
+	margin-top: 8px !important;
+	padding-left: 0;
+	text-align: right;
 }
