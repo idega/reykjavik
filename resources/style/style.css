@@ -1369,10 +1369,6 @@ div.printIcons {
 	margin: 4px 6px;
 }
 
-input.indentedButton {
-	width: 10px;
-}
-
 table.adminTable tr th.edit, table.adminTable tr td.edit, table.adminTable tr th.remove, table.adminTable tr td.remove, table.adminTable tr th.viewContract, table.adminTable tr td.viewContract {
 	width: 16px;
 	text-align: center;
@@ -2280,10 +2276,6 @@ div.attention div.attentionClear {
 div.printIcons {
 	text-align: right;
 	margin: 4px 6px;
-}
-
-input.indentedButton {
-	width: 10px;
 }
 
 table.adminTable tr th.edit, table.adminTable tr td.edit, table.adminTable tr th.remove, table.adminTable tr td.remove, table.adminTable tr th.viewContract, table.adminTable tr td.viewContract {
