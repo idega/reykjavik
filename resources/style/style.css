@@ -174,7 +174,7 @@ div.logout {
 	margin-left: 4px;
 }
 
-div.logout div.submit a.logoutButton {
+div.logout div.submit a {
 	margin-top: 0;
 	height: 24px;
 	width: 64px;
@@ -190,7 +190,7 @@ div.logout div.submit a.logoutButton {
 	text-shadow: #000 2px 2px 1px;
 }
 
-div.logout div.submit a.logoutButton span {
+div.logout div.submit a span {
 	font-size: 12px;
 	color: #fff;
 }
