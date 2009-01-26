@@ -24,7 +24,6 @@
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/com.idega.block.email,com.idega.block.email"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.block.entity,com.idega.block.entity"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.block.form,com.idega.block.form"/>
-<project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.block.formadmin,com.idega.block.formadmin"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/com.idega.block.forum,com.idega.block.forum"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.addon/com.idega.block.help,com.idega.block.help"/>
 <project reference="1.0,:extssh:code.idega.com:/idega/cvs,com.idega.block.platform/com.idega.block.image,com.idega.block.image"/>
