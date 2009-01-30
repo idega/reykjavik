@@ -3618,11 +3618,10 @@ table.adminTable, form.adminForm {
 }
 
 .casesSearcherBoxStyleClass {
-	border-top: 1px #c5c5c5 solid;
 }
 
 .casesSearcherBoxStyleClass h1 {
-	background: url(/style/images/backgrounds/header_background.gif) repeat-x;
+	background: url(images/backgrounds/header_background.gif) repeat-x;
 	border-top: 1px #fff solid;
 	height: 14px;
 	padding: 7px;
@@ -3636,7 +3635,7 @@ table.adminTable, form.adminForm {
 div.casesSearcherInputsBoxStyleClass {
 	border-top: 0;
 	padding: 10px 8px;
-	background: url(/style/images/backgrounds/box_background.gif) top left no-repeat;
+	background: url(images/backgrounds/box_background.gif) top left no-repeat;
 }
 
 div.casesSearcherInputsBoxStyleClass div.shortFormItem {
@@ -3645,11 +3644,25 @@ div.casesSearcherInputsBoxStyleClass div.shortFormItem {
 }
 
 div.casesSearcherInputsBoxStyleClass div.shortFormItem label {
-	margin-bottom: 0;
+	margin-bottom: 1px;
+	float: none;
+	display: block;
+}
+
+div.casesSearcherInputsBoxStyleClass div.checkboxFormItem label {
+	float: left;
+	margin-top: 1px;
+	margin-left: 2px;
 }
 
 div.casesSearcherInputsBoxStyleClass div.shortFormItem input, div.casesSearcherInputsBoxStyleClass div.shortFormItem textarea, div.casesSearcherInputsBoxStyleClass div.shortFormItem select {
 	margin: 0;
+	width: 150px;
+	margin-right: 2px;
+}
+
+div.casesSearcherInputsBoxStyleClass div.checkboxFormItem input {
+	width: auto;
 }
 
 .datepicker_wrap {
@@ -3661,4 +3674,21 @@ div.casesSearcherInputsBoxStyleClass .buttonLayer {
 	margin-top: 8px !important;
 	padding-left: 0;
 	text-align: right;
+}
+
+div.casesSearcherInputsBoxStyleClass .buttonLayer input {
+	float: right;
+	margin-left: 4px;
+	border: 1px #a8a8a8 solid;
+	padding: 2px 4px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+div.defaultLogin label {
+	width: 152px;
+	margin-right: 8px;
+	float: left;
+line-height: 
 }
