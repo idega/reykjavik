@@ -3657,12 +3657,13 @@ div.casesSearcherInputsBoxStyleClass div.checkboxFormItem label {
 
 div.casesSearcherInputsBoxStyleClass div.shortFormItem input, div.casesSearcherInputsBoxStyleClass div.shortFormItem textarea, div.casesSearcherInputsBoxStyleClass div.shortFormItem select {
 	margin: 0;
-	width: 150px;
+	width: 140px;
 	margin-right: 2px;
 }
 
 div.casesSearcherInputsBoxStyleClass div.checkboxFormItem input {
 	width: auto;
+	float: left;
 }
 
 .datepicker_wrap {
@@ -3690,5 +3691,9 @@ div.defaultLogin label {
 	width: 152px;
 	margin-right: 8px;
 	float: left;
-line-height: 
+}
+
+.processDefinitionVariablesWindowStyle, .processVariablesWindowNoVariablesText {
+	background-color:transparent;
+	border: 0;
 }
