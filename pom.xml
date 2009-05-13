@@ -292,6 +292,10 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.block.agresso</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.parking</artifactId>
 		</dependency>
 		<dependency>
