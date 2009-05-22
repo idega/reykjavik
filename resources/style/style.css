@@ -1690,6 +1690,7 @@ div.radioButtonItem label {
 
 div.statisticsLayer {
 	width: auto;
+	float: none;
 	padding: 0;
 }
 
