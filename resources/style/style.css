@@ -2250,6 +2250,11 @@ div.attention {
 	padding: 12px 18px;
 }
 
+div.formSectionBig div.attention {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
 div.attention div.attentionImage {
 	width: 24px;
 	height: 30px;
