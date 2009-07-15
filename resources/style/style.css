@@ -3107,7 +3107,7 @@ div.caseNavigation ul li {
 }
 
 
-div#messageViewer div.caseHeading {
+div#messageViewer div.caseHeading, div#messageViewer div.caseHeader h1 {
 	display: none;
 }
 
@@ -3130,6 +3130,10 @@ div.messageSubjectHeading {
 
 div#messageSubject {
 	display: none;
+}
+
+div#messageDate h1 {
+	margin-left: 13px;	
 }
 
 div.messageItem {
