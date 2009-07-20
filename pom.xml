@@ -141,10 +141,6 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.idegaweb.widget</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.graphics</artifactId>
 		</dependency>
 		<dependency>
@@ -164,10 +160,6 @@
       <artifactId>com.idega.cxf</artifactId>
     </dependency>
     -->
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.facelets</artifactId>
-		</dependency>
 
 		<!-- eGov dependencies -->
 		<dependency>
