@@ -3052,7 +3052,7 @@ div.caseNavigation ul li {
 }
 
 table.caseTable thead tr {
-	background: url(backgrounds/table_header_background.gif) repeat-x #D6D6D6;
+	background: url(/style/images/backgrounds/table_header_background.gif) repeat-x #D6D6D6;
 	text-align: left;
 }
 
