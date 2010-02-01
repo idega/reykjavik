@@ -3052,7 +3052,7 @@ div.caseNavigation ul li {
 }
 
 table.caseTable thead tr {
-	background: url(/style/images/backgrounds/table_header_background.gif) repeat-x #D6D6D6;
+	background: url(backgrounds/table_header_background.gif) repeat-x #D6D6D6;
 	text-align: left;
 }
 
@@ -3723,4 +3723,18 @@ div.defaultLogin label {
 div.required span span {
 	background: none;
 	padding-right: 0;
+}
+
+div.stop {
+	padding: 13px 15px;
+}
+
+div.stop div.stopImage {
+	float: left;
+	margin-right: 15px;
+}
+
+div.stop h1 {
+	margin: 0;
+	margin-bottom: 8px;
 }
