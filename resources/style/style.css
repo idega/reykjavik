@@ -410,11 +410,11 @@ div#applicationBanner {
 	float: left;
 	border-bottom: 1px #c5c5c5 solid;
 	height: 138px;
-	width: 398px;
+	width: 388px;
 	padding-top: 12px;
 	padding-right: 9px;
-	padding-left: 180px;
-	position: relative;
+	padding-left: 190px;
+	position: relative;	
 }
 
 div#applicationBanner h1 {
@@ -443,8 +443,11 @@ div#applicationBanner p {
 
 div#applicationBanner div.applicationImage {
 	position: absolute;
-	top: -17px;
-	left: 9px;
+	top: 0;
+	left: 0;
+	padding: 17px 9px;
+	height: 116px;
+	border-right: 1px #c5c5c5 solid;
 }
 
 div#applications {
@@ -723,20 +726,6 @@ div.userRolePageForwarder a:hover span {
 	background-image: url(images/buttons/right_big_hover.png);
 }
 
-div#applicationBanner {
-	width: 388px;
-	padding-left: 190px;
-}
-
-div#applicationBanner div.applicationImage {
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 17px 9px;
-	height: 116px;
-	border-right: 1px #c5c5c5 solid;
-}
-
 /* Application override */
 div.header {
 	background: #FFFFFF url(/style/images/backgrounds/header_background.gif) repeat-x scroll 0 0;
@@ -745,7 +734,7 @@ div.header {
 	clear: both;
 	height: 28px;
 	position: relative;
-	margin-bottom: 0px;
+	margin-bottom: 0px !important;
 }
 
 div.header h1 {
@@ -790,7 +779,7 @@ div.helperText {
 	top: 0;
 	right: 0;
 	float: right;
-	width: 200px;
+	width: 200px !important;
 }
 
 div.phases {
@@ -798,42 +787,43 @@ div.phases {
 }
 
 div.phases ul {
-	margin-top: -7px;
+	margin-top: -7px !important;
 }
 
 div.phases ul li {
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/blue_orb.png',sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/blue_orb.png',sizingMethod='scale');
 	width: 20px;
-	height: 20px;
+	height: 16px;
 	text-align: center;
 	color: #fff;
 	display: block;
 	float: left;
-	padding-top: 3px;
+	padding-top: 4px;
 	margin-right: 4px;
 	margin-top: 11px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	line-height: auto;
-	border: 0;
+	line-height: 12px !important;
+	border: 0 !important;
 }
 
 html>body div.phases ul li {
-	background: url(images/blue_orb.png) no-repeat top center;
+	background: url(/style/images/blue_orb.png) no-repeat top center;
 	filter: none;
 }
 
 div.phases ul li.current {
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/orange_orb.png',sizingMethod='scale');
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/orange_orb.png',sizingMethod='scale');
 	width: 40px;
 	height: 46px;
+	line-height: 26px !important;
 	font-size: 26px;
-	padding-top: 5px;
+	padding-top: 6px;
 	margin-top: 0;
 }
 
 html>body div.phases ul li.current {
-	background-image: url(images/orange_orb.png);
+	background-image: url(/style/images/orange_orb.png);
 	filter: none;
 }
 
@@ -845,7 +835,7 @@ html>body div.info {
 div.info {
 	overflow: hidden;
 	height: 62px;
-	background: url(/style/images/info_tiler.gif) repeat-x #ABBAC3;
+	background: url(/style/images/info_tiler.gif) repeat-x #ABBAC3 !important;
 	padding: 13px 15px;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 12px;
@@ -860,8 +850,8 @@ div.info div.helperText {
 
 div.formItem {
 	clear: none;
-	float: left;
-	width: 542px;
+	float: left !important;
+	width: 542px !important;
 	margin-bottom: 8px;
 }
 
@@ -869,6 +859,7 @@ div.formItem label {
 	margin-bottom: 8px;
 	width: 152px;
 	margin-right: 8px;
+	padding-top: 0;
 }
 
 div.formItem span p {
@@ -889,7 +880,7 @@ div.formSection {
 
 html>body div.formSection {
 	height: auto;
-overflow: hidden;
+	overflow: hidden;
 }
 
 div.formItem textarea {
@@ -937,20 +928,6 @@ h1.subHeader {
 	clear: none;
 }
 
-div.phases ul li {
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/blue_orb.png',sizingMethod='scale');
-	height: 16px;
-	padding-top: 4px;
-	line-height: 12px;
-}
-
-div.phases ul li.current {
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/orange_orb.png',sizingMethod='scale');
-	height: 40px;
-	line-height: 26px;
-	padding-top: 6px;
-}
-
 div.bottom a:hover {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 18px;
@@ -982,10 +959,6 @@ div.bottom a.buttonCancel {
 
 div.bottom a.buttonCancel:hover {
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_cancel_hover.png',sizingMethod='scale');
-}
-
-div.formItem label {
-	padding-top: 0;
 }
 
 div#applicationCategoryViewer {
@@ -1143,8 +1116,8 @@ div.receipt, div.stop {
 }
 
 div.receiptImage, div.stopImage {
-	width: 67px;
-	height: 77px;
+	width: 67px !important;
+	height: 77px !important;
 }
 
 div.receipt a, div.receipt a:hover {
@@ -1156,17 +1129,6 @@ div.receipt a, div.receipt a:hover {
 	padding-right: 14px;
 }
 
-div.receiptImage {
-	margin-bottom: 160px;
-	background: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/receipt_icon.png',sizingMethod='scale');
-}
-
-html>body div.receiptImage {
-	filter: none;
-	background: url(images/receipt_icon.png) no-repeat;
-}
-
 div.stopImage {
 	margin-bottom: 160px;
 	background: none;
@@ -1175,7 +1137,7 @@ div.stopImage {
 
 html>body div.stopImage {
 	filter: none;
-	background: url(images/stop_icon.png) no-repeat;
+	background: url(/style/images/stop_icon.png) no-repeat;
 }
 
 div.errorLayer div.errorImage {
@@ -1611,8 +1573,9 @@ div.applicationLegend ul li.requiresLogin {
 }
 
 div.statisticsLayer {
-	width: 360px;
-	float: left;
+	width: auto;
+	float: none;
+	padding: 0;
 	clear: none;
 }
 
@@ -1620,6 +1583,7 @@ div.statisticsLayer h1 {
 	margin: 0;
 	margin-bottom: 12px;
 	font-size: 14px;
+	display: none;
 }
 
 div.statisticsLayer h2 {
@@ -1627,6 +1591,7 @@ div.statisticsLayer h2 {
 	margin-bottom: 6px;
 	margin-top: 9px;
 	font-size: 12px;
+	padding: 10px 15px;
 }
 
 div.statisticsLayer div.formItem {
@@ -1688,29 +1653,6 @@ div.radioButtonItem label {
 	width: auto;
 }
 
-div.statisticsLayer {
-	width: auto;
-	float: none;
-	padding: 0;
-}
-
-div.statisticsLayer h1 {
-	display: none;
-}
-
-div.statisticsLayer h2 {
-	padding: 10px 15px;
-}
-
-* html #applicationCategoryViewer .applicationCategory {
-	height: 150px !important;
-}
-
-#applicationCategoryViewer .applicationCategory {
-	min-height: 150px !important;
-	width: 240px !important;
-}
-
 html* div#left #childCareApplicationForm {
 	height: auto !important;
 	min-height: 1799px !important;
@@ -1756,92 +1698,13 @@ span.required {
 	padding-right: 2px;
 }
 
-div.formSection p.requiredInformation {
-	margin: 0;
-	padding: 0;
-	padding-bottom: 24px;
-}
-
 form#applicationForm {
 	position: relative;
-}
-
-div.helperText {
-	position: relative;
-	top: 0;
-	right: 0;
-	float: right;
-	width: 200px;
-}
-
-div.phases {
-	z-index: 1;
 }
 
 html>body div.info {
 	height: auto;
 	min-height: 62px;
-}
-
-div.info {
-	overflow: hidden;
-}
-
-div.info div.helperText {
-	margin-top: 16px;
-}
-
-div.formItem {
-	clear: none;
-	float: left;
-	width: 542px;
-	margin-bottom: 8px;
-}
-
-div.formItem label {
-	margin-bottom: 8px;
-	width: 152px;
-	margin-right: 8px;
-}
-
-div.formItem span p {
-	margin: 0;
-	padding: 0;
-}
-
-div.required span {
-	padding-right: 8px;
-	background: url(images/bullets/required.gif) right top no-repeat;
-}
-
-div.formSection {
-	padding: 13px 15px;
-	position: relative;
-	height: 20px;
-}
-
-html>body div.formSection {
-	height: auto;
-overflow: hidden;
-}
-
-div.formItem textarea {
-	clear: none;
-	width: 330px;
-}
-
-div.formItem input, div.formItem textarea, div.formItem select {
-	margin-right: 5px;
-	margin-bottom: 8px;
-	font-size: 11px;
-}
-
-div.formSection textarea {
-	font-size: 11px;
-}
-
-div.formItem select.dateInput {
-	width: auto;
 }
 
 div.informationItem {
@@ -1851,41 +1714,9 @@ div.informationItem {
 	margin-bottom: 16px;
 }
 
-div.informationItem label {
-	width: auto;
-	display: block;
-	float: none;
-	margin-bottom: 4px;
-}
-
 div.informationItem span {
 	float: none;
 	width: auto;
-}
-
-
-h1.subHeader {
-	height: 17px;
-	padding-top: 5px;
-}
-
-div.phases ul li {
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/blue_orb.png',sizingMethod='scale');
-	height: 16px;
-	padding-top: 4px;
-	line-height: 12px;
-}
-
-div.phases ul li.current {
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/orange_orb.png',sizingMethod='scale');
-	height: 40px;
-	line-height: 26px;
-	padding-top: 6px;
-}
-
-div.bottom a:hover {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size: 18px;
 }
 
 div.bottom a.buttonBack {
@@ -1916,42 +1747,14 @@ div.bottom a.buttonCancel:hover {
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/idegaweb/bundles/is.idega.idegaweb.egov.application.bundle/resources/style/images/button_cancel_hover.png',sizingMethod='scale');
 }
 
-div.formItem label {
-	padding-top: 0;
-}
-
-div#applicationCategoryViewer {
-	padding: 0 15px;
-	height: 180px;
-	padding-bottom: 13px;
-}
-
 html>body div#applicationCategoryViewer {
 	height: auto;
 	min-height: 180px;
 }
 
-div#applicationCategoryViewer h1 {
-	margin-top: 0;
-	margin-bottom: 6px;
-	font-size: 11px;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-div#applicationCategoryViewer div.applicationCategory {
-	float: left;
-	width: 240px;
-	height: 85px;
-	margin-top: 13px;
-}
-
 html>body div#applicationCategoryViewer div.applicationCategory {
 	height: auto;
 	min-height: 85px;
-}
-
-div#applicationCategoryViewer div.empty {
-	display: none;
 }
 
 div#applicationCategoryViewer div.applicationCategory ul, div#favoriteApplications ul, div#userApplications ul {
@@ -2051,25 +1854,6 @@ ul.applicationLegend li.greenBullet {
 	background: url(images/bullets/green_bullet.gif) no-repeat top left;
 }
 
-div.receipt, div.stop {
-	height: auto;
-	overflow: hidden;
-}
-
-div.receiptImage, div.stopImage {
-	width: 67px;
-	height: 77px;
-}
-
-div.receipt a, div.receipt a:hover {
-	text-decoration: underline;
-	color: #000;
-	background: url(images/button_image.gif) right no-repeat;
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	padding-right: 14px;
-}
-
 div.receiptImage {
 	margin-bottom: 160px;
 	background: none;
@@ -2078,43 +1862,7 @@ div.receiptImage {
 
 html>body div.receiptImage {
 	filter: none;
-	background: url(images/receipt_icon.png) no-repeat;
-}
-
-div.stopImage {
-	margin-bottom: 160px;
-	background: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/stop_icon.png',sizingMethod='scale');
-}
-
-html>body div.stopImage {
-	filter: none;
-	background: url(images/stop_icon.png) no-repeat;
-}
-
-div.errorLayer div.errorImage {
-	background: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/error_image.png',sizingMethod='scale');
-}
-
-html>body div.errorLayer div.errorImage {
-	filter: none;
-	background: url(images/error_image.png) no-repeat;
-}
-
-div.radioSection {
-	float: left;
-	margin-bottom: 8px;
-}
-
-div.radioSection input {
-	float: left;
-	clear: left;
-	margin-bottom: 0;
-}
-
-div.radioSection label {
-	width: 340px;
+	background: url(/style/images/receipt_icon.png) no-repeat;
 }
 
 div.multiRowRadioSection label {
@@ -2133,16 +1881,8 @@ div.multiRowRadioSection input.clearRadioButton {
 	clear: left;
 }
 
-div.formItem input#zip {
-	width: 35px;
-}
-
 div.indentedCheckbox label {
 	width: 300px;
-}
-
-div.formItem input#area {
-	width: 107px;
 }
 
 p.requiredInfo {
@@ -2150,14 +1890,6 @@ p.requiredInfo {
 	padding: 0;
 	margin-left: 15px;
 	margin-bottom: 13px;
-}
-
-div.formSection p.requiredInfo {
-	margin-left: 0;
-}
-
-div.formSection p.requiredInfo span {
-	margin-right: 3px;
 }
 
 div.bottom a.button {
@@ -2243,49 +1975,14 @@ html>body div.bottom a.button:hover span.buttonSpan span.right {
 	background: url(images/buttons/right_hover.png) no-repeat;
 }
 
-div.attention {
-	margin-top: 20px;
-	border: 2px #EFD585 solid;
-	background: url(images/backgrounds/attention_background.gif);
-	padding: 12px 18px;
-}
-
 div.formSectionBig div.attention {
 	margin-top: 0;
 	margin-bottom: 20px;
 }
 
-div.attention div.attentionImage {
-	width: 24px;
-	height: 30px;
-	float: left;
-	margin-right: 18px;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/style/images/attention_icon.png',sizingMethod='scale');
-}
-
 html>body div.attention div.attentionImage {
 	filter: none;
 	background: url(images/attention_icon.png) no-repeat;
-}
-
-
-div.attention div.attentionText {
-	float: left;
-	width: 672px;
-}
-
-div.attention div.attentionText p {
-	margin: 0;
-	padding: 0;
-}
-
-div.attention div.attentionClear {
-	clear: both;
-}
-
-div.printIcons {
-	text-align: right;
-	margin: 4px 6px;
 }
 
 table.adminTable tr th.edit, table.adminTable tr td.edit, table.adminTable tr th.remove, table.adminTable tr td.remove, table.adminTable tr th.viewContract, table.adminTable tr td.viewContract {
@@ -2472,10 +2169,6 @@ form#afterSchoolCareApplicationAdmin div#type {
 	display: none;
 }
 
-div.formItem input.indentedButton {
-	margin-left: 160px;
-}
-
 div.applicationLegend {
 	width: 758px;
 	height: 55px;
@@ -2525,95 +2218,9 @@ div.applicationLegend ul li.requiresLogin {
 	background-image: url(images/bullets/green_bullet_legend.gif);
 }
 
-div.statisticsLayer {
-	width: 360px;
-	float: left;
-	clear: none;
-}
-
-div.statisticsLayer h1 {
-	margin: 0;
-	margin-bottom: 12px;
-	font-size: 14px;
-}
-
-div.statisticsLayer h2 {
-	margin: 0;
-	margin-bottom: 6px;
-	margin-top: 9px;
-	font-size: 12px;
-}
-
-div.statisticsLayer div.formItem {
-	margin-bottom: 0;
-}
-
 form#afterSchoolCareStudentOverview div.attention {
 	margin-top: 0;
 	margin-bottom: 16px;
-}
-
-div.editLayer {
-	overflow: hidden;
-	float: left;
-	width: 542px;
-}
-
-div.editLayer a {
-	text-decoration: none;
-	line-height: 33px;
-	float: left;
-	background: url(images/buttons/left.png) top left no-repeat;
-}
-
-div.editLayer a span {
-	margin-left: 7px;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	text-decoration: none;
-	color: #21262D;
-	text-align: center;
-	display: block;
-	font-size: 18px;
-	font-weight: bold;
-	padding-left: 9px;
-	padding-right: 16px;
-	background: url(images/buttons/right_big.png) top right no-repeat;
-}
-
-div.editLayer a:hover {
-	background-image: url(images/buttons/left_hover.png);
-}
-
-div.editLayer a:hover span {
-	color: #571900;
-	background-image: url(images/buttons/right_big_hover.png);
-}
-
-h1.productHeading {
-	font-size: 14px;
-	margin-left: 17px;
-	margin-top: 20px;
-}
-
-div.stop div.formItem {
-	position: relative;
-}
-
-div.radioButtonItem label {
-	width: auto;
-}
-
-div.statisticsLayer {
-	width: auto;
-	padding: 0;
-}
-
-div.statisticsLayer h1 {
-	display: none;
-}
-
-div.statisticsLayer h2 {
-	padding: 10px 15px;
 }
 
 * html #applicationCategoryViewer .applicationCategory {
@@ -2655,15 +2262,6 @@ html* div#start_date.formItem img {
 
 #childCareApplicationForm .header .buttonContainer {
 	overflow: hidden;
-}
-
-#childCareApplicationForm .buttonContainer div.centrale {
-	float: right;
-	margin-right: 10px;
-	width: auto;
-	padding-top: 6px;
-	display: inline;
-	cursor: pointer;
 }
 
 div.formSection ul {
@@ -3669,6 +3267,7 @@ div.casesSearcherInputsBoxStyleClass div.shortFormItem label {
 
 div.casesSearcherInputsBoxStyleClass div.checkboxFormItem label {
 	float: left;
+	width: auto;
 	margin-top: 1px;
 	margin-left: 2px;
 }
@@ -3677,11 +3276,6 @@ div.casesSearcherInputsBoxStyleClass div.shortFormItem input, div.casesSearcherI
 	margin: 0;
 	width: 140px;
 	margin-right: 2px;
-}
-
-div.casesSearcherInputsBoxStyleClass div.checkboxFormItem input {
-	width: auto;
-	float: left;
 }
 
 .datepicker_wrap {
