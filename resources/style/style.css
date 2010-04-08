@@ -775,9 +775,9 @@ form#applicationForm {
 }
 
 div.helperText {
-	position: relative;
-	top: 0;
-	right: 0;
+	position: relative !important;
+	top: 0 !important;
+	right: 0 !important;
 	float: right;
 	width: 200px !important;
 }
@@ -849,7 +849,7 @@ div.info div.helperText {
 }
 
 div.formItem {
-	clear: none;
+	clear: none !important;
 	float: left !important;
 	width: 542px !important;
 	margin-bottom: 8px;
@@ -1295,11 +1295,21 @@ html>body div.bottom a.button:hover span.buttonSpan span.right {
 	background: url(images/buttons/right_hover.png) no-repeat;
 }
 
+div.formItem.radioButtonItem input {
+	width: auto !important;
+}
+
+div.formItem.radioButtonItem label {
+	width: auto !important;
+}
+
 div.attention {
 	margin-top: 20px;
 	border: 2px #EFD585 solid;
 	background: url(images/backgrounds/attention_background.gif);
 	padding: 12px 18px;
+	width: auto;
+	overflow: hidden;
 }
 
 div.attention div.attentionImage {
@@ -1494,9 +1504,9 @@ ul.legend li.hasReview {
 }
 
 div.multiValueItem {
-	width: 754px;
-	clear: left;
-	margin-bottom: 3px;
+	width: 754px !important;
+	clear: left !important;
+	margin-bottom: 3px !important;
 }
 
 div.multiValueItem span {
@@ -2141,20 +2151,6 @@ ul.legend li.isPlaced {
 
 ul.legend li.hasReview {
 	color: #00ddaa;
-}
-
-div.multiValueItem {
-	width: 754px;
-	clear: left;
-	margin-bottom: 3px;
-}
-
-div.multiValueItem span {
-	float: left
-	display: block;
-	position: relative;
-	width: 190px;
-	clear: none;
 }
 
 form#applicationCreator table tr th.url, form#applicationCreator table tr td.url {
