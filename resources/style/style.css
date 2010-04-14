@@ -1931,6 +1931,8 @@ div.bottom a.button span span {
 
 div.bottom a.buttonHome {
 	float: left;
+	margin-left: 0;
+	margin-right: 12px;
 }
 
 div.bottom a.button span.buttonSpan span.left, div.bottom a.button span.buttonSpan span.middle, div.bottom a.button span.buttonSpan span.right {
@@ -3327,4 +3329,17 @@ div.stop div.stopImage {
 div.stop h1 {
 	margin: 0;
 	margin-bottom: 8px;
+}
+
+div.requiredHelp {
+	width: auto;
+	overflow: hidden;
+	clear: both;
+}
+
+div.requiredHelp p {
+	background: url(/style/images/bullets/required.gif) top left no-repeat;
+	padding-left: 8px;
+	font-weight: bold;
+	float: right;
 }
