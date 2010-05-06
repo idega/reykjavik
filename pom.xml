@@ -306,6 +306,10 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.childcare.linna</artifactId>
 		</dependency>
+               <dependency>
+                       <groupId>com.idega.block.egov</groupId>
+                       <artifactId>is.idega.idegaweb.egov.course.adult</artifactId>
+               </dependency>
 
 		<!-- Addon dependencies -->
 		<dependency>
