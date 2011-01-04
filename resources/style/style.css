@@ -692,10 +692,6 @@ div.userRolePageForwarder ul li {
 	margin-bottom: 10px;
 }
 
-div.userRolePageForwarder ul li.fskCompanyAdmin {
-	display: none;
-}
-
 div.userRolePageForwarder a {
 	text-decoration: none;
 	line-height: 33px;
