@@ -2,8 +2,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.idega.block.egov</groupId>
-		<artifactId>com.idega.block.egov</artifactId>
+		<groupId>com.idega.block.private</groupId>
+		<artifactId>com.idega.block.private</artifactId>
 		<version>4.1.3-SNAPSHOT</version>
 	</parent>
 	<name>Electronic Reykjavik</name>
@@ -17,14 +17,7 @@
 		<name>idega software</name>
 		<url>http://www.idega.com/</url>
 	</organization>
-	<scm>
-		<!--
-			<connection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</connection>
-			<developerConnection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</developerConnection>
-		-->
-		<connection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</connection>
-		<developerConnection>scm:cvs:ext:${user.name}@code.idega.com:/idega/cvs:${groupId}/${artifactId}/</developerConnection>
-	</scm>
+
 	<developers>
 		<developer>
 			<name>Tryggvi Larusson</name>
@@ -155,11 +148,6 @@
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.block.process.webservice</artifactId>
 		</dependency>
-		<!--<dependency>
-      <groupId>com.idega.block.platform</groupId>
-      <artifactId>com.idega.cxf</artifactId>
-    </dependency>
-    -->
 
 		<!-- eGov dependencies -->
 		<dependency>
@@ -176,19 +164,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.afterschoolcare</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.afterschoolcare.rvk</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.application</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.blueprints</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
@@ -197,10 +173,6 @@
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.cases</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.childcare</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
@@ -217,18 +189,6 @@
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.message</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.musicschool</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.school</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.propertytax</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
@@ -252,27 +212,11 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.mentor.vefthjonusta</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.cases.rvk</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.idegaweb.egov.company</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.schoolmeal</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.schoolmeal.rvk</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.idegaweb.egov.childcare.rvk</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
@@ -294,18 +238,68 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.webservice</artifactId>
 		</dependency>
+
+		<!-- Private dependencies -->
 		<dependency>
-			<groupId>com.idega.block.egov</groupId>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.afterschoolcare</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.afterschoolcare.rvk</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.blueprints</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.childcare</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.musicschool</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.school</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.propertytax</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.mentor.vefthjonusta</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.schoolmeal</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.schoolmeal.rvk</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.idegaweb.egov.childcare.rvk</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
 			<artifactId>is.idega.idegaweb.egov.sweatshop</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.idega.block.egov</groupId>
+			<groupId>com.idega.block.private</groupId>
 			<artifactId>is.idega.idegaweb.egov.childcare.linna</artifactId>
 		</dependency>
-               <dependency>
-                       <groupId>com.idega.block.egov</groupId>
-                       <artifactId>is.idega.idegaweb.egov.course.adult</artifactId>
-               </dependency>
+        <dependency>
+        	<groupId>com.idega.block.private</groupId>
+            <artifactId>is.idega.idegaweb.egov.course.adult</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>com.idega.block.private</groupId>
+			<artifactId>is.idega.block.pki</artifactId>
+		</dependency>
 
 		<!-- Addon dependencies -->
 		<dependency>
@@ -383,10 +377,6 @@
 		<dependency>
 			<groupId>com.idega.block.addon</groupId>
 			<artifactId>com.idega.block.pdf</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.egov</groupId>
-			<artifactId>is.idega.block.pki</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.addon</groupId>
