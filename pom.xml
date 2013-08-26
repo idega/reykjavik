@@ -512,6 +512,7 @@
 				<artifactId>com.idega.maven.webapp</artifactId>
 				<extensions>true</extensions>
 				<configuration>
+					<extractResources>true</extractResources>
 					<webResources>
 						<resource>
 							<directory>resources</directory>
