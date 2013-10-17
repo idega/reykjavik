@@ -6,6 +6,10 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
 
 	<display-name>Reykjavik-eGov</display-name>
 	<description>reykjavik</description>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/pages/sidafinnstekki/</location>
+	</error-page>
 
 <!-- MODULE:BEGIN org.apache.myfaces 0.0 -->
 <!-- MODULE:END org.apache.myfaces 0.0 -->
