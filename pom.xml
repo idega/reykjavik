@@ -4,13 +4,13 @@
 	<parent>
 		<groupId>com.idega.block.private</groupId>
 		<artifactId>com.idega.block.private</artifactId>
-		<version>4.1.3-SNAPSHOT</version>
+		<version>5.0.0-SNAPSHOT</version>
 	</parent>
 	<name>Electronic Reykjavik</name>
 	<groupId>com.idega.webapp.custom</groupId>
 	<artifactId>reykjavik</artifactId>
 	<packaging>iwwar</packaging>
-	<version>4.1.3-SNAPSHOT</version>
+	<version>5.0.0-SNAPSHOT</version>
 	<description>The eGov project Electronic Reykjavik</description>
 	<inceptionYear>2007</inceptionYear>
 	<organization>
