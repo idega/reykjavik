@@ -394,6 +394,12 @@
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.webservice</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.bouncycastle</groupId>
+					<artifactId>bcprov-jdk15on</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<!-- Private dependencies -->
