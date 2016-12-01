@@ -471,10 +471,6 @@
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>is.idega.idegaweb.egov.reykjavik</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.idega.block.private</groupId>
-			<artifactId>is.idega.idegaweb.egov.tenders</artifactId>
-		</dependency>
 	</dependencies>
 
 	<distributionManagement>
