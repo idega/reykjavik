@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.idega.block.private</groupId>
 		<artifactId>com.idega.block.private</artifactId>
-		<version>5.0.0-SNAPSHOT</version>
+		<version>6.0.0-SNAPSHOT</version>
 	</parent>
 	<name>Electronic Reykjavik</name>
 	<groupId>com.idega.webapp.custom</groupId>
