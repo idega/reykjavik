@@ -471,6 +471,10 @@
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>is.idega.idegaweb.egov.reykjavik</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.idega.block.addon</groupId>
+			<artifactId>com.idega.jbpm</artifactId>
+		</dependency>
 	</dependencies>
 
 	<distributionManagement>
