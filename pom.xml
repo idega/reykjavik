@@ -397,6 +397,10 @@
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.webservice</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.block.pki</artifactId>
+		</dependency>
 
 		<!-- Private dependencies -->
 		<dependency>
@@ -463,10 +467,6 @@
         	<groupId>com.idega.block.private</groupId>
             <artifactId>is.idega.idegaweb.egov.course.adult</artifactId>
         </dependency>
-		<dependency>
-			<groupId>com.idega.block.private</groupId>
-			<artifactId>is.idega.block.pki</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>com.idega.block.private</groupId>
 			<artifactId>is.idega.idegaweb.egov.reykjavik</artifactId>
