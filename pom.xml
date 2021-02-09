@@ -262,6 +262,12 @@
 		<dependency>
 			<groupId>com.idega.block.addon</groupId>
 			<artifactId>org.jboss.jbpm</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>c3p0</groupId>
+					<artifactId>c3p0</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.addon</groupId>
